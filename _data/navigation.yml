@@ -1,0 +1,11 @@
+- title: Posts
+  url: /posts1/
+- title: Tags
+  url: /tags/
+- title: Book Notes
+  url: https://whatever-site.com/page.html
+- title: Search
+  url: /search/
+- title: About
+  url: /search/
+
