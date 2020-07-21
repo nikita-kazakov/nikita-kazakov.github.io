@@ -17,13 +17,14 @@ categories:
 tags:
   - ruby
 ---
+{% include toc %}
 I needed car data for a Ruby on Rails project. I found a GitHub repository where someone generously shared 14,000 rows [of car model, makes, and year](https://github.com/n8barr/automotive-model-year-data).
 
 The challenge was to import it into a Rails database running Postgresql.
 
 I used Ruby to format each row to an array and then exported that into a CSV. Here&#8217;s how I did it.
 
-## Cleaning Data with Ruby
+# Cleaning Data with Ruby
 
 I created a new file called `car_types.txt` in the Rails _project/lib_ folder.
 
@@ -109,7 +110,7 @@ Open `car_list_new.csv` and you&#8217;ll see csv formatted car data on each line
 1958,BMW,600
 1958,Ford,Thunderbird</pre>
 
-## Writing CSV to Postgresql
+# Writing CSV to Postgresql
 
 Let&#8217;s write the results to the database. In `seeds.db`, we&#8217;ll open `car_list_new.csv` and read each line within the block.
 
@@ -125,7 +126,7 @@ I view the database with [Postico](https://eggerapps.at/postico/) and see the po
 
 <img src="https://nikitakazakov.com/wp-content/uploads/2020/03/image-2-1024x389.png" alt="" class="wp-image-7036" srcset="https://nikitakazakov.com/wp-content/uploads/2020/03/image-2-1024x389.png 1024w, https://nikitakazakov.com/wp-content/uploads/2020/03/image-2-300x114.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/03/image-2-768x292.png 768w, https://nikitakazakov.com/wp-content/uploads/2020/03/image-2-1536x584.png 1536w, https://nikitakazakov.com/wp-content/uploads/2020/03/image-2.png 1574w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption>Viewing the cars table with Postico.</figcaption></figure> 
 
-## Inserting all car records
+# Inserting all car records
 
 Let&#8217;s insert all 14,000 cars in the database. Copy and paste all the car records into `car_types.txt` and delete all text from `car_list_new.csv` file. Before we run all our code in `seeds.db`, let&#8217;s clear out all the records from the `car` table by running `Car.delete_all`.
 

@@ -29,9 +29,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+
 # Build settings
 #theme: minima
-theme: jekyll-theme-so-simple
+
+#theme: jekyll-theme-so-simple
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+
 skin: "/assets/css/skins/default.css"
 plugins:
   - jekyll-feed
@@ -45,6 +49,29 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
+
+author:
+  name: Nikita Kazakov
+  twitter: johndoetwitter
+  picture: /images/johndoe.png
+
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/username
+    icon: fab fa-twitter-square
+  - title: GitHub
+    url: https://github.com/mmistakes
+    icon: fab fa-github-square
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
+
+
+# Build to Github
+
+
+
+copyright: "This site is made with <3 by *me, myself, and I*."
 
 # Exclude from processing.
 # The following items will not be processed, by default.
