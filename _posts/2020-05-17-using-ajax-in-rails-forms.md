@@ -27,11 +27,19 @@ Let&#8217;s create a list of restaurants by creating a Rails model with restaura
 
 I&#8217;m going to add a few restaurants to the database by going into the console.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">rails c
+```ruby
+rails c
 Restaurant.create(name:"Burger King", category:"Fast Food")
-Restaurant.create(name:"Cheese Cake Factory", category:"Family")</pre>
+Restaurant.create(name:"Cheese Cake Factory", category:"Family")
+```
 
-Let&#8217;s generate a rails controller.
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+Let's generate a rails controller.
 
 <pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">rails g controller restaurants</pre>
 
@@ -54,7 +62,7 @@ end</pre>
 
 I&#8217;ll create an index view `views/restaurants/index.html.haml`. I&#8217;ll add a simple table. Notice that I&#8217;m using [Bootstrap 4 for styling](https://github.com/twbs/bootstrap-rubygem) but it&#8217;s completely optional.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">%h1 Restaurants
+```haml
 %table.table.table-hover
   %thead
     %tr
@@ -63,12 +71,14 @@ I&#8217;ll create an index view `views/restaurants/index.html.haml`. I&#8217;ll 
   %tbody
     %tr
       %td</pre><figure class="wp-block-image size-large">
-
+```
+ 
+![center-aligned-image](https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-1024x213.png){: .align-center}
 <img src="https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-1024x213.png" alt="" class="wp-image-7098" srcset="https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-1024x213.png 1024w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-300x62.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-768x160.png 768w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-1.png 1398w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
 
 We have a table but there&#8217;s nothing in it. Let&#8217;s add the list of restaurants.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">%h1 Restaurants
+```haml
 %table.table.table-hover
   %thead
     %tr
@@ -80,7 +90,8 @@ We have a table but there&#8217;s nothing in it. Let&#8217;s add the list of res
         %td
           = restaurant.name
         %td
-          = restaurant.category</pre><figure class="wp-block-image size-large">
+          = restaurant.category
+```
 
 <img src="https://nikitakazakov.com/wp-content/uploads/2020/05/image-2-1024x278.png" alt="" class="wp-image-7101" srcset="https://nikitakazakov.com/wp-content/uploads/2020/05/image-2-1024x278.png 1024w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-2-300x82.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-2-768x209.png 768w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-2.png 1174w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
 
@@ -197,5 +208,11 @@ However, we want to see the restaurant added to the table.
 Let&#8217;s dynamically add a row in our `create.js.erb` file. We&#8217;re calling the `@restaurant` instance variable and grabbing it&#8217;s name and category and inserting those values into the table as a row.
 
 <pre class="EnlighterJSRAW" data-enlighter-language="js" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">$('tbody').after('&lt;tr class="child">&lt;td>&lt;%= j(@restaurant.name) %>&lt;/td>&lt;td>&lt;%= j(@restaurant.category) %>&lt;/td>&lt;/tr>')</pre>
+
+```erb
+$('tbody').after('<tr class="child"><td><%= j(@restaurant.name) %></td><td><%= j(@restaurant.category) %></td></tr>')
+```
+
+
 
 Try to fill out the form now. You&#8217;ll see that the table updates automatically.
