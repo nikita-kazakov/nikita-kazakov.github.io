@@ -76,7 +76,7 @@ I&#8217;ll create an index view `views/restaurants/index.html.haml`. I&#8217;ll 
 ![center-aligned-image](https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-1024x213.png){: .align-center}
 <img src="https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-1024x213.png" alt="" class="wp-image-7098" srcset="https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-1024x213.png 1024w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-300x62.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-768x160.png 768w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-1.png 1398w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
 
-We have a table but there&#8217;s nothing in it. Let&#8217;s add the list of restaurants.
+We have a table but there's nothing in it. Let's add the list of restaurants...
 
 ```haml
 %table.table.table-hover
