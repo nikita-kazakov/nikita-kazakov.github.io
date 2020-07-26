@@ -1,7 +1,9 @@
 ---
 title: Projects
-layout: category
+layout: collection
+collection: projects
 permalink: /projects
-taxonomy: projects
 entries_layout: grid
+sort_by: date
+sort_order: reverse
 ---

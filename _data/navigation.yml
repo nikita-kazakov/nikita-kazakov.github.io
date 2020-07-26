@@ -1,13 +1,12 @@
 - title: Posts
-  url: /posts1
+  url: /posts
 - title: Tags
   url: /tags
 - title: Book Notes
-  url: books
+  url: /books
 - title: Projects
   url: /projects
 - title: Search
   url: /search
 - title: About
-  url: /search
-
+  url: /about

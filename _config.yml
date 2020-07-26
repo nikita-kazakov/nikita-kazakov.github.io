@@ -53,25 +53,73 @@ google_fonts:
 author:
   name: Nikita Kazakov
   twitter: johndoetwitter
-  picture: /images/johndoe.png
+  picture: assets/images/nikita_kazakov_profile.jpg
+
+# Collections
+collections:
+  books:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+
+# Front Matter Defaults
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: true
+      share: true
+  # books defaults
+  - scope:
+      path: "_books"
+      type: books
+    values:
+      layout: post
+      comments: true
+      share: true
+  # projects defaults
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: post
+      comments: false
+      share: false
 
 footer_links:
-  - title: Twitter
-    url: https://twitter.com/username
-    icon: fab fa-twitter-square
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/nikitakazakov
+    icon: fab fa-linkedin
   - title: GitHub
-    url: https://github.com/mmistakes
+    url: https://github.com/nikita-kazakov
     icon: fab fa-github-square
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  - title: YouTube
+    url: https://www.youtube.com/channel/UC4IjrYFRK3DIBO4aql_0KKQ
+    icon: fab fa-youtube
+#  - title: Feed
+#    url: atom.xml
+#    icon: fas fa-rss-square
+
+# Search
+search_full_content: true
+
+# Taxonomy pages
+tag_archive_path: "/tags/#"
+#category_archive_path: "/categories/#"  Commented out because I'm not using categories yet.
+
 
 
 # Build to Github
 
 
 
-copyright: "This site is made with <3 by *me, myself, and I*."
+copyright: "Built with Jekyll and [so-simple theme](https://github.com/mmistakes/so-simple-theme). [Privacy Policy](/privacy)"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
