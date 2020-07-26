@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Scarcity Mindset - I'll still win."
+excerpt: TLDR; Your stacked skills are more powerful than the sum of an individual skill. Also sharing is not a zero sum game.
 date:   2020-07-19
 tags: mindset
 ---
