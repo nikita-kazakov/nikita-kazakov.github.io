@@ -7,67 +7,6 @@ excerpt: |
 layout: post
 guid: http://nikhobby.home.blog/2015/09/06/each-hour-of-sleep-before-midnight-is-worth-two/
 permalink: /each-hour-of-sleep-before-midnight-is-worth-two/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-ocean_gallery_link_images:
-  - 'off'
-  - 'off'
-ocean_sidebar:
-  - "0"
-  - "0"
-ocean_second_sidebar:
-  - "0"
-  - "0"
-ocean_disable_margins:
-  - enable
-  - enable
-ocean_display_top_bar:
-  - default
-  - default
-ocean_display_header:
-  - default
-  - default
-ocean_center_header_left_menu:
-  - "0"
-  - "0"
-ocean_custom_header_template:
-  - "0"
-  - "0"
-ocean_header_custom_menu:
-  - "0"
-  - "0"
-ocean_menu_typo_font_family:
-  - "0"
-  - "0"
-ocean_disable_title:
-  - default
-  - default
-ocean_disable_heading:
-  - default
-  - default
-ocean_disable_breadcrumbs:
-  - default
-  - default
-ocean_display_footer_widgets:
-  - default
-  - default
-ocean_display_footer_bottom:
-  - default
-  - default
-ocean_custom_footer_template:
-  - "0"
-  - "0"
-ocean_link_format_target:
-  - self
-  - self
-ocean_quote_format_link:
-  - post
-  - post
-ocean_post_layout:
-  - full-screen
-  - full-screen
-image: /wp-content/uploads/2018/08/50a71-0jrubldeip9vsp7iu.jpg
 categories:
   - Uncategorized
 tags:
@@ -83,7 +22,11 @@ Let’s travel hundreds of years ago to the lives our ancestors. Edison was not 
 
 Let’s take a look at what happens with our Circadian Rhythms from the chart below: Circadian Rhythms<figure class="wp-caption">
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/50a71-0jrubldeip9vsp7iu.jpg) <figcaption class="wp-caption-text">Those are your daily Circadian Rhythms.</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "Those are your daily Circadian Rhythms.."
+    image = "/assets/images/2015-09-06/circadian.jpg"
+    alt = "Those are your daily Circadian Rhythms."
+%}
 
 At 21:00 (9 pm), a sleep inducing hormone called melatonin is secreted by the body to encourage sleep. Strength and alertness is lowered at this time to bring down heart rate. As the sun comes up and hits our eyes, you’ll notice that at 7:30 am, melatonin secretion stops and the body ramps up to high alertness. The times might vary a bit depending on the person, but this is the general rule of thumb.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Body Dysmorphia and weight training"
-date:   2015-02-01
+date:   2020-10-01
 tags: mindset
 ---
 

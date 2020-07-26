@@ -15,15 +15,7 @@ categories:
 tags:
   - "2015"
 ---
-<figure class="wp-caption"> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/ad00e-0nhfenxbuuvv5sv6e.jpg) <figcaption class="wp-caption-text">Jerry Seinfeld with Bob Roth on a radio show “Success without Stress”</figcaption></figure> 
+{% include embed_youtube.html id="IeRdy6LrOAI" %}
 
 I was surprised to see that Jerry Seinfeld uses meditation as a daily practice in centering himself around his busy life. We tend to think of celebrities as people who might not be ‘normal’ like us, nor could they possible relate to our daily experiences. I think they are in tougher positions than you or I. Here’s the full interview:
-
-<div class="ast-oembed-container">
-</div>
-
-* * *
-
-_Originally published at_ <a href="http://www.basicdrop.com/posts/seinfeld_meditation_video" target="_blank" rel="noopener noreferrer"><em>www.basicdrop.com</em></a> _on August 9, 2015._
