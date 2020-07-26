@@ -15,16 +15,12 @@ categories:
 tags:
   - "2014"
 ---
-<figure> 
-
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/a723b-1sdqxzuhjwdpl8tvu-5wkvg.jpeg)  
-</figure> 
 
 Are email addresses stereotyped? You bet they are. Whether you’re using email for personal or business communications, the person on the other end can’t help but try to decipher your personality just by looking at the email address.
 
-> _It is hard enough to communicate online without the benefit of body language or voice, so don’t let your email be a downfall._
+It is hard enough to communicate online without the benefit of body language or voice, so don’t let your email be a downfall.
 
-### Let’s break it down by domain names
+# Let’s break it down by domain names
 
 Let’s take a look at a couple and gauge first impressions:
 
@@ -32,7 +28,7 @@ Let’s take a look at a couple and gauge first impressions:
 
 **@aol.com** — What’s this thing you call “the internets”?
 
-**@localCableCompany** — For example @comcast. It is not ideal because you don’t control the email domain. If you stop usingtheir services, they could potentially take your email away from you. Secondly, the receiver might assume you’re working for the company, or he just might have had bad luck with his cable bill. Why bother when there are other better alternatives.
+**@localCableCompany** — For example @comcast. It is not ideal because you don’t control the email domain. If you stop using their services, they could potentially take your email away from you. Secondly, the receiver might assume you’re working for the company, or he just might have had bad luck with his cable bill. Why bother when there are other better alternatives.
 
 **@university.edu** — This is actually a good domain name if you’re still an active student in college. The problem comes when you are applying for jobs and the recruiter thinks that you’re still taking classes or barely out of school. You’ll lose this email address once you’re out of school.
 
@@ -42,9 +38,9 @@ Let’s take a look at a couple and gauge first impressions:
 
 What are some guidelines for creating your name before the @domainname.com? Let’s take a look at doing it wrong, and then doing it right.
 
-### The prefix before domain
+# The prefix before domain
 
-#### Doing it Wrong
+## Doing it Wrong
 
 **xxLuvBunny5xx** — Shows that you had this email since the age of 12.
 
@@ -52,7 +48,7 @@ What are some guidelines for creating your name before the @domainname.com? Let�
 
 **JohnSmith1974** — Do you want everyone to know your birthdate?
 
-#### Doing it Right
+## Doing it Right
 
 **johnsmith** — try to get first name followed by last name, or the reverse.
 
@@ -65,5 +61,3 @@ What are some guidelines for creating your name before the @domainname.com? Let�
 Lots of options, lots of choices.
 
 * * *
-
-_Originally published at_ <a href="http://www.basicdrop.com" target="_blank" rel="noopener noreferrer"><em>www.basicdrop.com</em></a> _on September 3, 2014._
