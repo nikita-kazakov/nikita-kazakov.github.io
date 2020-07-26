@@ -3,7 +3,7 @@ id: 223
 title: www.YourName.com and four reasons why you need it.
 date: 2014-09-03T00:00:00+00:00
 author: Nikita Kazakov
-excerpt: |
+excerpt: TLDR; You control your branding and you'll end up on the first page of search engines.
 layout: post
 guid: http://nikitakazakov.com/www-yourname-com-and-four-reasons-why-you-need-it/
 permalink: /www-yourname-com-and-four-reasons-why-you-need-it/
@@ -15,10 +15,12 @@ categories:
 tags:
   - "2014"
 ---
-<figure> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/852a4-1vbmubsh5kwb9tyihjlnbsw.jpeg)  
-</figure> 
+{% include image_center_caption.html 
+    caption = "This is an awesome caption bro."
+    image = "/assets/images/2014-09-03/wwwimage.jpeg"
+    alt = "image showing www"
+%}
 
 I’m talking about getting your own personal domain name. Why? The reasons are: control, professionalism, email, and branding. You can’t lose, other than the yearly $12 registration fee.
 
