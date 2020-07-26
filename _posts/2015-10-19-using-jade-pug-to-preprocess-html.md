@@ -16,46 +16,43 @@ tags:
   - "2015"
   - Web Development
 ---
-<figure> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/437a5-0fqwft6iodterfjkp.jpg)  
-</figure> 
+**2020 Update**: I don't use Pug templating anymore. I do use [HAML](https://haml.info) with Ruby and Ruby on Rails and it is very similar.
+{: .notice--info}
 
-HTML looks like soup as you create complex layouts. You have to use opening <tag> and closing </tag>. They are everywhere and you can’t forget to close one. Okay, I know that if you’re using a text editor like <a href="http://www.sublimetext.com" target="_blank" rel="noopener noreferrer">sublime text</a>, it sort of takes care of these problems with plugins. Jade Templating language, now known as Pug, transpiles into HTML and fixes this issue.
+HTML looks like soup as you create complex layouts. You have to use opening `<tag>` and closing `</tag>`. They are everywhere and you can’t forget to close one. 
+
+Okay, I know that if you’re using a text editor like <a href="http://www.sublimetext.com" target="_blank" rel="noopener noreferrer">sublime text</a>, it sort of takes care of these problems with plugins. Jade Templating language, now known as Pug, transpiles into HTML and fixes this issue.
 
 <a href="http://www.learnjade.com" target="_blank" rel="noopener noreferrer"><em>Jade</em></a> _is an HTML templating language_. Actually, it is not only for HTML because it also provides an extension to writing javascript. Let me show you HTML vs Jade. One word of warning: If you intend to use PHP, don’t use Jade. It is javascript friendly, and unfortunately doesn’t play well with <% php> tags.
 
-### HTML — Example 1
+# HTML — Example 1
+```html
+<body>
+    <h1>This is a header</h1>
+    <div class="container">
+        <h1>Headline 1</h1>
+        <p>Yes, this is pretty cool</p>
+    </div>
+    <div class="container">
+        <h1>Headline 2</h1>
+        <p>Life is good.</p>
+    </div>
+</body>
+```
 
-<pre>&lt;body&gt; <br />  &lt;h1&gt;This is a header&lt;/h1&gt; <br />   <br />    
+# Jade — Example 1
 
-<h1>
-  Headline 1
-</h1> 
-
-<br />    
-
-<p>
-  Yes, this is pretty cool.
-</p>  
-
-<br />   <br />    
-
-<h1>
-  Headline 2
-</h1> 
-
-<br />    
-
-<p>
-  Life is good.
-</p>
-
-<br />   <br />&lt;/body&gt;</pre>
-
-### Jade — Example 1
-
-<pre>body <br />  h1 This is a header <br />  .container <br />    h1 Headline 1 <br />    p Yes, this is pretty cool. <br />  .container <br />    h1 Headline 2 <br />    p Life is good.</pre>
+```haml
+body 
+  h1 This is a header 
+  .container 
+    h1 Headline 1 
+    p Yes, this is pretty cool. 
+  .container 
+    h1 Headline 2 
+    p Life is good.
+```
 
 Compare the examples above. Instead of closing tags, Jade relies on indentations. Indentations seem much more intuitive to the eye in seeing parent-child relationships between elements.
 
@@ -66,7 +63,3 @@ The other advantage of using _Jade is that it supports partials_. This means tha
 I’ve noticed a difference in _comprehending the page_ when using Jade in my code. I open the document, and I can quickly understand what is going on.
 
 Since Jade is a templating language, that means that it must be preprocessed before you get an output HTML file. I really like using <a href="https://prepros.io" target="_blank" rel="noopener noreferrer">Prepros</a> to automatically process any Jade files in my selected watch folder. The other great thing about PrePros is that it automatically refreshes the browser for me when it detects changes to the document. If you’re on a Mac, you can use <a href="https://incident57.com/codekit/" target="_blank" rel="noopener noreferrer">CodeKit</a>.
-
-* * *
-
-_Originally published at_ <a href="http://basicdrop.com" target="_blank" rel="noopener noreferrer"><em>www.basicdrop.com</em></a> _on October 19, 2015._

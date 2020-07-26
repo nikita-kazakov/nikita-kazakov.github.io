@@ -1,57 +1,46 @@
 ---
-id: 6878
-title: What the heck is EOS? (Book Notes)
-date: 2020-01-16T12:53:00+00:00
-author: Nikita Kazakov
-layout: post
-guid: https://nikitakazakov.com/?p=6878
-permalink: /what-the-heck-is-eos/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-image: /wp-content/uploads/2020/01/book-cover-EOS.png
-categories:
-  - Uncategorized
-tags:
-  - "2020"
-  - books
+title: What the heck is EOS?
+date: 2020-01-16
+excerpt: TLDR; Read it if your organization is using EOS. Otherwise you can skip it.
 ---
-The company I&#8217;m working with started to use EOS (Entrepreneurial operating system) to manage vision, priorities and making sure everyone is clear about what the company is aiming to achieve.
 
-I don&#8217;t recommend you read it unless your company is implementing EOS and you need to know the framework.
+The company I’m working with started to use EOS (Entrepreneurial operating system) to manage vision, priorities and making sure everyone is clear about what the company is aiming to achieve.
 
-The book is short at under 200 pages and is an easy read. It&#8217;s explains the EOS model well.
+I don’t recommend you read it unless your company is implementing EOS and you need to know the framework.
 
-<figure class="wp-block-image size-large">
+The book is short at under 200 pages and is an easy read. It’s explains the EOS model well.
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/02/image-2.png" alt="" class="wp-image-6880" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/image-2.png 974w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-2-300x247.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-2-768x632.png 768w" sizes="(max-width: 974px) 100vw, 974px" /> <figcaption>EOS Model consists of 6 elements.</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "EOS Model consists of 6 elements."
+    image = "/assets/images/books/what-the-heck-is-eos/eos-circle.png"
+    alt = "EOS Model consists of 6 elements."
+%}
+
+EOS Model consists of 6 elements.
 
 ## My Takeaways
 
-The book talks about the lack of organizational direction. I&#8217;ve experienced this before where I&#8217;ve built applications as a product manager and then the application was scrapped because not everyone was on board. Getting everyone&#8217;s buy-in is critical!
+The book talks about the lack of organizational direction. I’ve experienced this before where I’ve built applications as a product manager and then the application was scrapped because not everyone was on board. Getting everyone’s buy-in is critical!
 
 With a common direction, you avoid having your boss tell you one thing and a higher up asking you to do something else.
 
-The book talks about the importance of actually living your core values. Most companies have core values but most of the time they are cute platitudes. 
+The book talks about the importance of actually living your core values. Most companies have core values but most of the time they are cute platitudes.
 
-When a company actually reiterates core values on a weekly basis and tries to live them, that&#8217;s where magic happens. Let&#8217;s say you have a core value of **_truth_**_,_ and you require your employees to tell what they did on each hour of the day, you&#8217;re not living that core value.
+When a company actually reiterates core values on a weekly basis and tries to live them, that’s where magic happens. Let’s say you have a core value of **_truth_**_,_ and you require your employees to tell what they did on each hour of the day, you’re not living that core value.
 
-Don&#8217;t attempt to be EVERYTHING. If your core business is selling coffee, don&#8217;t create bakery so that you can sell croissants. Get them elsewhere. Focus on your core.
+Don’t attempt to be EVERYTHING. If your core business is selling coffee, don’t create bakery so that you can sell croissants. Get them elsewhere. Focus on your core.
 
-You can&#8217;t predict 10 years. [You can&#8217;t really predict 5 years either](https://nikitakazakov.com/myth-5-year-roadmap-software/). However, at least try to estimate how you&#8217;d like to look like 1 year from now.
+You can’t predict 10 years. [You can’t really predict 5 years either](https://nikitakazakov.com/myth-5-year-roadmap-software/). However, at least try to estimate how you’d like to look like 1 year from now.
 
 Get your big goals (ROCKS) in place and list them for the next 90 days. Every 90 days, assess what you finished and add more rocks. This is critical or otherwise [pebbles and sand will fill up your entire time](https://nikitakazakov.com/drop-big-rocks-in-the-jar-first/).
 
-Your organization should have a living organization chart. It should be easily editable because hierarchies change. However, hierarchy should be transparent. Many company don&#8217;t have this and workers have no idea how the company functions. You&#8217;ll less likely to give a damn if the company organization is a black box.
+Your organization should have a living organization chart. It should be easily editable because hierarchies change. However, hierarchy should be transparent. Many company don’t have this and workers have no idea how the company functions. You’ll less likely to give a damn if the company organization is a black box.
 
-This book has gold nuggets on meetings. Most meetings are useless. The EOS structure is solid for meetings. Have a timer, discuss what you&#8217;ve been working on, and spend time bringing up ISSUES with a resolution. 
+This book has gold nuggets on meetings. Most meetings are useless. The EOS structure is solid for meetings. Have a timer, discuss what you’ve been working on, and spend time bringing up ISSUES with a resolution.
 
-The idea of quarterly conversations is also gold. I&#8217;ve worked at places where there wasn&#8217;t a system for reviews. It sucked because we&#8217;re humans, we want praise from time to time and we like to know how we could do better as well.
+The idea of quarterly conversations is also gold. I’ve worked at places where there wasn’t a system for reviews. It sucked because we’re humans, we want praise from time to time and we like to know how we could do better as well.
 
-EOS suggests quarterly conversations, that are informal one on one chats with managers about how things are going. They aren&#8217;t full performance reviews. But if you have informal chats, then full performance reviews won&#8217;t be a surprise.
+EOS suggests quarterly conversations, that are informal one on one chats with managers about how things are going. They aren’t full performance reviews. But if you have informal chats, then full performance reviews won’t be a surprise.
 
 ## Book Notes
 
@@ -59,13 +48,17 @@ A team of average people running their company on one operating system will out 
 
 EOS is specifically designed for a 10 to 250 person entrepreneurial company that is open-minded and growth-oriented.
 
-Have you ever been given direction from your manager only to be told something different by a leader from another department? If you answered yes, you’re not alone. It is caused by a lack of alignment within an organization.<figure class="wp-block-image size-large">
+Have you ever been given direction from your manager only to be told something different by a leader from another department? If you answered yes, you’re not alone. It is caused by a lack of alignment within an organization.
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/02/image-3.png" alt="" class="wp-image-6881" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/image-3.png 874w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-3-300x197.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-3-768x504.png 768w" sizes="(max-width: 874px) 100vw, 874px" /> <figcaption>Did you get the memo? (Film: Office Space)</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "Did you get the memo? (Film: Office Space)"
+    image = "/assets/images/books/what-the-heck-is-eos/eos-office-space.png"
+    alt = "Did you get the memo? (Film: Office Space)"
+%}
 
 Imagine all the people in your company as arrows. When people have different objectives, the arrows all point in different directions.
 
-So, how does your organization solve issues? You might have just thought that they don’t. If so, you’re not alone. Many companies discuss issues&nbsp;.&nbsp;.&nbsp;. and discuss them&nbsp;.&nbsp;.&nbsp;. and then discuss them some more&nbsp;.&nbsp;.&nbsp;. but never solve them.
+So, how does your organization solve issues? You might have just thought that they don’t. If so, you’re not alone. Many companies discuss issues . . . and discuss them . . . and then discuss them some more . . . but never solve them.
 
 The 2 EOS tools used to strengthen the Traction Component are Rocks and the weekly Level 10 Meetings.
 
@@ -129,11 +122,11 @@ Each individual employee should have 1–3 Rocks every 90 days.
 
 Another thing about Rocks is that they need to be **SMART.**
 
-  * **S**pecific (simple, sensible, significant).
-  * **M**easurable (meaningful, motivating).
-  * **A**chievable (agreed, attainable).
-  * **R**elevant (reasonable, realistic and resourced, results-based).
-  * **T**ime bound (time-based, time limited, time/cost limited, timely, time-sensitive).
+-   **S**pecific (simple, sensible, significant).
+-   **M**easurable (meaningful, motivating).
+-   **A**chievable (agreed, attainable).
+-   **R**elevant (reasonable, realistic and resourced, results-based).
+-   **T**ime bound (time-based, time limited, time/cost limited, timely, time-sensitive).
 
 While Rocks are set every 90 days, you will check in with the team during your weekly meetings.
 
@@ -141,13 +134,19 @@ On the subject of measuring, you should also realize that the minimum standard f
 
 On Meetings:
 
-**Y**ou’ve been in them. Meetings that go on and on&nbsp;.&nbsp;.&nbsp;. people talking just so they can hear their own voice.
+You’ve been in them. Meetings that go on and on . . . people talking just so they can hear their own voice.
 
 It’s what you _do_ in meetings that’s a waste of time. If all you do is talk endlessly without solving issues, then yes, you’re wasting your time.
 
-The line in the picture below represents the activity to get that stuff done. People delay acting until the last minute.<figure class="wp-block-image size-large">
+The line in the picture below represents the activity to get that stuff done. People delay acting until the last minute.
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/02/image-8-1024x309.png" alt="" class="wp-image-6937" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/image-8-1024x309.png 1024w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-8-300x91.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-8-768x232.png 768w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-8-1536x463.png 1536w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-8.png 1750w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption>People tend to get stuff done at the last second. Parkinson&#8217;s law so to speak. That&#8217;s why we have multiple weekly meetings so we could spike that productivity.</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "People tend to procrastinate"
+    image = "/assets/images/books/what-the-heck-is-eos/eos-growth.png"
+    alt = "People tend to procrastinate image."
+%}
+
+People tend to get stuff done at the last second. Parkinson’s law so to speak. That’s why we have multiple weekly meetings so we could spike that productivity.
 
 We recommend a _weekly_ meeting pulse. That way you get a spike of activity 52 times per year.
 
@@ -187,7 +186,7 @@ The Quarterly Conversation is an informal, face-to-face, one-on-one meeting for 
 
 Don’t forget to mention
 
-  * What makes my job more difficult?
-  * What processes and procedures are broken?
-  * Have I identified the root cause of any issues I’m having?
-  * What could I have done differently in the last quarter? (careful with this one…)
+-   What makes my job more difficult?
+-   What processes and procedures are broken?
+-   Have I identified the root cause of any issues I’m having?
+-   What could I have done differently in the last quarter? (careful with this one…)

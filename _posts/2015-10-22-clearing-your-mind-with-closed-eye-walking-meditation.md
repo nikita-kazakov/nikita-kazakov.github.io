@@ -17,10 +17,6 @@ tags:
   - Meditation
   - Mindfulness
 ---
-<figure> 
-
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/45f60-0vir86jhk4awni20j.jpg)  
-</figure> 
 
 I use this powerful technique to clear my mind when it is running too hot. The mind runs hot when you have unexpected things popup, and when you’re so wound up, that you’re having a hard time focusing on doing a single thing. Paradoxically, this is the hardest time for us to take a breath, and force ourselves to rest our head.
 
@@ -32,12 +28,8 @@ No. Pick a spot at home, at work, or somewhere without too many people. Close yo
 
 While your eyes are closed, you’re not receiving visual impulse. While walking, your mind is focused on taking the next step, and your mind naturally clears itself. At this moment, you are **present and only focused on the next step**. You’ll feel tension in your head that you didn’t feel before begin to dissipate. It will feel like a tense guitar string unwinding. I walk for 10 minutes and it feels like my mind has rebooted, and I can get back to doing things that matter.
 
-### In a nutshell
+# In a nutshell
 
   * Pick a semi-private place.
   * Select a short area (10 feet or so) that you’ll pace back and forth.
   * Close your eyes and start to slowly walk forward. At the end, turn around and walk back. Repeat.
-
-* * *
-
-_Originally published at_ <a href="http://www.basicdrop.com/posts/walking-meditation" target="_blank" rel="noopener noreferrer"><em>www.basicdrop.com</em></a> _on October 22, 2015._

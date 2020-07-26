@@ -3,7 +3,7 @@ id: 235
 title: Smaller image files with TinyPNG
 date: 2015-10-02T00:00:00+00:00
 author: Nikita Kazakov
-excerpt: |
+excerpt: "Gist --- don't be that person uploading a 10mb thumbnail image. Compress it!"
 layout: post
 guid: http://nikitakazakov.com/smaller-image-files-with-tinypng/
 permalink: /smaller-image-files-with-tinypng/

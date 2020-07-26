@@ -3,7 +3,7 @@ id: 234
 title: What handstands taught me about life
 date: 2015-09-06T00:00:00+00:00
 author: Nikita Kazakov
-excerpt: |
+excerpt: "Gist --- Progression to handstands isn't linear. Seldom is life."
 layout: post
 guid: http://nikitakazakov.com/what-handstands-taught-me-about-life/
 permalink: /what-handstands-taught-me-about-life/
