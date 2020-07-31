@@ -36,6 +36,13 @@ With Jekyll, I create a markdown text file and I can paste my paragraphs right i
 
 I’m a fan of the [so-simple](https://github.com/mmistakes/so-simple-theme) Jekyll theme. I love how it separates your site by posts, tags, and years. I couldn’t easily do that with WordPress themes. Even better is the instant [search function](http://nikitakazakov.com/search). There are a lot of free [Jekyll themes](https://jekyllthemes.io/free) out there.
 
+## Git Version Control
+If you're a software developer, you know how wonderful Git is for version control. I'll never have to worry about files / text disappearing as everything is version controlled.
+
+## I already know Ruby
+
+I develop in Ruby and Ruby on Rails. If I didn't know Ruby, I might have gone with another static site generator like [Hugo](https://gohugo.io) (it's faster). Jekyll is not as easy to setup as WordPress. You need a Ruby environment.
+
 # I’ll miss WordPress
 
 I loved editing in a WYSIWYG editor. I’ll miss directly editing in WordPress’s Gutenberg editor.
