@@ -4,6 +4,8 @@ date: 2020-07-31
 permalink: '/wordpress-to-jekyll/'
 ---
 
+Gist: My blog is meant for writing. A Jekyll allows me to write with ease and avoid friction I experienced with WordPress.
+
 # Why I switched
 
 I switched because the main purpose of my blog was to have written work. I enjoy writing. A few things in WordPress caused friction in my process.
