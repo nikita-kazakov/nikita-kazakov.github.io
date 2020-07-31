@@ -76,8 +76,7 @@ Reme_mber A Bronx Tale (1993)_ with De Niro?
 
 Some punk owes another kid $20 but evades him because he can’t keep his promises. The kid gets angry and starts making senseless threats. His mentor stops him and says these lucid words of wisdom:
 
-<div class="ast-oembed-container">
-</div>
+{% include embed_youtube.html id="78-4RobJQ0Y" %}
 
 > _What’s the matter? What have I been telling you? Sometimes hurting somebody ain’t the answer…You don’t even like him, there’s your answer right there._
 

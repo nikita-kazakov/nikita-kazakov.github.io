@@ -19,12 +19,9 @@ tags:
 ---
 I went to Mexico in May 2016. One of my best friends was getting married, and I went down to attend the ceremony and also to get away and relax for a week. I booked an all inclusive resort that was really a dream to stay at. All inclusive includes breakfast, lunch, dinner, and entertainment. Everything is done for you; you are there to relax.
 
-<div class="ast-oembed-container">
-</div>
+{% include embed_youtube.html id="vrI873C92L0" %}
 
 By habit, I was still determined to workout in the morning by shadow boxing on the beach at 7 am, and then swim in the ocean. I noticed that at 7 am, a beach is a quiet place devoid of crowds. Few people are there walking or taking a morning run.<figure class="wp-caption"> 
-
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/d6f5f-189d9s0byk63b_auoy4p6_q.gif) <figcaption class="wp-caption-text">Let’s go workout early in the morning while on vacation?</figcaption></figure> 
 
 ### Slowly getting too comfortable
 
@@ -66,9 +63,4 @@ I absolutely recommend going to at least one all-inclusive hotel resort to _feel
 
 Don’t take my word for anything. Dedicate time in your life to studying role models that are powerful and healthy in their life choices. Read up on their daily habits. People like **Jerry Seinfeld** who still find time to meditate daily, or **Tony Robbins** who runs through a morning ritual **_for himself_**_._ Check out his series called _I am not your Guru_ (Netflix) just to see his morning rituals. How about **Henry Ford**, who still found time for physical fitness and to work on his farm while industrializing America with a common car. They did not have to do any of these things. The were opulent enough to skip these or have someone else do the work. I think they realized the dangers of comfortable numbness and knew that these habits were theirs, and only theirs. These habits were a starting point for their daily work that would sustain them. No one could take these habits away from them.
 
-<div class="ast-oembed-container">
-</div>
-
-* * *
-
-_Originally published at_ <a href="http://basicdrop.com" target="_blank" rel="noopener noreferrer"><em>www.basicdrop.com</em></a> _on July 4, 2016._
+{% include embed_youtube.html id="5-dq6HCWAN0" %}

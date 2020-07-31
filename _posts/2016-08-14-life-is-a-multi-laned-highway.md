@@ -18,19 +18,20 @@ tags:
   - Life Lessons
   - Paradigm Shift
 ---
-<figure> 
-
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/9e67f-0fhyhelu-mobddaap.jpg)  
-</figure> 
 
 I was driving to work on I-25 and a realization hit me as I was switching lanes. I noticed that during my 25 mile drive, I’ll switch lanes several times before arriving at the destination. You probably do the same thing. So what? It can teach us a thing or two about looking at life. Let’s look at some scenarios.
 
-<div class="ast-oembed-container">
-</div>
+{% include image_center_caption.html 
+    caption = "Which highway lane will you take?"
+    image = "/assets/images/2016/highway_lanes.jpg"
+    alt = "Which highway lane will you take?"
+%}
 
 ### End of the highway
 
 At the very end of the highway is death for us all. From this perspective, maybe the it’s not the end of the highway we’re searching for. We’re really looking for the wonderful cities or milestones along the journey. That’s where you are exposed to new things, you educate yourself, start a family, and find a fulfilling vocation. In this view, it’s the milestones along the journey that satisfy us, not the very end.
+
+{% include embed_youtube.html id="GnASBMqTA3o" %}
 
 #### You switch because of the slow guy in front of you
 

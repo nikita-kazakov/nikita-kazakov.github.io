@@ -18,12 +18,14 @@ tags:
   - Scarface
   - Tenacity
 ---
-<figure> 
-
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/cf54e-0gusgn4duiq5dh1p3.jpg)  
-</figure> 
 
 I watched Scarface (1983) several years ago and thought that it was just a violent action movie. I didn’t give it a second thought and was satisfied with just watching it once. I saw it on Netflix and decided to give it another chance. This time around, the movie had a deeper meaning to me and it wasn’t about the violence and the 1980’s drug wave, but **it was instead a deeper look into human nature**. I’m not sure if that was the intention that Brian De Palma and Oliver Stone had when making this movie, but this is what I felt.
+
+{% include image_center_caption.html 
+    caption = "Tony Montana from Scarface."
+    image = "/assets/images/2016/tony_montana_at_table.jpg"
+    alt = "Tony Montana from Scarface"
+%}
 
 #### **Movie Spoilers ahead!**
 
@@ -33,7 +35,11 @@ Al Pacino plays the protagonist Tony Montana. Tony is not an innocent man as we 
 
 > I want what’s coming to me. What’s that? The world, chico, and everything in it. — Tony Montana<figure class="wp-caption"> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/0d0e8-1gj_du7x04uq6wgi5huxcsw.jpeg) <figcaption class="wp-caption-text">Example of Tony Montana’s famous stare.</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "Tony Montana stare down."
+    image = "/assets/images/2016/tony_montana_eyes.jpeg"
+    alt = "Tony Montana stare down."
+%}
 
 You find him arrogant, but also admire his clear vision and the guts he has to to take action. Recall the moment when Tony and Manny get their first job from Omar Suarez to unload a boat for $500. While his friend is happy and thankful for the opportunity, Tony considers it offensive that he has to start at the lowest levels and work his way up.
 
@@ -61,6 +67,8 @@ I’ll skip ahead to the ‘push it to the limit’ song scene. This is after To
 
 His downfall is fascinating to see as his **family, including his sister, are destroyed due to his arrogant actions**. His lavish lifestyle, which seems rich on the outside is devoid of meaning. He’s no longer hungry. To keep pace, he’s now become a drug user, something he did not need during his rise. Because his mind is muddled and unable to think clearly, he gets busted by undercover cops in laundering money. It is greed that took over reason, and that is apparent when he’s negotiating small rate changes with an established bank that he trusted before. He’s become penny-wise, pound-foolish. It is a tragic end to this character, and the movie lays it out beautifully.
 
+
+
 ### Tony Montana vs Frank Lopez
 
 Compare these two characters. Both become bosses. Both end up dead. While Tony is a high energy all or nothing type of a character, Frank instead prefers to lay low in his business enterprise.
@@ -72,7 +80,3 @@ Compare these two characters. Both become bosses. Both end up dead. While Tony i
 ### Takeaways
 
 To me, the film is about personalities rather than the illicit trade and the violence. We see characters rise and fall. **There’s a Tony in all of us.** There’s a passion that each person has and a tendency to pursue it. On one hand, having a strong passion is great because it gives you _willpower_ to take action. You won’t be sitting on the couch anxiously waiting for permission. On the other hand, that passion can overtake our lives and we forget that it is just one aspect of our lives. I think this is why keeping our bodies strong physically, mentally, emotionally, and spiritually during the pursuit of a passion helps us maintain balance. Easy to say, hard to do. It keeps our head in check. This is what Tony’s character lost after his rise and is probably what led him to a tragic demise.
-
-* * *
-
-_Originally published at_ <a href="http://basicdrop.com" target="_blank" rel="noopener noreferrer"><em>www.basicdrop.com</em></a> _on May 11, 2016._

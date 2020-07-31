@@ -3,7 +3,7 @@ id: 246
 title: How to not buy a lemon car
 date: 2016-04-07T00:00:00+00:00
 author: Nikita Kazakov
-excerpt: |
+excerpt: "Gist: I bought 3 cars for people in 2 years. It might be pretty but it's going to cost you an arm and a leg in repairs. Research and get a dependable vehicle."
 layout: post
 guid: http://nikitakazakov.com/how-to-not-buy-a-lemon-car/
 permalink: /how-to-not-buy-a-lemon-car/
@@ -75,45 +75,43 @@ tags:
   - Car Sales
   - Cars
 ---
-<figure>![](http://nikitakazakov.com/wp-content/uploads/2018/08/d2d23-1emousnqti4mjdhpaikraug.jpeg)</figure> 
-
 I’m going to share what I learned in buying 3 cars for different people within 2 years.
 
 So you’re looking to buy a car but are not sure which one to go for. Picking a car solely by style, coolness factor, or by color is good in short-term but short-sighted in the long term. **You want the total package where reliability comes first and everything else second.**
 
 I realize my views won’t jive with everyone. If money is no object, I see nothing wrong with going into a luxury dealership, getting a luxury car right there and then, and paying cash for it. I’m playing it safe here by saying that the main purpose of a vehicle is to get you from point A to point B. I feel that a car should be able to last you years. I’m not going to be trading it out every 3 years. If I were to do that I’d lease the vehicle instead.
 
-## How to research before buying
+# How to research before buying
 
 Prior to buying any type of vehicle, new or used, I’m researching the heck out it first on the internet. First thing, I’ll check the <a href="http://longtermqualityindex.com/" target="_blank" rel="noopener noreferrer">long-term quality index</a>. Look at their <a href="http://longtermqualityindex.com/TIQI-over180k.png" target="_blank" rel="noopener noreferrer">analysis charts</a> for vehicles that go over 180,000 miles. Right away, you see Lexus (Toyota), Toyota, Acura, and Honda separating themselves from the rest in dependability.
 
 Next, take a look at the <a href="http://www.jdpower.com/press-releases/2016-us-vehicle-dependability-study-vds" target="_blank" rel="noopener noreferrer">J.D. Power vehicle dependability study</a>. Below is the study for 2016.<figure class="wp-caption">
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/5813d-1ad2ezny7o29lrbjan_ynpq.jpeg) <figcaption class="wp-caption-text">J.D Power 2016 Dependability Study</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "Car reliability list."
+    image = "/assets/images/2016/jd_power_chart.jpeg"
+    alt = "Car reliability list."
+%}
 
 What do you see? Those same vehicles are on top for the least number of defects. Vehicles at the bottom of the list have mechanical issues. Congratulations, you now narrowed your decision to a couple of brands that are reliable.
 
-## Check forums and reviews
+# Check forums and reviews
 
 If you’re still debating on what car or make is reliable, checking out a forum like <a href="https://www.google.com/?gws_rd=ssl#q=site:reddit.com+reliable+car" target="_blank" rel="noopener noreferrer">Reddit will help</a>. It also helps to see some posts on <a href="https://www.google.com/?gws_rd=ssl#q=site:reddit.com+unreliable+car" target="_blank" rel="noopener noreferrer">what are unreliable cars</a> as well and what makes them unreliable.
 
 Once you know what model appeals to you from a reliable make, then narrow down your research to that model. For example, google “honda civic 2015 review”, and one of the first websites that popup will be <a href="http://www.edmunds.com/honda/civic/2015/review/" target="_blank" rel="noopener noreferrer">edmunds.com</a>. This website has plenty of reviews done by people that bought the car. Actually, edmunds.com was really helpful when I was debating on whether to get a Honda CRV 2015. After seeing that people reported a vibrating issue, I knew that I’m skipping this one over until they fix it in later generations. Had I not done research and gone straight to the dealership, do you think that the dealership would have mentioned this issue to me?
 
-## Watch test drives on YouTube
+# Watch test drives on YouTube
 
 YouTube is gold for seeing hardcore car enthusiasts test drive different vehicles and give their impressions of them. For example, search “Honda Civic 2015 review”, watch the video and take notes.
 
 You’ll also see videos on why some models suck. For example, <a href="https://www.youtube.com/channel/UCuxpxCCevIlF-k-K5YU8XPA" target="_blank" rel="noopener noreferrer">Scotty Kilmer</a> shows why some international luxury brands are over-engineered and can end up costing you a fortune to fix. Lease those cars so you can trade them in before they start breaking down.
 
-<div class="ast-oembed-container">
-</div>
+{% include embed_youtube.html id="ZPJ64sTa7KI" %}
 
-&nbsp;
+{% include embed_youtube.html id="u_8VueuEtH8" %}
 
-<div class="ast-oembed-container">
-</div>
-
-### How I see reliable cars
+# How I see reliable cars
 
 You can probably tell that I’m a fan of Japanese vehicles such as Toyota’s or Honda’s. Both these brands have built cars that have a reputation for easily lasting 100,000 miles with minimal maintenance. If you maintain them well, they’ll go over 200,000 miles. Of course, there are exceptions and there’s a chance you’ll get a car with a factory defect. It can happen with ANY make / model.
 
@@ -129,8 +127,7 @@ If you live in the US, you can afford a range of vehicles. Instead, take a look 
 
 Finally, check out this Top Gear episode on Killing a Toyota. They take a Toyota Hilux and try to permanently kill the car by drowning it, setting it on fire, and doing other crazy things to it. They fail.
 
-<div class="ast-oembed-container">
-</div>
+{% include embed_youtube.html id="xnWKz7Cthkk" %}
 
 ## Resale value — New vs Used
 
