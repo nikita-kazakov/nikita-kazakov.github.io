@@ -20,15 +20,21 @@ tags:
 ---
 I take cold showers daily because it works on getting me out of the comfort zone. I found them to also restore will power. You can’t help but feel optimistic and happy after taking a cold shower. The body releases endorphins and whatever problem you had an hour ago is suddenly put into perspective and it matters less.
 
-<div class="ast-oembed-container">
-</div>
+{% include embed_youtube.html id="8Jtn3b5P44E" %}
 
 You could compare cold showers to alcohol in that it takes your mind to a better place, but alcohol does it with detrimental short and long-term side effects of depressing your mind and inhibiting your decisions. Cold showers don’t have that side effect and are not addictive. Let me give you some history before I go into personal stories with my cold experimentation.<figure> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/e7858-1czziut95pxj7n4pwuiqyhw.jpeg)  
-</figure> <figure class="wp-caption"> 
+{% include image_center_caption.html 
+    caption = "Nikita - Cold exposure in 2006"
+    image = "/assets/images/2016/cold_shower_1.jpeg"
+    alt = "Nikita - Cold exposure in 2006"
+%}
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/4b474-1xhpqwg9mat4cpwicu32vzq.jpeg) <figcaption class="wp-caption-text">Out in the Colorado Winter.</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "Nikita - Cold exposure in 2006"
+    image = "/assets/images/2016/cold_shower_2.jpeg"
+    alt = "Nikita - Cold exposure in 2006"
+%}
 
 > The cold won’t judge you on what you did or didn’t do during the day. It doesn’t care that you’ve been feeling lazy or that you have been feeling sad. It is there for you day and night. It is ready whenever you’re ready. The cold doesn’t care whether you’re rich or poor, whether you’re king or beggar, it will shock you just the same. The cold doesn’t care about your whereabouts. It is like a father at a playground that asks you to do something daring and temporarily scary to mold you into a stronger person. It is like a mother that will then hug you and bring your spirits up. It is a redeemer for those who are constantly hypnotized by mindless action throughout the day. It breaks that hypnosis and asks for nothing in return.
 
@@ -36,7 +42,11 @@ You could compare cold showers to alcohol in that it takes your mind to a better
 
 My introduction to the cold water dousing was in 2006. I heard about Porfiry Ivanov who practically walked barefoot in his shorts regardless of the season. In 1933, he was ready to die. He was 35 years old. According to him, doctors told him that he had cancer and a short time to live. He decided to willingly end his own life by freezing to death in the cold winter.<figure class="wp-caption"> 
 
-![](https://cdn-images-1.medium.com/max/800/0*FcWEQRTf-484WG4o.) <figcaption class="wp-caption-text">This was Porfiriy Ivanov. You’d be getting the same looks from people in the bitter Russian winter.</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "This was Porfiriy Ivanov. You’d be getting the same looks from people in the bitter Russian winter."
+    image = "/assets/images/2016/porfiry_ivanov.png"
+    alt = "This was Porfiriy Ivanov. You’d be getting the same looks from people in the bitter Russian winter."
+%}
 
 He went outside to succumb to the bitter Russian winter in only his undergarments and poured water on himself in order to get hypothermia. He then went home. He was sure that was the end of it. On the next day, he realized not only did he not get sick, but he actually felt much better. He reasoned that the cold is what made him healthy again after illness. He had escaped cancer. Since then, he created an almost cult-like following, stating that he reached immortality and that everyone can reach it as well. Porfiry died in 1983 at the age of 85. As with any ideas, cut out what seems irrational, and take only what _works for you_.
 
@@ -46,8 +56,7 @@ There are people in the Baltic countries, Finland, and Russia who call themselve
 
 In 2006, I decided to try out cold water dousing. I figured what the hell, at the very least, it’ll make temper my body to be more resistant to the cold. I started the process in the summer months in order to get my body adjusted to the cold gradually. I started dousing with cold water twice per day, once in the morning, and once in the evening. I poured cold water into two buckets and went outside in my swimming trunks to pour that water on myself. I quickly noticed a radiant feeling right after the dousing. Any lethargic feelings melted away and the body took on a pink color. I felt as if I could do anything in that moment. I’d jump into snow right afterward and stay outdoors for about 5 minutes. Guess what? I didn’t get sick that year. I don’t know why, but I stopped cold dousing the next summer, and it wasn’t until 10 years later (2016) that I picked up cold showers.
 
-<div class="ast-oembed-container">
-</div>
+{% include embed_youtube.html id="wyQwKYtowsY" %}
 
 ### What happens to the body from cold exposure
 
@@ -57,8 +66,7 @@ Second, the blood capillaries widen to send blood to the surface of the skin in 
 
 ### Enter Wim Hof — The Ice Man
 
-<div class="ast-oembed-container">
-</div>
+{% include embed_youtube.html id="VaMjhwFE1Zw" %}
 
 I stumbled upon Wim Hof in early 2016. In this vice documentary, he took two journalists, and within one month, all three of them hiked up a mountain in Poland with only their shorts while it was snowing. All three made it just fine.
 
@@ -78,7 +86,6 @@ I noticed that cold showers restore willpower. Willpower is a limited power with
 
 I turn the water all the way down to the coldest temperature as I’m now used to it. If you’re just starting, you need to gradually decrease temperature with time. Initially, go take a normal warm / hot shower, and at the end of the shower, make the water colder and stay in the shower for a minute. Turn the water off, and get out of the shower. Within a two week period, you’ll be able to turn the water down to the coldest level. You can continue with this warm-cold regimen. If you want to step it up a notch, begin taking purely cold showers without turning on the warm water. Once per week, I’ll still take a warm shower just because it feels nice.
 
-<div class="ast-oembed-container">
-</div>
+{% include embed_youtube.html id="U1_AeEyCDTQ" %}
 
 As always, if you feel good and it works for you, do it. If it doesn’t work for you, don’t do it. Take what works and throw away what doesn’t. Good luck!

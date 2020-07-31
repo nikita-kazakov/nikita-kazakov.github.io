@@ -15,9 +15,10 @@ theme-transparent-header-meta:
 categories:
   - Uncategorized
 ---
-<figure class="wp-block-image size-large"><img src="https://nikitakazakov.com/wp-content/uploads/2020/02/image-4-1024x550.png" alt="" class="wp-image-6915" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/image-4-1024x550.png 1024w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-4-300x161.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-4-768x412.png 768w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-4.png 1140w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Put in rocks first and then pebbles and sand. (1)</figcaption></figure> 
 
 This analogy is about putting important things first. Sounds like the same old crap you hear from self-help books. However, I admire a good analogy that sticks in my head and this is one of those. This analogy comes from [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey).
+
+<figure class="wp-block-image size-large"><img src="https://nikitakazakov.com/wp-content/uploads/2020/02/image-4-1024x550.png" alt="" class="wp-image-6915" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/image-4-1024x550.png 1024w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-4-300x161.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-4-768x412.png 768w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-4.png 1140w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Put in rocks first and then pebbles and sand. (1)</figcaption></figure> 
 
 Imagine you have a jar and you have big rocks, pebbles, and sand that you need to fill the jar with.
 

@@ -19,6 +19,7 @@ tags:
   - Martial Arts
   - MMA
 ---
+
 **Fedor “The Last Emperor” Emelianenko** is a Russian MMA fighter. There’s no doubt he’s a great fighter, but that’s just one piece that makes up his total package.
 
 Many fighters enter the ring high strung. They set themselves to be high energy or even angry. Fedor is different. He walks out cool and collected. **After finishing the fight, he walks away cool and collected.**
@@ -27,23 +28,25 @@ Let’s take a look at what shapes his inner values from his interviews.
 
 His interviews are in Russian. **I translated questions from his interviews into English.**
 
-### Fedor on Physical Fitness
+### Fedor on Physical Fitness
 
 > I have settled on the fact that today or tomorrow, I might have to stand and defend my homeland. Even though I have retired from sport, I still maintain my physical form not so much because I want to look good, but because I understand that anything can happen. All of us, especially men, should be ready to defend their homeland.— Fedor
 
 Energy is everything. Today you don’t need to lift a heavy piece of furniture but tomorrow you lift a table and throw out your back. **A man should be ready for tomorrow by training today.**
 
-### Fedor on starting with yourself
+### Fedor on starting with yourself
 
 The interviewer asks about the harsh realities of life, especially living in Russia.
 
 > You know, one can talk about what’s happening in our country (Russia): That all is bad, that there’s stealing and lying, and something else is going on. **You need to start with yourself first.** **If everyone is out there stealing, you don’t steal.** Then things will turn out good for you.
 
-> **If you look around and there is no discipline, look into personal discipline**. If I have my internal discipline and if I live with a habit of discipline, I’ll find that all around me will be fine. To change the world you have to start with yourself. — Fedor<figure class="wp-caption">
+> **If you look around and there is no discipline, look into personal discipline**. If I have my internal discipline and if I live with a habit of discipline, I’ll find that all around me will be fine. To change the world you have to start with yourself. — Fedor
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/32905-0fqq2wyyfvhijecpj.jpg) <figcaption class="wp-caption-text">Fedor after a win.</figcaption></figure> 
+![](http://nikitakazakov.com/wp-content/uploads/2018/08/32905-0fqq2wyyfvhijecpj.jpg)
 
-### Fedor on Defeat
+Fedor after a win.
+
+### Fedor on Defeat
 
 Interviewer asks how Fedor handles defeat and if he was prepared for losing MMA matches.
 
@@ -60,7 +63,7 @@ Knowing how to lose is hard. Not just knowing, but being able to process loss. D
 
 Loss is rejection. Loss is failure. At least that’s how loss feels like to an unprepared mind. A prepared mind reframes loss as an experience.
 
-### Fedor on Tobacco
+### Fedor on Tobacco
 
 > I feel sad for these folks because they’re a type of a drug user. In this case, a drug user with a ‘lighter’ drug. A drug this person cannot kick. They are dependent. Plus, he’s damaging his health, not so much only his, but also those that are around him, including the kids he’s raising. — Fedor
 
@@ -78,7 +81,7 @@ He gives a similar answer from another interview:
 
 > No, I never feel anger in the ring. I don’t allow myself to cross over to anger or to psyche myself out. I consider that one should treat their opponent with respect. We not only perform for sport but it’s also a show. Quite a few fighters try to psyche their opponents out with strong words through undeserved actions. — Fedor
 
-### Fedor on emotional control and revenge
+### Fedor on emotional control and revenge
 
 Interviewer: So you control yourself emotionally in the ring? Isn’t there a time you want to lash out at the opponent if he’s first spewing harsh words to you?
 
@@ -86,7 +89,7 @@ Interviewer: So you control yourself emotionally in the ring? Isn’t there a ti
 
 I found a great way to practice controlling emotions. I do it while driving. A guy in a truck will merge without signaling. Another will honk. Another will drive in the left lane going 55 in a 65. It’s tempting to say something in the moment.
 
-> Have you ever noticed that anybody _driving_ slower than you is an idiot, and anyone going faster than you is a maniac? -George Carlin
+> Have you ever noticed that anybody _driving_ slower than you is an idiot, and anyone going faster than you is a maniac? -George Carlin
 
 If I do say something in that hasty moment, I reflect on it and realize it was impulsive. I’ll mentally apologize because that guy might be having a bad day. What, I never have those day?
 
@@ -100,34 +103,33 @@ Interviewer: How do you prepare for fights psychologically and what would you re
 
 > I always advise younger fighters **not to think about the fight right before the fight**. Think about anything else you want, but not about the fight. **If you’re going to fill your head up with the fight then you’ll burn yourself out internally**. It’s like stepping out to the ring before having fought, but inside you already feel like you’ve been fighting and you’re mentally tired. As for me personally, I pray. I’ll hang out with friends that support me. I’ll play chess. I’ll relax. — Fedor
 
-<div class="ast-oembed-container">
-</div>
+{% include embed_youtube.html id="2i0iZcLIrTQ" %}
 
-### Fedor on relaxing
+### Fedor on relaxing
 
 Interviewer: How do you relax?
 
 > I love to read. When I have free time, I’ll read, especially if I’m traveling. At home, I’ll spend time with family and with my daughter. Hanging out with friends and going to a Russian Sauna (Banya). — Fedor
 
-### Fedor on worrying before a fight
+### Fedor on worrying before a fight
 
 Interviewer: Do you experience worry when you come out to the ring?
 
 > Always. On the day of the fight, every fighter experiences this light feeling of worry (anxiety). — Fedor
 
-### Fedor on living healthy
+### Fedor on living healthy
 
 Interviewer: What advice could you give for keeping a healthy way of life?
 
 > I think one simple ideal way is to do light running. Every…okay, not every, but at least 3 times per week, do a light run of 2 or 3 km (1 or 2 mi). That will be wonderful for you. Your blood will circulate through your body, saturating it with oxygen, and your lungs will work well. — Fedor
 
-<https://www.youtube.com/watch?v=nN2oyfWvidk>
+[https://www.youtube.com/watch?v=nN2oyfWvidk](https://www.youtube.com/watch?v=nN2oyfWvidk)
 
 Keep it simple. Keep your eyes on the 90% that matters. The other 10% is likely not worth your time unless you’re training to be an elite athlete.
 
 That 90% is simple running and working on body mobility.
 
-### Fedor on living with values
+### Fedor on living with values
 
 Interviewer: For many people and young kids, you’re a big example and authority, not just in Russia but worldwide. What advice would you give to these kids about how to live, what do do, how to grow up a good man? If you could give a couple of short sentences…
 
@@ -139,13 +141,13 @@ Interviewer: For many people and young kids, you’re a big example and authorit
 
 > — Fedor
 
-### Fedor on MMA vs Faith
+### Fedor on MMA vs Faith
 
 Interviewer: It’s apparent you’re a man of faith, how do you reconcile the harshness and cruelty of this sport with faith?
 
 > I wouldn’t say MMA is a cruel sport. Cruelty can be seen between people. It’s how people relate to each other in life and sports. If one keeps the value of a human being, there won’t be a place for cruelty. Regarding harshness, yes, this is a harsh sport. If it’s my place to be here and I participate in this sport to represent Russia then that’s the way it has to be. — Fedor
 
-### Fedor on important values in his life
+### Fedor on important values in his life
 
 Interviewer: What’s most important to you in your life?
 
@@ -157,25 +159,25 @@ Interviewer: How do your loved ones and closest people support you? They must wo
 
 > They do worry, but they continue supporting. No tells me to quit. They support me. Even the people I meet day to day, they support my participation in the sport and ask that I don’t leave. — Fedor
 
-### Fedor on life after MMA
+### Fedor on life after MMA
 
 Interviewer: Have you wondered what you’ll do after you retire from your MMA career?
 
 > I’ll still continue to fight for now. I’ll continue to give my knowledge to the younger generation of men. I’ll look for a way to be more useful to my country and my people. — Fedor
 
-### Fedor on training partners
+### Fedor on training partners
 
 Interviewer: Why do you train with the fighters from your club rather than buy sparring partners as many other fighters do?
 
 > I believe in my boys. I can see that they are competent and can win. I see them as competent future fighters. This is why I don’t see the point of buying international sparring partners. — Fedor
 
-### Fedor on his biggest fear
+### Fedor on his biggest fear
 
 Interviewer: What is Fedor most afraid of?
 
 > I live with God. Everything that happens to me is in the hands of God. Everything that happens is his will. — Fedor
 
-* * *
+----------
 
 ### Emotional Control
 
@@ -193,4 +195,4 @@ Those are strong attacks. The automatic response is to either fire back or inter
 
 Here’s a video of a bouncer handling a teenager (NSFW language). This is what emotional control looks like. This is what martial arts looks like. He disarms the man through wit. **Wit arises because his emotions are controlled and his mind is clear.**
 
-<https://www.youtube.com/watch?v=2yYse9rYUvY>
+[https://www.youtube.com/watch?v=2yYse9rYUvY](https://www.youtube.com/watch?v=2yYse9rYUvY)

@@ -94,10 +94,10 @@ Here are lessons I picked up from Ronnie.
 
 Ronnie is huge. He weighed damn near 300 lb at his bodybuilding competitions.<figure class="wp-caption">
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/e0501-1qt_y6qyzwfwb9b96kd7xta.jpeg) <figcaption class="wp-caption-text">I can’t squat 3 plates and here’s Ronnie doing triceps extensions with them.</figcaption></figure> 
+![ronnie](http://nikitakazakov.com/wp-content/uploads/2018/08/e0501-1qt_y6qyzwfwb9b96kd7xta.jpeg)
 
-<div class="ast-oembed-container">
-</div>
+{% include embed_youtube.html id="4UlgXIL0-3g" %}
+
 
 > Everybody wanna be a bodybuilder — nobody wants to lift heavy ass weights — Ronnie Coleman
 

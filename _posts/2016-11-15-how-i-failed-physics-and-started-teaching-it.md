@@ -18,9 +18,12 @@ tags:
   - Overcoming Obstacles
   - Redemption
 ---
-<figure class="wp-caption"> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/a82d1-1qxxir5ggbh3zihe7wh_hwq.jpeg) <figcaption class="wp-caption-text">This was me back in senior year of 2004</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "This was me back in senior year of 2004"
+    image = "/assets/images/2016/physics_1.jpeg"
+    alt = "This was me back in senior year of 2004"
+%}
 
 I won’t say that I wasn’t nervous taking 4 AP (advanced placement) tests in mid-2004. I heard stories that high school senior year was supposed to be an easy transition to college. You take easy classes, throw in an independent study, and hang out with friends. You know, the easy stuff before jumping into adulthood.
 
@@ -44,8 +47,11 @@ Something clicked in my head before I started physics summer school. I told myse
 
 I didn’t want to remember formulas. Once you understand something, you don’t need to remember. You can derive formulas from logic. That’s called problem solving. I had the same professor that summer with similar material. **I ended up with a high 90% in the class.** It was 97% or 98% out of 100%. I was Rainman.<figure> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/50afe-1upygvgdjzybrq-gf1d0umg.jpeg)  
-</figure> 
+{% include image_center_caption.html 
+    caption = "Let's do some physics."
+    image = "/assets/images/2016/physics_2.jpeg"
+    alt = "Let's do some physics."
+%}
 
 No, I was Keanu Reeves from The Matrix when he was hooked up into the seat absorbing Kung Fu. I was doing all the extra credit on tests and scoring above 100%. It wasn’t enough to get the question right. I had to comprehend it and be able to explain to myself why the solution made sense.
 
@@ -61,7 +67,11 @@ You’ve heard that best sports coaches are not those who were best athletes. Be
 
 Gifted athletes can see the pitfalls athletes make but it’s hard for them to relate a solution to a problem they didn’t suffer from themselves. It’s like asking a natural artist to teach you how to draw. They’ll say just pick up the pencil and do it. They likely won’t be able to explain how to **_see_** shadows, perspective and such.<figure class="wp-caption"> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/89570-1kbprvy0zdravmhe_tbtsmw.jpeg) <figcaption class="wp-caption-text">How gifted naturals explain drawing to a new person.</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "How gifted naturals explain drawing to a new person."
+    image = "/assets/images/2016/physics_3.jpeg"
+    alt = "How gifted naturals explain drawing to a new person."
+%}
 
 That’s why some of the best coaches who lead their athletes to Olympic wins are those who didn’t make it to the Olympics themselves. Remember the movie _R_ocky? Mick, Rocky’s trainer, gave his whole life to boxing but couldn’t see past his mistakes until after his prime. That’s why he sees his own mistakes in Rocky and is able to help Rocky overcome those obstacles.
 
@@ -81,8 +91,10 @@ You have to tell yourself: I won’t accept skimming the surface on this. I want
 
 You can then start to peel away the layers of the onion. Tell yourself that you have to teach this material to someone else. How would you learn it and how would you teach it back? Once you feel you can teach the material to another person, you can be sure that you now know the material.<figure class="wp-caption"> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/c97dd-18ysoprnm-zgo11mkrualdg.jpeg) <figcaption class="wp-caption-text">Peel the onion layers of complexity away until you see simplicity.</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "Peel the onion layers of complexity away until you see simplicity."
+    image = "/assets/images/2016/physics_4.jpeg"
+    alt = "Peel the onion layers of complexity away until you see simplicity."
+%}
 
 You know what happens when you know a subject or a process inside and out? You develop **_passion_** for it. It becomes a spark. Is it passion that causes you to be interested in something or is it doing something and understanding it intuitively that creates passion? Let that be food for thought.
-
-_Originally published at_ <a href="http://basicdrop.com" target="_blank" rel="noopener noreferrer"><em>www.basicdrop.com</em></a> _on November 15, 2016_

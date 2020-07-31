@@ -1,7 +1,7 @@
 ---
 id: 6862
 title: How to submit PDUs to PMI to renew your PMP
-date: 2020-02-16T01:46:14+00:00
+date: 2020-02-16
 author: Nikita Kazakov
 excerpt: "Here's exactly how I submitted my PDUs to PMI to renew my PMP (Project Management Professional) certificate in 2020."
 layout: post

@@ -17,10 +17,6 @@ tags:
   - Entrepreneurship
   - Life Lessons
 ---
-<figure> 
-
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/15e4c-15xfc7g0t4i1qlljbqnvgqq.jpeg)  
-</figure> 
 
 > A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects.
 
@@ -28,23 +24,27 @@ tags:
 
 Heinlein’s character Lazarus Long in the novel _Time Enough for Love_ provides a list of requirements for a competent man. Admittedly, I still have no idea how to conn a ship or set a bone, but let’s not forget this is an idea from one man. Still, I felt that there’s a life lesson to take away from this idea of a competent man as having multiple skills rather than being a limited man.
 
-### Before and Now
+# Before and Now
 
 The world is ever more complex for humans today than it was 150 years ago. Think about it: 150 years ago, a resident in a rural place such as Tennessee did not have a car. He lived on a farm and knew how to run the family business. How far do you suppose this man would travel? Maybe a couple of times out of the state in his lifetime. He knew farming or some type of local trade, and he knew it very well. Take him out of farming and drop him into a city like New York or Chicago, and it would be one hell of a culture shock. There was no 401k or health insurance to think about. If a printing press was available in his town, then the majority of the newspaper content was local news. Life was simple with less available information.
 
 Fast forward to today: Your phone has **world news** that you check during the day. You can check investment markets in real time on it. You get text messages / emails from your friends that are sent between states. You’re engulfed in a social media game that takes you to a world of its own. You think about what type of car, toothpaste, and food to buy. There are thoughts about the job market, finances, family, personal health, and somewhere in between about the meaning of life itself. **The power of choice is immense as it is paralyzing.** It’s a complicated world out there.<figure class="wp-caption"> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/691db-1prxkx7sa02lpaia5dvrhjw.jpeg) <figcaption class="wp-caption-text">It’s a different world out there than it was before.</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "It’s a different world out there than it was before."
+    image = "/assets/images/2016/world_before_after.jpeg"
+    alt = "It’s a different world out there than it was before."
+%}
 
 If the farmer of the 1800’s caught smallpox and died, it was sad but accepted. What else could his family do? They did the best they knew and had little outside sources of information available. Fast forward to today: If a person becomes sick due to poor eating habits, it’s harder to blame it on “I didn’t know”. Sure, it’s a complicated world but nature and society don’t care about you not knowing. It will kill you or reward you regardless of whether you know or don’t know. Every action has a cost, and whether we’re aware of it or not, we’ll have to answer for it.
 
-### The need for exposure
+# The need for exposure
 
 The internet connects us globally. You’ll work with people of different cultures and understandings. With commercialization, you’ll be exposed to constant advertisements for products that will be begging you to buy them. It’s not just electronic gadgets but also health products, foods, and entertainment.
 
 Let’s explore four major areas of life that fulfill us: The Physical, Mental, Emotional, and Spiritual. Let’s look at why exposure and wider reference in each of these areas are necessary in order to stay strong and understand what’s happening around you.
 
-### The Physical
+# The Physical
 
 When health is good, you seldom notice it. Think about the last fever or food poisoning you had. Recall yourself thinking along the lines of: “If this sickness passes quickly, I swear I won’t eat here again.” **When you’re sick, nothing else matters**. You don’t care about work, finances, or how you embarrassed yourself in front of that cute girl at the checkout lanes.
 
@@ -60,7 +60,7 @@ None of the optometrists I’ve seen have ever mentioned plus lenses for close w
 
 I’m here to say that you **must** know a thing or two about your health and condition before blindly accepting terms of a qualified expert. **Your health is your responsibility**. Doctors are wonderful and an absolute blessing in our lives when their help is required, **but don’t think that because of experts, you can neglect to understand your body and health _for yourself_**.
 
-### The Mental
+# The Mental
 
 Problem-solving. That’s the value you bring to your community, career, and ambitions. What value can you contribute to another humans. We’re problem / goal oriented people, and problem-solving is the solution. Problem-solving comes from creativity and exposure to different ways of thinking. Getting comfortable and stagnant in one belief or idea will repress the ability to think outside the box or deal with new concepts that emerge.
 
@@ -72,7 +72,7 @@ Life is lived in stages: You learn something from high school, a bit more from c
 
 The mental aspect includes knowing things that affect you on a daily basis. It means understanding basic finances, and what actions affect your life and how. It means understanding how a basic business works. How about knowing how to read a book in order to grab insights from it. It means knowing how to think critically about an argument.
 
-### The Emotional
+# The Emotional
 
 This one deals with the social and emotional part of your life. We’re emotional creatures first. That’s why every person, including myself, is irrational. Sales and marketing deal with how to invoke certain emotions and seduce another human into taking certain actions. The unaware person is more gullible to buy a gimmick or fall to a scam / cult because they don’t recognize certain techniques that are used on them. A person who recognizes these tools, while not impervious, has a lesser chance of being manipulated. They can almost smell when certain techniques are being used and quickly distance themselves or call the manipulator out on it.
 
@@ -88,7 +88,7 @@ From a techniques perspective, Leil Lowndes’s <a href="https://www.amazon.com/
 
 That’s just the starting point. Open your mind and heart to understanding how humans interact. It will be absolutely useful to your relationships that are personal and professional.
 
-### The Spiritual
+# The Spiritual
 
 I still know nothing and don’t have _THE TRUTH_. If I told you I did you’d rightly say that I was full of sh**. I admit that whatever I think I know about life might be totally wrong. I’m not afraid to say that. I have limited senses with which I can experience this world and those senses are: seeing, hearing, tasting, smelling, and touching.
 
@@ -98,8 +98,7 @@ I still know nothing and don’t have _THE TRUTH_. If I told you I did you’d r
 
 > — Agent K from Men in Black (1997)
 
-<div class="ast-oembed-container">
-</div>
+{% include embed_youtube.html id="kkCwFkOZoOY" %}
 
 You’re different than I am. What works for me might sound dumb to you. What I do have is an evolving model of **how _I believe_ life works**. If certain ideas make me happy and produce results in my life, I keep them. If they are not useful, I throw them away. Life is too short to take orders blindly without understanding their impact on you.
 
@@ -113,11 +112,11 @@ One book on Western Philosophy that I can recommend is <a href="https://www.amaz
 
 There’s show I enjoy watching called _Breaking the Magician’s Code_. It’s a 1990’s show featuring a masked magician that presents magic’s biggest tricks, and then unveils the secrets behind them. As I watch each trick done, I pause and try to figure out how he does it. Admittedly, I do not figure out most of the tricks. I’m seriously impressed by the illusions. Luckily for me, real magicians like him are honest and tell us what we’re seeing are simply illusions.
 
-<https://www.youtube.com/watch?v=QMbDYW3OaiQ>
+{% include embed_youtube.html id="p-VV_Viy3rA" %}
 
 I do find myself thinking: What if I lived 100 years ago and a person came to my village to demonstrate these magic tricks. Instead of saying they are illusions he would assure me that he has unique supernatural powers. I’d probably believe him. **It begs to ask, what might I be fooled with today?**
 
-### Be all that you can be
+# Be all that you can be
 
 That’s the US army slogan. It applies to all of us humans. A capable human with multitudes of skills is a good problem solver. He is valuable and is able to help those around him. He understands that the world is a complex place. He understands that if life is difficult _right now_, there’s a way to solve the problem with an expanded mindset.
 

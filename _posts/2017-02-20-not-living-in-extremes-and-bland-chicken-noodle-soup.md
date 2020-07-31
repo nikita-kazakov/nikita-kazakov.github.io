@@ -130,5 +130,4 @@ I take cold showers for this very reason as it exposes me to an uncomfortable fe
 
 I still don’t enjoy losing, but I make it into a meditative practice. When playing bowling, pool, or soccer, I quietly watch my emotions. I try not to allow winning nor losing take me far away from the baseline. It’s good practice for when real life events hit the fan.
 
-<div class="ast-oembed-container">
-</div>
+{% include embed_youtube.html id="pcbzHQcuIjk" %}

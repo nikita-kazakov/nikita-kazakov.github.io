@@ -23,8 +23,9 @@ Instead of the controller responding with an html page, we&#8217;ll have the con
 
 Let&#8217;s create a list of restaurants by creating a Rails model with restaurant name and category.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">rails g model restaurant name:string category:string</pre>
-
+```ruby
+rails generate model restaurant name:string category:string
+```
 I&#8217;m going to add a few restaurants to the database by going into the console.
 
 ```ruby
@@ -33,32 +34,30 @@ Restaurant.create(name:"Burger King", category:"Fast Food")
 Restaurant.create(name:"Cheese Cake Factory", category:"Family")
 ```
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
 Let's generate a rails controller.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">rails g controller restaurants</pre>
+```ruby
+rails g controller restaurants
+```
+We'll generate the standard routes for our restaurant resource in `routes.rb`
 
-We&#8217;ll generate the standard routes for our restaurant resource in `routes.rb`
-
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">Rails.application.routes.draw do
+```ruby
+Rails.application.routes.draw do
   resources :restaurants
 end
-</pre>
+```
 
-I&#8217;m going to be using [HAML gem](https://github.com/haml/haml-rails) instead of ERB to build out the html. If you need to see what&#8217;s going on in erb, feel free to use the [haml to erb converter](https://haml2erb.org/).
+I'm going to be using [HAML gem](https://github.com/haml/haml-rails) instead of ERB to build out the html. If you need to see what&#8217;s going on in erb, feel free to use the [haml to erb converter](https://haml2erb.org/).
 
 Let&#8217;s add the index action to the restaurants controller and load all of the restaurants into the `@restaurants` instance variable. `@restaurants` is now available for use in our views.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">class RestaurantsController &lt; ApplicationController
+```ruby
+class RestaurantsController < ApplicationController
   def index
     @restaurants = Restaurant.all
   end
-end</pre>
+end
+```
 
 I&#8217;ll create an index view `views/restaurants/index.html.haml`. I&#8217;ll add a simple table. Notice that I&#8217;m using [Bootstrap 4 for styling](https://github.com/twbs/bootstrap-rubygem) but it&#8217;s completely optional.
 
@@ -74,7 +73,6 @@ I&#8217;ll create an index view `views/restaurants/index.html.haml`. I&#8217;ll 
 ```
  
 ![center-aligned-image](https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-1024x213.png){: .align-center}
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-1024x213.png" alt="" class="wp-image-7098" srcset="https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-1024x213.png 1024w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-300x62.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-1-768x160.png 768w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-1.png 1398w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
 
 We have a table but there's nothing in it. Let's add the list of restaurants...
 
@@ -97,8 +95,9 @@ We have a table but there's nothing in it. Let's add the list of restaurants...
 
 Let&#8217;s add a link to the index page to add a new restaurant.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">= link_to "Add Restaurant", new_restaurant_path, class:"btn btn-primary", remote: true</pre><figure class="wp-block-image size-large">
-
+```haml
+= link_to "Add Restaurant", new_restaurant_path, class:"btn btn-primary", remote: true
+```
 <img src="https://nikitakazakov.com/wp-content/uploads/2020/05/image-3-1024x317.png" alt="" class="wp-image-7103" srcset="https://nikitakazakov.com/wp-content/uploads/2020/05/image-3-1024x317.png 1024w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-3-300x93.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-3-768x238.png 768w, https://nikitakazakov.com/wp-content/uploads/2020/05/image-3.png 1290w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
 
 Notice that I added `remote: true` to the `link_to` helper. Statement tells Rails we&#8217;re going to be responding with javascript and there&#8217;s no reason to redirect to another page when the button is clicked.
@@ -109,30 +108,32 @@ Go ahead, try to click the button. Nothing will happen.
 
 Let&#8217;s create a `new` action in the controller and load a new restaurant instance into the `@restaurant` instance variable. We&#8217;re going to use this in our form.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">class RestaurantsController &lt; ApplicationController
+```ruby
+class RestaurantsController < ApplicationController
   def index
     @restaurants = Restaurant.all
   end
-
   def new
     @restaurant = Restaurant.new
   end
-end</pre>
+end
+```
 
 Instead of clicking on the `Add Restaurant` button and going to a new page, we want the form to be rendered on the same page. This means that the `new` action should NOT respond to html. It should instead respond to `js`.
 
 I&#8217;m using the [responders gem](https://github.com/heartcombo/responders) to define how an action in the controller should respond. One line 2 I state that the `new` action should respond to js instead of html.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">class RestaurantsController &lt; ApplicationController
+```ruby
+class RestaurantsController < ApplicationController
   respond_to :js, only: [:new]
-
   def index
     @restaurants = Restaurant.all
   end
-
   def new
     @restaurant = Restaurant.new
-  end</pre>
+  end
+end
+```
 
 Let&#8217;s return back to the add restaurant button. When you click it, watch your server console. You&#8217;ll see that Rails is trying to process the `new` action as JS but it can&#8217;t find a template to use.<figure class="wp-block-image size-large">
 
@@ -150,7 +151,8 @@ We want this file to display a form for us to add new restaurants.
 
 Let&#8217;s add a form to our index page that we&#8217;ll use to add a new restaurant. I&#8217;ll use `form_with` and call on a new instance of a Restaurant. I added the form right above the `link_to` helper. Take note that I added an id `new-restaurant-form` so that I had a way of selecting the form somehow with java script.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">%h1 Restaurants
+```haml
+%h1 Restaurants
 %table.table.table-hover
   %thead
     %tr
@@ -163,18 +165,18 @@ Let&#8217;s add a form to our index page that we&#8217;ll use to add a new resta
           = restaurant.name
         %td
           = restaurant.category
-
 %div#new-restaurant-form.my-3
   =form_with model: Restaurant.new do |form|
     = form.text_field :name, placeholder: 'Name'
     = form.text_field :category, placeholder: 'Category'
     = form.submit
-
-= link_to "Add Restaurant", new_restaurant_path, class:"btn btn-primary", remote: true</pre>
+= link_to "Add Restaurant", new_restaurant_path, class:"btn btn-primary", remote: true
+```
 
 Let&#8217;s create `create` action that will get triggered once the &#8220;create restaurant&#8221; button is clicked. Let&#8217;s also create strong parameters as a private method which helps us create the new restaurant object. In `restaurants_controller.rb`, add:
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">def create
+```ruby
+  def create
     @restaurant = Restaurant.new(restaurant_params)
     @restaurant.save
   end
@@ -183,7 +185,8 @@ Let&#8217;s create `create` action that will get triggered once the &#8220;creat
 
   def restaurant_params
     params.require(:restaurant).permit(:name, :category)
-  end</pre>
+  end
+```
 
 Note that in the `create` action, we&#8217;re grabbing the passed in params from the form we submitted and we&#8217;re filling out a new instance of `@restaurant`. We&#8217;re then saving the restaurant object to the database.
 
@@ -195,19 +198,20 @@ This is not quite what we want. Let&#8217;s add some magic using Javascript (Jqu
 
 First I want the form to appear when we click the add restaurant button. By default, I&#8217;m going to apply an HTML class `d-none`(display: none) to hide the form by default. When the page is refreshed, the form is not visible.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">%div#new-restaurant-form.my-3.d-none</pre>
+```haml
+%div#new-restaurant-form.my-3.d-none
+```
 
 When we render `new.js.erb`, I want to show the form. I can do that using Jquery. Inside of `new.js.erb` add:
 
-<pre class="EnlighterJSRAW" data-enlighter-language="js" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">$('#new-restaurant-form').toggleClass('d-none')</pre>
-
+```javascript
+$('#new-restaurant-form').toggleClass('d-none')
+```
 When the `new.js.erb` action is run, we select the `new-restaurant-form` by id using Jquery and toggle the class to remove display: none. Refresh the page and try to press the add restaurant button. You&#8217;ll see that the form show up and disappears each time you press the button.
 
 However, we want to see the restaurant added to the table.
 
 Let&#8217;s dynamically add a row in our `create.js.erb` file. We&#8217;re calling the `@restaurant` instance variable and grabbing it&#8217;s name and category and inserting those values into the table as a row.
-
-<pre class="EnlighterJSRAW" data-enlighter-language="js" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">$('tbody').after('&lt;tr class="child">&lt;td>&lt;%= j(@restaurant.name) %>&lt;/td>&lt;td>&lt;%= j(@restaurant.category) %>&lt;/td>&lt;/tr>')</pre>
 
 ```erb
 $('tbody').after('<tr class="child"><td><%= j(@restaurant.name) %></td><td><%= j(@restaurant.category) %></td></tr>')
