@@ -23,9 +23,8 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   I’m a software developer building applications with Ruby on Rails and other technologies. I also write about things that matter to me.
 
-baseurl: ""
-
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: ""
+url: "https://nikitakazakov.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  nikita-kazakov
 
