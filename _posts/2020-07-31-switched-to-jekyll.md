@@ -2,9 +2,10 @@
 title: "Why I switched from wordpress to Jekyll (Static Site)"
 date: 2020-07-31
 permalink: '/wordpress-to-jekyll/'
+tags: writing
 ---
 
-Gist: My blog is meant for writing. A Jekyll allows me to write with ease and avoid friction I experienced with WordPress.
+Bottom Line --- My blog is meant for writing. A Jekyll allows me to write with ease and avoid friction I experienced with WordPress.
 
 # Why I switched
 
