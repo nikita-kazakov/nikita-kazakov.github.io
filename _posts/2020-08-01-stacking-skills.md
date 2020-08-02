@@ -54,7 +54,7 @@ Engineers are typically introverted and are uncomfortable presenting.
 
 While doing technical work, I used my presentation skills to create above average presentations. I moved to directly communicating with clients. From there, I was promoted to product management. It wasn’t because I was an exceptional product manager. I feel it was because I had an above-average skill stack and could talk to clients and engineers.
 
-https://www.youtube.com/watch?v=fcIMIyQnOso
+{% include embed_youtube.html id="fcIMIyQnOso" %}
 
 # Switching Careers
 

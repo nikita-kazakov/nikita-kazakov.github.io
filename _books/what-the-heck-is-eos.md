@@ -1,14 +1,16 @@
 ---
 title: What the heck is EOS?
 date: 2020-01-16
-excerpt: TLDR; Read it if your organization is using EOS. Otherwise you can skip it.
+image:
+    thumbnail: /assets/images/books/what-the-heck-is-eos/eos_thumb.png
 ---
+Bottom Line --- 7/10 --- Read it if your organization is using EOS or if you're building an organization. Otherwise you can skip it.
 
 The company I’m working with started to use EOS (Entrepreneurial operating system) to manage vision, priorities and making sure everyone is clear about what the company is aiming to achieve.
 
-I don’t recommend you read it unless your company is implementing EOS and you need to know the framework.
+I wouldn't read it if my company wasn't using EOS.
 
-The book is short at under 200 pages and is an easy read. It’s explains the EOS model well.
+To it's credit --- The book is short at under 200 pages and is an easy read. It’s explains the EOS model well.
 
 {% include image_center_caption.html 
     caption = "EOS Model consists of 6 elements."
@@ -18,7 +20,7 @@ The book is short at under 200 pages and is an easy read. It’s explains the EO
 
 EOS Model consists of 6 elements.
 
-## My Takeaways
+# Takeaway
 
 The book talks about the lack of organizational direction. I’ve experienced this before where I’ve built applications as a product manager and then the application was scrapped because not everyone was on board. Getting everyone’s buy-in is critical!
 
@@ -42,7 +44,7 @@ The idea of quarterly conversations is also gold. I’ve worked at places where 
 
 EOS suggests quarterly conversations, that are informal one on one chats with managers about how things are going. They aren’t full performance reviews. But if you have informal chats, then full performance reviews won’t be a surprise.
 
-## Book Notes
+# Selected Book Notes
 
 A team of average people running their company on one operating system will out perform a team of high achievers each doing it their own way, every day of the week.
 
