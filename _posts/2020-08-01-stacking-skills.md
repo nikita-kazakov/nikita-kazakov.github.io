@@ -72,12 +72,12 @@ Taking notes from [Soft Skills](https://www.amazon.com/Soft-Skills-software-deve
 
 Besides, I wasn’t going to compete solely on programming prowess. I had years of industry engineering experience and building software products from scratch and shipping them.
 
-All those things helped me pull through and give me an edge.
+All those things helped me pull through and gave me an edge.
 
 # Abundance Mindset
 
-If you stack your skills, you’ll have a unique skill set that’s hard for others to replicate. Due to skill stacking, I don't fear losing out. I truly hope that you take something away from my experiences.
+If you stack your skills, you’ll have a unique skill set that’s hard for others to replicate. Thanks to skill stacking, I fear less on losing out. Am I fearless? Hell no. I just fear a bit less.
 
 I might not be the most technical guy in the room, but I know that if I continue working on my stacked skills, their sum is usually worth more than an individual skill by itself. I know that a unique skill stack is HARD to replicate and therefore it’s hard to steal.
 
-So stack your skills: add marketing, sales, tech, people skills, or whatever else your skill-set and you won’t have to live in fear of someone else taking your opportunities.
+So stack your skills: add marketing, sales, tech, people skills, or whatever else to your skill-set and you won’t have to live in fear of someone else taking your opportunities.
