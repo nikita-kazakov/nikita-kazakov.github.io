@@ -1,5 +1,5 @@
 ---
-title: "How I stack skills to overcome scarcity mindset."
+title: "How I stack skills to overcome the scarcity mindset."
 date: 2020-08-01
 permalink: '/stacking-skills/'
 tags:
