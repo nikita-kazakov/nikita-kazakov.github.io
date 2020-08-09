@@ -1,21 +1,11 @@
 ---
-id: 6712
 title: Why skip testing if you’re new to software development
 date: 2019-05-18T17:28:53+00:00
 author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=6712
 permalink: /why-skip-testing-if-youre-new-to-software-development/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
 tags:
-  - ruby
+  - software development
 ---
 Doing Test Driven Development (TDD) and learning Ruby simultaneously is a problem for brand new developers.
 

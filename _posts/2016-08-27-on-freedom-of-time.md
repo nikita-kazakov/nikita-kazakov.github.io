@@ -1,24 +1,11 @@
 ---
-id: 38
 title: On Freedom of Time
 date: 2016-08-27T14:45:18+00:00
 author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikhobby.home.blog/2016/08/27/on-freedom-of-time/
 permalink: /on-freedom-of-time/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
 tags:
-  - "2016"
-  - Comfort Zone
-  - Education
-  - Life
-  - Life Lessons
-  - Problem Solving
+    - mindset
 ---
 
 While visiting Mexico in May 2016, I found out that a normal work week consists of 6 working days at 8 hours per day. In the US and Europe, we typically have 5 working days, 8 hours per day. I might be spoiled but sometimes two days are not enough. Imagine only having 1 day off. Imagine not having any days off. It’s nerve-racking unless your full-time work is what you feel strongly about. If it’s not, then **do you have enough time to engage with projects that you feel destined to do?** That’s where freedom of time is an important asset.

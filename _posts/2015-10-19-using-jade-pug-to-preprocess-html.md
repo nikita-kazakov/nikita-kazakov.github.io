@@ -2,20 +2,13 @@
 id: 236
 title: Using Jade (Pug) to preprocess HTML
 date: 2015-10-19T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/using-jade-pug-to-preprocess-html/
 permalink: /using-jade-pug-to-preprocess-html/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
 tags:
-  - "2015"
-  - Web Development
+  - tech
 ---
+
+Bottom Line: Pug makes HTML tags look a lot less messy.
 
 **2020 Update**: I don't use Pug templating anymore. I do use [HAML](https://haml.info) with Ruby and Ruby on Rails and it is very similar.
 {: .notice--info}

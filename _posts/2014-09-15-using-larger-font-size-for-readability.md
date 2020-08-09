@@ -1,28 +1,20 @@
 ---
-id: 226
-title: Using larger font size for readability
+title: Use larger font size for readability
 date: 2014-09-15T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/using-larger-font-size-for-readability/
 permalink: /using-larger-font-size-for-readability/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - "2014"
-  - CSS
-  - Responsive Design
+tags: design
 ---
+
+Bottom Line: Content begs for easy readability. Think about if your text size is too small and therefore hard to read for the average reader.
 
 {% include image_center_caption.html 
     caption = "This font size is for ants."
     image = "/assets/images/2014-09-14/too-small.jpeg"
     alt = "image showing small font size."
 %}
+
+*Updated in 2020: I broke this rule with my current blog. However, modern browsers have a reader button that allow you to resize text as you need it to.*
 
 Responsive web design allows me to resize and redesign a page for specific devices. It means I’ll be setting a smaller font for a smartphone and a larger one for a 24-inch screen.
 

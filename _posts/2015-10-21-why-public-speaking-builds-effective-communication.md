@@ -1,34 +1,24 @@
 ---
-id: 237
 title: Why public speaking builds effective communication
 date: 2015-10-21T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/why-public-speaking-builds-effective-communication/
 permalink: /why-public-speaking-builds-effective-communication/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - "2015"
-  - Leadership
-  - Public Speaking
+tags: branding
 ---
+
+Bottom Line: Speaking skills will greatly amplify your other skills. Here are examples from my life and the lives of others.
 
 I’ve been speaking to groups of people for a couple of years. Whether it is speaking at work, to groups, or just within <a href="https://medium.com/basicdrop/push-comforts-of-speaking-with-toastmasters-7948d9a37220#.5b5385om6" target="_blank" rel="noopener noreferrer">toastmasters</a>, it is a worthwhile endeavor.
 
 I’ve realized that public speaking is only limited to speaking, but instead it secretly builds up other valuable communication skills. _The practice of public speaking builds effective communication_.
 
-> _If you can’t effectively communicate your intentions or your ideas, they are watered down when perceived by others._
+If you can’t effectively communicate your intentions or your ideas, they are watered down when perceived by others.
 
 # Communication is multi-faceted
 
 Communication is multi-faceted. You have planning, executing, voice, body language, and emotions working simultaneously. Reading about them is not enough as they must be practiced.
 
-I’ve noticed improvement through practice is subtle. For example, Toastmasters uses manuals that progress a member over 40 speeches before they complete the communication track. When you get to speech #30, that’s when you realize “Hey, this is looking more natural to me than before”. The effect is subtle like <a href="https://medium.com/basicdrop/life-is-like-handstands-f9c8f2c1d12c#.jvcgcedi3" target="_blank" rel="noopener noreferrer">practicing handstands</a>.
+I’ve noticed improvement through practice is subtle. For example, Toastmasters uses manuals that progress a member over 40 speeches before they complete the communication track. When you get to speech #30, that’s when you realize “Hey, this is looking more natural to me than before”. The effect is subtle like [learning to do a handstand](/what-handstands-taught-me-about-life/).
 
 # Speaking as a means, not destination
 

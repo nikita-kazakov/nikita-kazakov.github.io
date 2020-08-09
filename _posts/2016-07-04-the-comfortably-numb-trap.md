@@ -2,20 +2,10 @@
 id: 35
 title: The comfortably numb trap
 date: 2016-07-04T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/the-comfortably-numb-trap/
 permalink: /the-comfortably-numb-trap/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
 tags:
-  - "2016"
-  - Life Lessons
-  - Productivity
+  - mindset
 ---
 I went to Mexico in May 2016. One of my best friends was getting married, and I went down to attend the ceremony and also to get away and relax for a week. I booked an all inclusive resort that was really a dream to stay at. All inclusive includes breakfast, lunch, dinner, and entertainment. Everything is done for you; you are there to relax.
 
@@ -23,17 +13,17 @@ I went to Mexico in May 2016. One of my best friends was getting married, and I 
 
 By habit, I was still determined to workout in the morning by shadow boxing on the beach at 7 am, and then swim in the ocean. I noticed that at 7 am, a beach is a quiet place devoid of crowds. Few people are there walking or taking a morning run.<figure class="wp-caption"> 
 
-### Slowly getting too comfortable
+# Slowly getting too comfortable
 
 While eating lunch at the buffet on the second day, I thought about how I’m eating more food than I usually do at home. Why? Because it is readily available. I looked around and noticed that many of the people were eating a full 3-course equivalent meal — appetizer, main dish, and dessert.
 
 I noticed feeling sleepy and lethargic after meals. I quickly realized that this was the feeling of full comfort. It was an experience of total opulence. It produced lethargy within me. **You don’t do anything the whole day other than relax, so you don’t really want to begin doing anything else**. The mind justifies eating desserts because _you’re on vacation_. But you wouldn’t eat those types of sweets at home out of principle, then why do it here? **Shh…Don’t question it, just do it and _think_ about it later** is what the mind says**.** Discipline and will are slowly replaced by comfortable numbness.
 
-### Simulation of Wealth
+# Simulation of Wealth
 
 Taking an all inclusive vacation is a great simulator for what it would feel like if you had everything given to you in life **_right now_**. You would have servants doing all sorts of things for you. **The question is: could you handle it?** It’s not easy, and life would quickly become lazy without building personal daily disciplines.
 
-#### Feeling of Fulfillment
+# Feeling of Fulfillment
 
 Starting off your morning with fulfilling habits is powerful. Willpower erodes as the day goes on, so use your will on priorities in the morning hours.
 
@@ -43,7 +33,7 @@ Workout in the morning, prepare food, get clean clothes ready. Take time to sit 
 
 Let’s say you don’t have morning habits that get you going because someone else does them for you. You don’t need to make the bed because a maid does it. You don’t need to prepare food because a to-go menu is available at a drive through. You don’t need to work out or reflect because too much else is going on in life. Consider this: All these luxuries can one day be taken away from you. They are not yours to keep. Once they are taken away, you’ll realize you’ve never built up habits to take care of yourself. It’s going to be a shock because the comfort is gone, and you feel emotionally vulnerable with a loss.
 
-### Rubin “Hurricane” Carter
+# Rubin “Hurricane” Carter
 
 “Hurricane” Carter is a Canadian boxer who was wrongfully arrested on murder charges in 1966. I heard this story from <a href="https://www.amazon.com/50th-Law-50-Cent/dp/006177460X/ref=sr_1_1?ie=UTF8&qid=1471184504&sr=8-1&keywords=50th+law" target="_blank" rel="noopener noreferrer">Robert Greene’s 50th Law</a>. He spent almost 20 years in prison. That’s enough time to chip away at any man and radically transform him. It would be too easy to become comfortably numb. Your outside communication is barred, you have severely limited freedoms, and your new residence is a cell smaller than a bedroom.
 
@@ -51,13 +41,13 @@ What struck me was how Rubin Carter knew and avoided the _comfortably numb trap_
 
 They could not take away his mental freedom, so he devoured books. His aim was to overturn his conviction. After 19 years, he legally overturned it and was emancipated. He came out a man, but not a broken one.
 
-### Opulent yet depressed
+# Opulent yet depressed
 
 I won’t mention specifics, but celebrity lives are interesting to analyze. Fame brings material wealth but puts stress and temptations on personal disciplines. Within a short time span, a person receives much attention and rises to the top. Giving in to the new comforts of life becomes tempting. Certain disciplines drop off that kept them sane, they no longer need. A day comes when a celebrity is no longer _fresh_. They are no longer in the spotlight and the same withers. To cope with the harshness and escape the unbearable, alcoholism and drug use set in to counter the anger and the sadness. Robert Greene and rapper / businessman 50 Cent mention this aspect about the music business in <a href="https://www.amazon.com/50th-Law-50-Cent/dp/006177460X/ref=sr_1_1?ie=UTF8&qid=1471184504&sr=8-1&keywords=50th+law" target="_blank" rel="noopener noreferrer">The 50th Law</a>.
 
 > I’m down to sell records, but not my soul — 50 Cent.
 
-### In the End
+# In the End
 
 I absolutely recommend going to at least one all-inclusive hotel resort to _feel_ how it feels. It is marvelous, yet seductive in asking you to take it easy.
 

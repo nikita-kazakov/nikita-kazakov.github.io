@@ -1,29 +1,15 @@
 ---
-id: 244
-title: My PMP Exam Lessons Learned
+title: PMP Exam Lessons Learned
 date: 2016-02-12T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: "I took the PMP exam in 2015. Not much changed today in the exam world in 2020. Here are all the strategies I used to pass the exam. Here's what I would teach my younger self."
 layout: post
-guid: http://nikitakazakov.com/my-pmp-exam-lessons-learned/
 permalink: /my-pmp-exam-lessons-learned/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
 tags:
-  - "2016"
-  - PMP Certification
+  - management
 ---
 
-_Updated on February 2020._
+Bottom Line: I took the PMP exam in 2015. Not much changed today in the exam world in 2020. Here are all the strategies I used to pass the exam. Here's what I would teach my younger self.
+
+*Post updated on February 2020.*
 
 In early 2015, I set my eyes on the Project Management Professional (PMP) certification. At work, I’ve been a product manager for almost three years and have been involved with product creation from sketching, to building pricing models, to working with developers and testers, and interfacing with customers. I liked taking an idea and turning it into a product.
 
@@ -67,11 +53,11 @@ The real studying will take place with the materials I’ve listed below that yo
 
 I signed up for the $29.99 plan, which featured the use of ITTO Package explorer. My mistake was that I only signed up for [BrainBok](http://www.brainbok.com/) one week before the exam. **This product is really amazing.** If you want to understand the flow of inputs, outputs, tools, and techniques, BrainBok is probably the fastest way you’ll “get it”. It actually tells you why you need a certain input or output in a process. It is worth the cost. Because I had Brainbok, I did not memorize Rita’s process chart. The process chart seemed complicated. Instead, I understood BrainBok’s steps that they used in their process breakdowns.
 
-## How I’d study if I had to retake the exam
+# How I’d study if I had to retake the exam
 
 Read a chapter in Rita, and do the practice exam for that chapter in Rita. Once you read that chapter, do PMP Exam Simulator quizzes (make them 10 or 20 questions each) on that category only and let the knowledge soak in. Once you’re scoring pretty well on those quizzes, move on to the next chapter and repeat until the end of the book.
 
-## Doing the PMP Exam Simulator
+# Doing the PMP Exam Simulator
 
 I took one full 200 question exam on PMP Exam Simulator (60%), and I also took one on pmstudy.com (64%). I didn’t do so hot because I still had gaps in ITTO’s. What saved me was taking PMP Exam Simulator quizzes by category and digesting them in smaller chunks. BrainBok will also help you understand ITTO’s really well. I took another 100 question PMP Exam Simulator quiz about 2 days before the actual exam and was able to score 88%. Nice.
 
@@ -79,7 +65,7 @@ I really recommend taking a full timed exam at least twice. It will teach you ho
 
 When you do the full PMP Exam simulator or the smaller quizzes, make sure you go through every question and **read what the correct answer is and WHY that answer is correct**. I keep repeating myself because this concept of soaking up knowledge from different angles is what’s going to help you pick the right answers on the real exam. Understanding the why is the most important thing. Let that soak into your brain. You need to _think_ like a PMP.
 
-## On the Exam Day
+# On the Exam Day
 
 -   Your routine of knowing when to take breaks during questions should be solid because you did at least 2 fully timed 200 question practice exams.
 -   Go visit the exam facility a couple days before so it becomes familiar to you and you know exactly where to go.
@@ -89,7 +75,7 @@ When you do the full PMP Exam simulator or the smaller quizzes, make sure you go
 -   Take a sweater or jacket with you in the testing room. I took a jacket and felt quite comfortable. It is air-conditioned and it will chill you during the four hours you sit there without moving much.
 -   I finished the exam the exam with only 1 minute remaining. Yes, make sure you look at that clock as you go through the exam and pace yourself.
 
-## Impressions of the real exam vs. the PMP Exam Simulator
+# Impressions of the real exam vs. the PMP Exam Simulator
 
 I found the test questions on the real exam easier than the ones on the PMP Exam Simulator. Questions were more straightforward on the real exam. As I was going through the questions, I felt comfortable and was looking forward to the next question. I did not feel like that when taking either the PMP Exam Simulator exam or PMStudy exam. Remember, the PMP Exam Simulator is more focused on details. You’ll feel comfortable with the PMP exam if you do enough of the PMP Exam Simulator quizzes. I went through about 700 of the PMP Exam simulator questions in total. There are 1800 available.
 

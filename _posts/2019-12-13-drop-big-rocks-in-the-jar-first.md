@@ -1,19 +1,9 @@
 ---
-id: 6899
 title: Drop big rocks in the Jar first
 date: 2019-12-13T04:14:00+00:00
-author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=6899
 permalink: /drop-big-rocks-in-the-jar-first/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
+tags: mindset
 ---
 
 This analogy is about putting important things first. Sounds like the same old crap you hear from self-help books. However, I admire a good analogy that sticks in my head and this is one of those. This analogy comes from [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey).

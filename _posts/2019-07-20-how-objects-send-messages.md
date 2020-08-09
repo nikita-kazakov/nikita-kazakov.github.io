@@ -1,19 +1,10 @@
 ---
-id: 6978
 title: How objects send messages in Ruby
 date: 2019-07-20T13:22:00+00:00
-author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=6978
 permalink: /how-objects-send-messages/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
+tags:
+    - ruby
 ---
 If open IRB (interactive ruby) and type in the following expression `2 + 3`, you&#8217;ll get `5`. If you reverse that with `3 + 2`, you&#8217;ll still get `5`.
 

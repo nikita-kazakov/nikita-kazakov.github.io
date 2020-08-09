@@ -1,22 +1,13 @@
 ---
-id: 234
 title: What handstands taught me about life
 date: 2015-09-06T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: "Gist --- Progression to handstands isn't linear. Seldom is life."
 layout: post
-guid: http://nikitakazakov.com/what-handstands-taught-me-about-life/
 permalink: /what-handstands-taught-me-about-life/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
 tags:
-  - "2015"
-  - Handstands
-  - Perseverance
+  - life lessons
 ---
+
+Bottom Line: Handstand progress is not linear. Neither are learning other skills in life. I don't want it to be that way but that is the way it is.
 
 {% include image_center_caption.html 
     caption = "Sideways photo of Nikita doing a handstand."
@@ -42,7 +33,7 @@ Four days passed and I kept mounting and dismounting just as fast.
 
 I couldn’t keep balance with my wrists, and my legs would overshoot. I couldn’t stay up for more than 2 seconds.
 
-### Invisible progression
+# Invisible progression
 
 While **progress seemed bleak**, I now realize what why progress was non-existent. I was wrong in my thinking. The progress was there, but it was hidden because it wasn’t ready to be shown to me.
 

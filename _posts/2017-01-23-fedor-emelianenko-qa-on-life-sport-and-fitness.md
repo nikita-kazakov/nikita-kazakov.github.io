@@ -1,23 +1,9 @@
 ---
-id: 283
-title: 'Fedor Emelianenko Q&#038;A on Life, Sport, and Fitness'
+title: 'Fedor Emelianenko on Life, Sport, and Fitness'
 date: 2017-01-23T19:16:02+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/fedor-emelianenko-qa-on-life-sport-and-fitness/
 permalink: /fedor-emelianenko-qa-on-life-sport-and-fitness/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-image: /wp-content/uploads/2018/08/fa0f5-150r6jbefiik3xawargvmva.jpeg
-categories:
-  - Uncategorized
-tags:
-  - "2017"
-  - Fedor Emelianenko
-  - Martial Arts
-  - MMA
+tags: profiles
 ---
 
 **Fedor “The Last Emperor” Emelianenko** is a Russian MMA fighter. There’s no doubt he’s a great fighter, but that’s just one piece that makes up his total package.

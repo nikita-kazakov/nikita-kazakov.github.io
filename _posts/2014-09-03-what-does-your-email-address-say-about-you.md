@@ -2,19 +2,12 @@
 id: 222
 title: What does your email address say about you?
 date: 2014-09-03T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/what-does-your-email-address-say-about-you/
 permalink: /what-does-your-email-address-say-about-you/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - "2014"
+tags: branding
 ---
+
+Bottom Line: Using toughdude23xx1@aol.com or user@phonecompany.com is a bad idea. Skip the stereotypes.
 
 Are email addresses stereotyped? You bet they are. Whether you’re using email for personal or business communications, the person on the other end can’t help but try to decipher your personality just by looking at the email address.
 

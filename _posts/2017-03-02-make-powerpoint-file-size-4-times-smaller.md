@@ -1,23 +1,12 @@
 ---
-id: 291
 title: Make PowerPoint file size 4 times smaller
 date: 2017-03-02T00:38:37+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/make-powerpoint-file-size-4-times-smaller/
 permalink: /make-powerpoint-file-size-4-times-smaller/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - "2017"
-  - PowerPoint
-  - Presentations
-  - Web Development
+tags: tech
 ---
+
+Bottom Line: Your powerpoint file doesn't need to be 100 megabytes. You can quickly batch compress images within it to a reasonable size.
 <figure> 
 
 ![](http://nikitakazakov.com/wp-content/uploads/2018/08/ac551-1qcgv2znbifthrx9ukcga4w.png)  

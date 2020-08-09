@@ -1,19 +1,11 @@
 ---
-id: 36
 title: Why you’re afraid and the Amygdala
 date: 2016-07-25T02:34:08+00:00
 author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikhobby.home.blog/2016/07/25/why-youre-afraid-and-the-amygdala/
 permalink: /why-youre-afraid-and-the-amygdala/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
 tags:
-  - "2016"
+  - health
 ---
 
 I stumbled upon a really great video that went into describing how the Navy Seals train their troops to handle high stress situations. They have a unique approach which is focused on exposing the soldiers to fearful situations, and having them react in a sensible matter. I highly recommend watching the video below, but if you’re short on time, I’ll summarize some of the things I got out of it:

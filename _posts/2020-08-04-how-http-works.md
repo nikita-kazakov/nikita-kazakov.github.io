@@ -3,6 +3,8 @@ title: How HTTP Works
 date: 2020-08-04
 layout: post
 permalink: /how-http-works/
+tags: 
+    - web development
 ---
 The internet is made up of millions of interconnected computers that send and receive messages. That's it. 
 

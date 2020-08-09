@@ -1,23 +1,13 @@
 ---
-id: 7019
 title: Cleaning data and writing 14,000 rows to the database
 date: 2020-03-05T23:51:27+00:00
 author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=7019
 permalink: /cleaning-data-and-writing-14000-rows-to-the-database/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
 tags:
   - ruby
 ---
-{% include toc %}
+
 I needed car data for a Ruby on Rails project. I found a GitHub repository where someone generously shared 14,000 rows [of car model, makes, and year](https://github.com/n8barr/automotive-model-year-data).
 
 The challenge was to import it into a Rails database running Postgresql.

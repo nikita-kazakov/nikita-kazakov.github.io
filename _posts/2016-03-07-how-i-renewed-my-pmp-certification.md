@@ -1,28 +1,13 @@
 ---
-id: 245
 title: How I renewed my PMP certification
 date: 2016-03-07T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: |
-  So you took your PMP exam, and you passed. Excellent job. You now have a valid PMP certificate for 3 years. In order to keep it, you’ll need to renew your certification. You don’t need to retake the exam, but you will need to earn 60 professional development units
 layout: post
-guid: http://nikhobby.home.blog/2016/03/07/how-i-renewed-my-pmp-certification/
 permalink: /how-i-renewed-my-pmp-certification/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
 tags:
-  - "2016"
-  - PMP Certification
+  - management
 ---
+
+Bottom Line: You don't need to spend money on courses to renew your PMP certification. Here's exactly how to do it on the cheap.
 
 So you took your PMP exam, and you passed. Excellent job. You now have a valid PMP certificate for 3 years. In order to keep it, you’ll need to renew your certification. You don’t need to retake the exam, but you will need to earn 60 professional development units (PDUs) before you’re eligible to renew. You have to earn them within the 3 years of your active certification. You need to renew your PMP certificate or it will expire.
 
@@ -45,21 +30,21 @@ You need a total of 60 PDUs. 1 PDU = 1 hour. This means if you listen to a 30 mi
 
 Let’s make sense of this PMP triangle. There are two categories:
 
-## Education Category
+# Education Category
 
 You need at least 35 PDUs in the education category. There is no maximum. You can get all 60 PDU hours here if you wanted to. You need at least 8 PDUs in technical, 8 PDUs in leadership, and 8 PDUs in strategic and business management. Once you filled these categories up (8 x 3 = 24), then feel free to add the remaining PDU hours in any of those 3 categories until you reach the required minimum of 35 PDUs or all the way to 60 if you want to.
 
-## Giving Back Category
+# Giving Back Category
 
 This is where you’re actually giving something back to society in terms of project management. The maximum overall PDUs you can get for this is 25. Right away, you can mark down 8 PDUs as working as a professional (maximum is 8).
 
 The other two categories are volunteering and creating knowledge. I did not do the volunteering, but I did do the creating knowledge category. This post that you’re reading is in the category of creating knowledge. It is a great way to share ideas with others, and you’re getting PDUs for it as well.
 
-## Cost of Renewal
+# Cost of Renewal
 
 You’ll have to pay PMI $60 to renew your certificate. To get 60 PDUs, you can get away with minimal costs (under $10). Sure, there are classes available, but if you just spent months studying project management and taking the exam, and practicing these principles at work, I’m not sure whether taking a refresher class will be worth your while.
 
-## Getting PDUs
+# Getting PDUs
 
 Let’s take a look at where we can get our PDUs.
 
@@ -77,19 +62,19 @@ YouTube has great seminars on project management. If you go to YouTube, type in 
 
 This is a premium service which costs something like $30 per month. Use it if you find value in it. <a href="http://www.lynda.com/SharedPlaylist/0c4b5f81ec954670bdb4ad259335e01b" target="_blank" rel="noopener noreferrer">Lynda.com has great PMP PDU renewal courses</a>. It also helps that Lynda.com makes quality video material. If you’re a visual learner, this is the way to go.
 
-## The easiest way to get your 60 PDUs
+# The easiest way to get your 60 PDUs
 
 As you see, there are several ways you can earn PDUs through giving back or through education. It is really a flexible system. If you’re asking me about the easiest way to get all 60 PDUs, I’d say the answer is with the PM Podcast. If you wanted to, you could just listen to 60 hours worth of podcasts and log 60 PDUs. While I got the majority of my PDUs from the podcast, I also created articles on project management and used youtube seminars.
 
-## Don’t get confused with categories
+# Don’t get confused with categories
 
 If you hear phrases about category A, B, or C PDUs, realize that they don’t apply. I had confusion with this too initially, until I realized that it does not matter which category your PDUs come from. Stick with the basics.
 
-## Where do I submit PDUs?
+# Where do I submit PDUs?
 
 Log into your PMI PMP account. Find the renewal information there, and then go to <a href="https://ccrs.pmi.org/" target="_blank" rel="noopener noreferrer">https://ccrs.pmi.org/</a>. You can login and track all your hours there.
 
-## Keeping a log
+# Keeping a log
 
 Plan your education PDUs, or else you’ll fall behind. You need to keep a log of what PDU hours you’ve done and write down an idea or two that you got from these PDU hours. When you submit your PDU hours, PMI checks and can potentially audit your submissions. You shouldn’t worry about this because you’ll actually keep a log of what you’ve seen, or listened to with each PDU hour you earn. That log will be your evidence in case an audit should happen.
 

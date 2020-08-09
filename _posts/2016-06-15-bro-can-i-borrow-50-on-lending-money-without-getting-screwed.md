@@ -1,23 +1,14 @@
 ---
-id: 251
-title: Bro, can I borrow $50? — On lending money without getting screwed.
+title: On lending money and minimizing the chances of getting screwed.
 date: 2016-06-15T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikhobby.home.blog/2016/06/15/bro-can-i-borrow-50-on-lending-money-without-getting-screwed/
 permalink: /bro-can-i-borrow-50-on-lending-money-without-getting-screwed/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - "2016"
-  - Borrowing Money
-  - Lending Money
-  - Life Lessons
+tags: 
+    - life lessons
 ---
+
+Bottom Line: Here's what I learned about lending money and how to minimize the chances of getting screwed.
+
 > “Can I borrow $50 from you?” He asks.
 
 > “Hmm. When can you pay it back?” you look at him with unease.

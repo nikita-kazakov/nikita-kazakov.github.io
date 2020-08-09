@@ -1,22 +1,12 @@
 ---
-id: 7052
 title: Using HAML in Rails Helpers
 date: 2020-05-04T23:49:33+00:00
-author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=7052
 permalink: /using-haml-in-rails-helpers/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
 tags:
   - ruby
 ---
+
 Using HAML in Rails views is great because its more succinct than ERB.
 
 Using HAML in Rails helpers was a source of confusion on my end. Here&#8217;s what I learned about using HAML in helpers.

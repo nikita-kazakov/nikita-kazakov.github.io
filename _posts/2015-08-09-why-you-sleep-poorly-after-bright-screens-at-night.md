@@ -1,23 +1,13 @@
 ---
-id: 232
 title: Why you sleep poorly after bright screens at night.
 date: 2015-08-09T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-excerpt: "TLDR; Get yourself f.lux / night mode on your PC / tablet / smartphone."
-guid: http://nikhobby.home.blog/2015/08/09/why-you-sleep-poorly-after-bright-screens-at-night/
 permalink: /why-you-sleep-poorly-after-bright-screens-at-night/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
 tags:
-  - "2015"
-  - Health
-  - Sleep
+  - health
 ---
+
+Bottom Line: Get f.lux / night mode on your PC / tablet / smartphone."
 
 Do you ever find yourself glued to a computer monitor / iPad / TV at night? It’s like the mind is persuading you not to go to bed.
 
@@ -27,7 +17,7 @@ Your body is smart and and works on circadian rhythms, your daily cycle. When ni
 
 # In front of a screen
 
-I use <a href="https://justgetflux.com" target="_blank" rel="noopener noreferrer">f.lux</a>. f.lux automatically changes the light temperature of my screen in order to remove the harsh daylight blue, and replace it with a more soothing red. It stays on automatically and detects sunrise / sundown. I use it, and had an easier time going to bed when working late.
+I use [f.lux](https://justgetflux.com). f.lux automatically changes the light temperature of my screen in order to remove the harsh daylight blue, and replace it with a more soothing red. It stays on automatically and detects sunrise / sundown. I use it, and had an easier time going to bed when working late.
 
 # In bed
 

@@ -1,25 +1,13 @@
 ---
-id: 274
 title: A simple guide to getting high credit scores
 date: 2016-11-23T02:42:41+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/a-simple-guide-to-getting-high-credit-scores/
 permalink: /a-simple-guide-to-getting-high-credit-scores/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
 tags:
-  - "2016"
-  - Credit Cards
-  - Credit History
-  - Credit Score
-  - Finance
+  - life lessons
 ---
 
+Bottom Line: Life is easier when you have a solid credit history. Start building it sooner rather than later. Here's how to do it.
 
 ![](http://nikitakazakov.com/wp-content/uploads/2018/08/0ce58-1wtozuya4nj5u1qgcccoe-a.jpeg)  
 

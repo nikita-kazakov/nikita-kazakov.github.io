@@ -1,22 +1,10 @@
 ---
-id: 269
 title: On Traveling Anxiety
 date: 2016-10-10T13:18:40+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikhobby.home.blog/2016/10/10/on-traveling-anxiety/
 permalink: /on-traveling-anxiety/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - "2016"
-  - Anxiety
-  - Solo Travel
-  - Travel
+tags: 
+    - life lessons
 ---
 
 It’s easier to sit in one spot rather than get up and do something different. That one spot is **familiar and it is safe**. A soldier friend of mine told me that during his time in the military, his unit would move locations as often as every 48 hours. His unit lived and breathed with the ability to change their location often.

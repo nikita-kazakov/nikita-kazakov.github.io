@@ -1,96 +1,22 @@
 ---
-id: 286
 title: How taking action got me unstuck from a parking garage
 date: 2017-02-06T21:12:05+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/on-initiative-howd-i-get-stuck-in-a-parking-garage/
 permalink: /on-initiative-howd-i-get-stuck-in-a-parking-garage/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-ocean_gallery_link_images:
-  - 'off'
-  - 'off'
-ocean_sidebar:
-  - "0"
-  - "0"
-ocean_second_sidebar:
-  - "0"
-  - "0"
-ocean_disable_margins:
-  - 'on'
-  - 'on'
-ocean_display_top_bar:
-  - default
-  - default
-ocean_display_header:
-  - default
-  - default
-ocean_center_header_left_menu:
-  - "0"
-  - "0"
-ocean_custom_header_template:
-  - "0"
-  - "0"
-ocean_header_custom_menu:
-  - "0"
-  - "0"
-ocean_menu_typo_font_family:
-  - "0"
-  - "0"
-ocean_disable_title:
-  - default
-  - default
-ocean_disable_heading:
-  - default
-  - default
-ocean_disable_breadcrumbs:
-  - default
-  - default
-ocean_display_footer_widgets:
-  - default
-  - default
-ocean_display_footer_bottom:
-  - default
-  - default
-ocean_custom_footer_template:
-  - "0"
-  - "0"
-ocean_link_format_target:
-  - self
-  - self
-ocean_quote_format_link:
-  - post
-  - post
-ocean_post_layout:
-  - full-screen
-  - full-screen
-image: /wp-content/uploads/2018/08/b0128-1amfrad1ithv7kbt6gikxkg.jpeg
-categories:
-  - Uncategorized
-tags:
-  - "2017"
-  - Initiative
-  - Taking Action
-  - Taking Control
+tags: mindset
 ---
+
 I’m on my way to meet a friend for dinner. It’s a 15 minute drive but I hit traffic — in a parking garage.
 
 The line is 15 cars long and it’s getting longer. **I assume that _someone is working on fixing the problem._**
 
 Ten minutes pass and I see brake lights from several cars ahead of me. **No one is getting out of their car**. I shut the car off and approach the lady at the gate who has been sitting there for a while. She’s blocking all the traffic from exiting.
 
-> “What’s the problem?” I ask.
-
-> “The machine is asking for $2 and it’s not taking my cash”.
-
-> “Use a credit card”
-
-> “It’s in the back seat and it was hard to reach for it” she says.
-
-> “Use my card, and I’ll take your $2 cash”.
+>   “What’s the problem?” I ask.
+    “The machine is asking for $2 and it’s not taking my cash”.
+    “Use a credit card”
+    “It’s in the back seat and it was hard to reach for it” she says.
+    “Use my card, and I’ll take your $2 cash”.
 
 She declines. She reaches in the back to grab her own card.
 
@@ -102,7 +28,7 @@ I get back in my car and the line is still not moving. Once again I approach the
 
 I grab the red phone on the side of a wall and it connects me to an operator. I tell him to open the gate. The gate opens and traffic finally escapes the garage.
 
-### Wrong — No one is getting out of the car
+# Wrong — No one is getting out of the car
 
 If I didn’t get out of the car, I’m pretty sure we’d be waiting forever. Today I learned that taking initiative is not natural.
 

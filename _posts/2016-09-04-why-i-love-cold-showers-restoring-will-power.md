@@ -1,23 +1,15 @@
 ---
-id: 262
 title: Why I love Cold Showers (Restoring Will Power)
 date: 2016-09-04T14:31:19+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikhobby.home.blog/2016/09/04/why-i-love-cold-showers-restoring-will-power/
 permalink: /why-i-love-cold-showers-restoring-will-power/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - "2016"
-  - Cold Showers
-  - Health
-  - Will Power
+tags: health
 ---
+
+Bottom Line: Cold showers will jolt you out of a funky mood. I take them from time to time.
+
+*Update as of 2020 --- I don't religiously take cold showers everyday. Some days I take cool showers, others I don't at all. However, when my mood is down, I'll take a cold shower to get me out of the funk.*
+
 I take cold showers daily because it works on getting me out of the comfort zone. I found them to also restore will power. You can’t help but feel optimistic and happy after taking a cold shower. The body releases endorphins and whatever problem you had an hour ago is suddenly put into perspective and it matters less.
 
 {% include embed_youtube.html id="8Jtn3b5P44E" %}

@@ -1,75 +1,10 @@
 ---
-id: 3217
-title: Why MuckFEST 2018 obstacle course felt amazing
+title: The heroes journey in a MuckFEST 2018 obstacle course
 date: 2018-09-16T10:51:09+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/?p=3196
 permalink: /why-muckfest-2018-obstacle-course-felt-amazing/
-ocean_gallery_link_images:
-  - 'off'
-  - 'off'
-ocean_sidebar:
-  - "0"
-  - "0"
-ocean_second_sidebar:
-  - "0"
-  - "0"
-ocean_disable_margins:
-  - enable
-  - enable
-ocean_display_top_bar:
-  - default
-  - default
-ocean_display_header:
-  - default
-  - default
-ocean_center_header_left_menu:
-  - "0"
-  - "0"
-ocean_custom_header_template:
-  - "0"
-  - "0"
-ocean_header_custom_menu:
-  - "0"
-  - "0"
-ocean_menu_typo_font_family:
-  - "0"
-  - "0"
-ocean_disable_title:
-  - default
-  - default
-ocean_disable_heading:
-  - default
-  - default
-ocean_disable_breadcrumbs:
-  - default
-  - default
-ocean_display_footer_widgets:
-  - default
-  - default
-ocean_display_footer_bottom:
-  - default
-  - default
-ocean_custom_footer_template:
-  - "0"
-  - "0"
-ocean_link_format_target:
-  - self
-  - self
-ocean_quote_format_link:
-  - post
-  - post
-ocean_post_layout:
-  - full-screen
-  - full-screen
-image: /wp-content/uploads/2018/09/2018-09-16_10-05-45.jpg
-categories:
-  - Uncategorized
-tags:
-  - "2018"
-  - Comfort Zone
+tags: 
+    - experiences
 ---
 I went to MuckFest MS 2018 5K obstacle course in Denver.  It was my third time running it. A friend, my girlfriend, and I went together and were part of a bigger team of at least 20 people that started the run at 9 am.
 

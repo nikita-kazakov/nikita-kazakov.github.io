@@ -1,22 +1,17 @@
 ---
-id: 6677
 title: ASDF VM Version Manager for Ruby Tutorial
 date: 2019-03-17T15:29:46+00:00
-author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=6677
 permalink: /asdf-vm-version-manager-for-ruby-tutorial/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
 tags:
   - ruby
 ---
+
+Bottom Line: You'll need a Ruby version manager if you plan on working with Ruby and Rails.
+
+**2020 Update**: I don't use ASDF anymore. I use [RVM](https://rvm.io/) for Ruby / Rails.
+{: .notice--info}
+
 Using a version manager is critical if you plan on running different projects from GitHub. A project might not be compatible with the version of Ruby you have installed.
 
 We need a way to switch between versions of Ruby without installing and uninstalling them every time. 

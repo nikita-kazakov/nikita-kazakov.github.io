@@ -1,22 +1,12 @@
 ---
-id: 7089
 title: Using Ajax in Rails Forms
 date: 2020-05-17T22:21:21+00:00
-author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=7089
 permalink: /using-ajax-in-rails-forms/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
 tags:
-  - ruby
+  - ruby on rails
 ---
+
 Sometimes you want to update a form and not refresh the page. This is where AJAX (Asynchronous Javascript) comes handy.
 
 Instead of the controller responding with an html page, we&#8217;ll have the controller respond with Javascript and update the page.

@@ -1,82 +1,13 @@
 ---
-id: 292
 title: What knuckles taught me about life’s peaks and valleys
 date: 2017-03-09T16:27:09+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/what-knuckles-taught-me-about-lifes-peaks-and-valleys/
 permalink: /what-knuckles-taught-me-about-lifes-peaks-and-valleys/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-ocean_gallery_link_images:
-  - 'off'
-  - 'off'
-ocean_post_layout:
-  - full-screen
-  - full-screen
-ocean_sidebar:
-  - "0"
-  - "0"
-ocean_second_sidebar:
-  - "0"
-  - "0"
-ocean_disable_margins:
-  - enable
-  - enable
-ocean_display_top_bar:
-  - default
-  - default
-ocean_display_header:
-  - default
-  - default
-ocean_center_header_left_menu:
-  - "0"
-  - "0"
-ocean_custom_header_template:
-  - "0"
-  - "0"
-ocean_header_custom_menu:
-  - "0"
-  - "0"
-ocean_menu_typo_font_family:
-  - "0"
-  - "0"
-ocean_disable_title:
-  - default
-  - default
-ocean_disable_heading:
-  - default
-  - default
-ocean_disable_breadcrumbs:
-  - default
-  - default
-ocean_display_footer_widgets:
-  - default
-  - default
-ocean_display_footer_bottom:
-  - default
-  - default
-ocean_custom_footer_template:
-  - "0"
-  - "0"
-ocean_link_format_target:
-  - self
-  - self
-ocean_quote_format_link:
-  - post
-  - post
-image: /wp-content/uploads/2018/08/c0c81-18znl6vcwsegquxdswt7yqg.png
-categories:
-  - Uncategorized
-tags:
-  - "2017"
-  - Happy
-  - Life
-  - Life Lessons
-  - Sad
+tags: mindset
 ---
+
+Bottom Line: I look at my knuckles often to remind myself that this hard moment --- It too, shall pass.
+
 Make a fist right now and look at the front of it.<figure class="wp-caption">
 
 ![](http://nikitakazakov.com/wp-content/uploads/2018/08/c0c81-18znl6vcwsegquxdswt7yqg.png) <figcaption class="wp-caption-text">A knuckle of peaks are&nbsp;valleys</figcaption></figure> 

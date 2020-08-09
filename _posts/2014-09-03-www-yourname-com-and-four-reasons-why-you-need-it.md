@@ -1,20 +1,12 @@
 ---
-id: 223
-title: www.YourName.com and four reasons why you need it.
+title: Why get a custom domain (www.yourname.com) to control your brand.
 date: 2014-09-03T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: TLDR; You control your branding and you'll end up on the first page of search engines.
 layout: post
-guid: http://nikitakazakov.com/www-yourname-com-and-four-reasons-why-you-need-it/
 permalink: /www-yourname-com-and-four-reasons-why-you-need-it/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - "2014"
+tags: branding
 ---
+
+Bottom Line: With a custom domain, you have a better chance of ending up on the first page of search engines instead of your facebook page.
 
 I’m talking about getting your own personal domain name. Why? The reasons are: control, professionalism, email, and branding. You can’t lose, other than the yearly $12 registration fee.
 

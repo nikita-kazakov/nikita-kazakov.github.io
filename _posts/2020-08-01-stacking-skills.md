@@ -2,8 +2,7 @@
 title: "How I stack skills to overcome the scarcity mindset."
 date: 2020-08-01
 permalink: '/stacking-skills/'
-tags:
-    - Life Lessons
+tags: mindset
 ---
 
 Bottom Line --- Worried about being replaced? If you stack your above average skills, they’ll be worth more than the value of a single highly valued skill. Here are examples where stacked skills helped me overcome fierce competition.

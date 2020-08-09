@@ -1,20 +1,12 @@
 ---
-id: 225
 title: Parkinson’s Law — Questioning Procrastination
 date: 2014-09-12T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/parkinsons-law-questioning-procrastination/
 permalink: /parkinsons-law-questioning-procrastination/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - Productivity
+tags: mindset
 ---
+
+Bottom Line: If you give yourself 3 weeks to do a project, you'll start it on the last day and finish it in a few hours. That's Parkinson's Law.
 
 {% include image_center_caption.html 
     caption = "Salvador Dali — The Persistence of Memory"

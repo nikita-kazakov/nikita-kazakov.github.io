@@ -1,21 +1,11 @@
 ---
-id: 6740
 title: 'Review: Pragmatic Studio Rails I Course'
 date: 2019-06-22T16:58:18+00:00
 author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=6740
 permalink: /review-pragmatic-studio-rails-i-course/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
 tags:
-  - ruby
+  - software development
 ---
 I finished <a rel="noreferrer noopener" target="_blank" href="https://pragmaticstudio.com/rails">Pragmatic Studio’s Rails I course</a> and it gave me the skills to build a CRUD Rails app from scratch. &nbsp;That speaks volumes about how great this course truly is
 

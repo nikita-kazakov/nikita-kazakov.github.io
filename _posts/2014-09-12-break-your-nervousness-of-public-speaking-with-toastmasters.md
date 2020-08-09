@@ -1,20 +1,12 @@
 ---
-id: 224
 title: Improve your public speaking skills with Toastmasters
 date: 2014-09-12T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/break-your-nervousness-of-public-speaking-with-toastmasters/
 permalink: /break-your-nervousness-of-public-speaking-with-toastmasters/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - "2014"
+tags: skills
 ---
+
+Bottom Line: Speaking and presenting is an underrated skill. Toastmasters is a cheap and effective way to work on it. It will greatly enhance your other skills. 
 
 Is this some sort of a wine tasting organization? Not quite --- Toastmasters does strive to improve your impromptu toasting skills at a wedding should you need it. It is more than that though.
 

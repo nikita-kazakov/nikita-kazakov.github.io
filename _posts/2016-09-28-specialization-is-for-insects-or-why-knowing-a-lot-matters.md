@@ -1,21 +1,11 @@
 ---
-id: 267
 title: Specialization is for insects — or why knowing a lot matters.
 date: 2016-09-28T19:58:10+00:00
 author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikhobby.home.blog/2016/09/28/specialization-is-for-insects-or-why-knowing-a-lot-matters/
 permalink: /specialization-is-for-insects-or-why-knowing-a-lot-matters/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
 tags:
-  - "2016"
-  - Entrepreneurship
-  - Life Lessons
+  - mindset
 ---
 
 > A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects.

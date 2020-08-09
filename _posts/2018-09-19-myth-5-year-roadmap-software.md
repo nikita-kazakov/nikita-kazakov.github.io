@@ -1,77 +1,13 @@
 ---
-id: 3218
 title: Myth of the 5 year roadmap in software
 date: 2018-09-19T13:00:29+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/?p=3205
 permalink: /myth-5-year-roadmap-software/
-ocean_gallery_link_images:
-  - 'off'
-  - 'off'
-ocean_sidebar:
-  - "0"
-  - "0"
-ocean_second_sidebar:
-  - "0"
-  - "0"
-ocean_disable_margins:
-  - enable
-  - enable
-ocean_display_top_bar:
-  - default
-  - default
-ocean_display_header:
-  - default
-  - default
-ocean_center_header_left_menu:
-  - "0"
-  - "0"
-ocean_custom_header_template:
-  - "0"
-  - "0"
-ocean_header_custom_menu:
-  - "0"
-  - "0"
-ocean_menu_typo_font_family:
-  - "0"
-  - "0"
-ocean_disable_title:
-  - default
-  - default
-ocean_disable_heading:
-  - default
-  - default
-ocean_disable_breadcrumbs:
-  - default
-  - default
-ocean_display_footer_widgets:
-  - default
-  - default
-ocean_display_footer_bottom:
-  - default
-  - default
-ocean_custom_footer_template:
-  - "0"
-  - "0"
-ocean_link_format_target:
-  - self
-  - self
-ocean_quote_format_link:
-  - post
-  - post
-ocean_post_layout:
-  - full-screen
-  - full-screen
-image: /wp-content/uploads/2018/09/2018-09-19_12-40-32.jpg
-categories:
-  - Uncategorized
-tags:
-  - "2018"
-  - Product Management
-  - Software Development
+tags: management
 ---
+
+Bottom Line: 5 year roadmaps are as successful as fast weight loss programs.
+
 I’ve been a software product manager for more than 6 years and wrote 5-year roadmaps for my products several times.  And once again, I’ll be wrong.
 
 The technology surrounding software changes at a ridiculous rate.

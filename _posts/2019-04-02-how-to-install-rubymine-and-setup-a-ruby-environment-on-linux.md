@@ -1,22 +1,13 @@
 ---
-id: 6684
 title: How to install RubyMine and setup a Ruby environment on Linux
 date: 2019-04-02T17:40:56+00:00
 author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=6684
 permalink: /how-to-install-rubymine-and-setup-a-ruby-environment-on-linux/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
 tags:
   - ruby
 ---
+
 You’re going to need a text editor to write Ruby. &nbsp;Although there are many options I prefer using a dedicated Ruby IDE such as RubyMine because it comes with debugging and autocomplete. 
 
 Both are <a rel="noreferrer noopener" target="_blank" href="https://paper.dropbox.com/doc/Why-I-recommend-RubyMine-if-youre-starting-out-with-Ruby--AeaqIhkj7auxRuS5_zmPfJSCAQ-G5HoKC4PAkDYhH5shopdp">critical when learning a programming language</a>.

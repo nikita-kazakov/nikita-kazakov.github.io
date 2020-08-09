@@ -1,81 +1,14 @@
 ---
-id: 3157
-title: 'You don&#8217;t need to boil the ocean to make a hot cup of tea'
+title: "You don't need to boil the ocean to make a hot cup of tea"
 date: 2018-08-28T10:08:35+00:00
 author: Nikita Kazakov
-excerpt: |
-  
-  This is the mindset I recall when the possibilities of what could be done in the world overwhelm me.
 layout: post
 guid: http://nikitakazakov.com/?p=3157
 permalink: /dont-need-boil-ocean-make-hot-cup-tea/
-ocean_gallery_link_images:
-  - 'off'
-  - 'off'
-ocean_post_layout:
-  - full-screen
-  - full-screen
-ocean_sidebar:
-  - "0"
-  - "0"
-ocean_second_sidebar:
-  - "0"
-  - "0"
-ocean_disable_margins:
-  - 'on'
-  - 'on'
-ocean_display_top_bar:
-  - default
-  - default
-ocean_display_header:
-  - default
-  - default
-ocean_center_header_left_menu:
-  - "0"
-  - "0"
-ocean_custom_header_template:
-  - "0"
-  - "0"
-ocean_header_custom_menu:
-  - "0"
-  - "0"
-ocean_menu_typo_font_family:
-  - "0"
-  - "0"
-ocean_disable_title:
-  - default
-  - default
-ocean_disable_heading:
-  - default
-  - default
-ocean_disable_breadcrumbs:
-  - default
-  - default
-ocean_display_footer_widgets:
-  - default
-  - default
-ocean_display_footer_bottom:
-  - default
-  - default
-ocean_custom_footer_template:
-  - "0"
-  - "0"
-ocean_link_format_target:
-  - self
-  - self
-ocean_quote_format_link:
-  - post
-  - post
-image: /wp-content/uploads/2018/08/2018-08-28_10-05-32.jpg
-categories:
-  - Uncategorized
-tags:
-  - "2018"
-  - Failure
-  - Life Lessons
-  - mindset
+tags: mindset
 ---
-You don’t need to boil the ocean to make a hot cup of tea.
+
+Bottom Line: You don't need to be as ambitious as Bill Gates to have a worthwhile life.
 
 This is the mindset I recall when the possibilities of what could be done in the world overwhelm me.
 

@@ -1,19 +1,10 @@
 ---
-id: 7117
 title: Interact with JQuery from the browser console
 date: 2020-04-02T22:28:00+00:00
-author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=7117
 permalink: /interact-with-jquery-from-the-browser-console/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
+tags:
+    - web development
 ---
 I recently stumbled on this technique where you can load JQuery for ANY page and write JQuery commands right in the browser console. This is great for debugging and exploration.
 

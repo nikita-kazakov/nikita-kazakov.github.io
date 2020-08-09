@@ -1,18 +1,9 @@
 ---
-id: 233
 title: Each hour of sleep before midnight is worth two
 date: 2015-09-06T00:00:00+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikhobby.home.blog/2015/09/06/each-hour-of-sleep-before-midnight-is-worth-two/
 permalink: /each-hour-of-sleep-before-midnight-is-worth-two/
-categories:
-  - Uncategorized
-tags:
-  - "2015"
-  - Health
-  - Sleep
+tags: health
 ---
 Over time, I’ve noticed that if I go to sleep closer to 10:30 pm, and sleep until 6:00 am (7.5 hours total), I wake up feeling refreshed in the morning. If I go to bed closer to 12 am, and sleep until 7:30 am, I have a harder time waking up and have a greater propensity to continue sleeping. The total time spent sleeping stays the same at 7.5 hours, but the time intervals change. Let’s take a closer look.
 
@@ -32,10 +23,4 @@ At 21:00 (9 pm), a sleep inducing hormone called melatonin is secreted by the bo
 
 By going to bed at 10 pm, you’re following your Circadian Rhythms and no resistance arises. By delaying your departure to bed due to distractions such as looking at <a href="http://www.basicdrop.com/posts/posts/sleeping-poorly" target="_blank" rel="noopener noreferrer">bright screens at night or by being around bright lights</a>, you are resisting your natural circadian rhythms. It not only throws off your sleep time, but will throw off how you wake up. Your internal clock will have to play make up time. This is likely the reason why not only the total amount of sleeping time matters, but also the sleeping interval.
 
-It’s hard to change nature. The best we can do is follow alongside and not resist. Ben Franklin had a point in saying:
-
-> _Early to bed, early to rise, makes a man healthy, wealthy, and wise. — Benjamin Franklin_
-
-* * *
-
-_Originally published at_ <a href="http://www.basicdrop.com/posts/each-hour-of-sleep" target="_blank" rel="noopener noreferrer"><em>www.basicdrop.com</em></a> _on September 6, 2015._
+It’s hard to change nature. It's easier to go along with it.

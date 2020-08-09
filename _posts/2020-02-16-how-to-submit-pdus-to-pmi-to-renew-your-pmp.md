@@ -1,31 +1,19 @@
 ---
-id: 6862
 title: How to submit PDUs to PMI to renew your PMP
 date: 2020-02-16
-author: Nikita Kazakov
 excerpt: "Here's exactly how I submitted my PDUs to PMI to renew my PMP (Project Management Professional) certificate in 2020."
 layout: post
-guid: https://nikitakazakov.com/?p=6862
 permalink: /how-to-submit-pdus-to-pmi-to-renew-your-pmp/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
-tags:
-  - "2020"
-  - PMP Certification
+tags: management
 ---
+
 About a year before my Project Management Professional (PMP) certification is set to expire, I start to work towards the requirements to renew it.
 
 As of 2020, you need to earn and claim 60 PDUs to renew your PMP.
 
 I wrote a post about [making sense of PDUs and different ways you can earn them](https://nikitakazakov.com/how-i-renewed-my-pmp-certification/). One of my favorite ways is to listen to [Project Management Podcasts](https://www.project-management-podcast.com/podcast-episodes/) while I&#8217;m driving to work. They are FREE.
 
-## How to submit your PDUs to PMI
+# How to submit your PDUs to PMI
 
 Sign up at [ccrs.pmi.org](https://ccrs.pmi.org)<figure class="wp-block-image size-large">
 

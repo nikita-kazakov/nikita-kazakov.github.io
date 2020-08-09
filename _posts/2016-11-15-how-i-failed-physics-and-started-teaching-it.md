@@ -1,23 +1,12 @@
 ---
-id: 273
 title: How I failed physics and started teaching it
 date: 2016-11-15T20:13:58+00:00
-author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/how-i-failed-physics-and-started-teaching-it/
 permalink: /how-i-failed-physics-and-started-teaching-it/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - "2016"
-  - Failure
-  - Overcoming Obstacles
-  - Redemption
+tags: mindset
 ---
+
+Bottom Line: I failed physics. Here's how I made my come back and ended up teaching physics to others.
 
 {% include image_center_caption.html 
     caption = "This was me back in senior year of 2004"
@@ -37,7 +26,7 @@ My AP physics teacher was a lovely British lady who knew how to teach well. Time
 
 I felt defeated. I felt like I let her down and all this work was for naught.
 
-### Facing physics again at Colorado School of Mines
+# Facing physics again at Colorado School of Mines
 
 I averaged about 18 credit hours each semester. My first year of 2004–2005 was challenging. I had to take mechanical physics again as I didn’t get AP credit in high school. I thought OK, this is my second chance. There’s no way I’ll mess it up again.
 
@@ -61,7 +50,7 @@ By the end of the summer, I felt so passionate about understanding physics that 
 
 Here’s a kid who got a D in physics for the second time in May of 2005. Four months later, I started working as a teaching assistant and tutoring kids in physics. Who said you can’t do something awesome in four months?
 
-### Best coaches are usually not best athletes
+# Best coaches are usually not best athletes
 
 You’ve heard that best sports coaches are not those who were best athletes. Best athletes are so good at what they do that they usually have a hard time coaching.
 
@@ -79,7 +68,7 @@ That’s how I felt with tutoring physics to other students. By having previousl
 
 Being able to help others understand physics is what made me so passionate about it. Being a physics TA in college was one of my favorite jobs I’ve had. It was fulfilling. I made a few bucks over minimum wage but I felt fulfilled.
 
-### Break everything to its simplicity
+# Break everything to its simplicity
 
 > Everything that is useful is simple. That which is complicated is not useful -Mikhail Kalashnikov
 

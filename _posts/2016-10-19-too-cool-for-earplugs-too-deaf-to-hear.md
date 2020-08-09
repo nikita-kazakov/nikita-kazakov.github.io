@@ -1,23 +1,14 @@
 ---
-id: 270
 title: Too cool for earplugs, too deaf to hear.
 date: 2016-10-19T23:40:42+00:00
 author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/too-cool-for-earplugs-too-deaf-to-hear/
 permalink: /too-cool-for-earplugs-too-deaf-to-hear/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - "2016"
-  - Earplugs
-  - Hearing
-  - Hearing Loss
+tags: health
 ---
+
+Bottom Line: Our generation will have a record number of those who will be hard of hearing. It’ll be our own fault. Use ear plugs!
+
 Our generation will have record numbers of those who will be hard of hearing. It’ll be our own fault. When you’re past 60 years old and retired, it’ll be tiresome to keep saying:
 
 > Huh? What? Repeat that again…

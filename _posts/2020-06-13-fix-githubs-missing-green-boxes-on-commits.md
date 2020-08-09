@@ -1,21 +1,10 @@
 ---
-id: 7123
-title: 'Fix Github&#8217;s missing green boxes on commits'
+title: Fix GitHub missing green boxes on commits
 date: 2020-06-13T03:30:39+00:00
-author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=7123
 permalink: /fix-githubs-missing-green-boxes-on-commits/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
 tags:
-  - Software Development
+  - software development
 ---
 
 When I setup a new development environment, I’ll commit my code to GitHub but the green boxes won’t show my contribution for that day.

@@ -1,22 +1,11 @@
 ---
-id: 6660
 title: How to Run Ruby on Windows 10 with VirtualBox
 date: 2019-03-02T03:03:12+00:00
-author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=6660
 permalink: /how-to-run-ruby-on-windows-10-with-virtualbox/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
-tags:
-  - ruby
+tags: ruby
 ---
+
 It’s hard enough to learn a new programming language by itself and it’s miserable when you run into avoidable system errors.
 
 I learned the hard way. Folks on <a rel="noreferrer noopener" target="_blank" href="https://www.reddit.com/r/ruby/comments/a4ogkc/why_ruby_on_windows_is_hell/">Reddit faced similar issues</a>.

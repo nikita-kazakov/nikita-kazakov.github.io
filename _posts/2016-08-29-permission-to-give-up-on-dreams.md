@@ -1,22 +1,11 @@
 ---
-id: 260
 title: Permission to give up on dreams
 date: 2016-08-29T23:07:27+00:00
 author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikhobby.home.blog/2016/08/29/permission-to-give-up-on-dreams/
 permalink: /permission-to-give-up-on-dreams/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
 tags:
-  - "2016"
-  - Dreams List
-  - Life Lessons
-  - Regret
+  - mindset
 ---
 
 It’s okay to give up on a dream. Nikita, what are you talking about man? I thought you had to persevere, fight, and never give up. That’s true if _you feel strongly about that dream_. Are you fooling yourself?

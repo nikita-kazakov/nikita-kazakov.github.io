@@ -1,19 +1,8 @@
 ---
-id: 7064
-title: 'Ruby nil, &#038;&#038; operand, and no method error'
+title: 'Ruby nil, && operand, and no method error'
 date: 2020-05-05T18:02:27+00:00
-author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=7064
 permalink: /ruby-nil-operand-and-no-method-error/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
 tags:
   - ruby
 ---
@@ -24,7 +13,6 @@ The code looked something like this:
 ```haml
 = link_to "Admin Menu", root_path if current_user.admin? && signed_in?
 ```
-
 
 That would work when I was signed in but as soon as I signed out, I'd get a no method error.
 

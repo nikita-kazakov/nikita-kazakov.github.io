@@ -1,22 +1,13 @@
 ---
-id: 7120
 title: Troubleshooting undefined method error when updating database rows
 date: 2020-02-20T23:11:00+00:00
 author: Nikita Kazakov
 layout: post
-guid: https://nikitakazakov.com/?p=7120
 permalink: /troubleshooting-undefined-method-error-when-updating-database-rows/
-site-sidebar-layout:
-  - default
-site-content-layout:
-  - default
-theme-transparent-header-meta:
-  - default
-categories:
-  - Uncategorized
 tags:
   - ruby
 ---
+
 Sometimes I need to make changes to a Ruby on Rails table in production.
 
 Before doing ANYTHING in production, I create a script and run the script in my local development environment.

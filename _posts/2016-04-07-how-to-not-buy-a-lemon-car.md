@@ -1,80 +1,15 @@
 ---
-id: 246
-title: How to not buy a lemon car
+title: What is a reliable car and how to find one.
 date: 2016-04-07T00:00:00+00:00
-author: Nikita Kazakov
 excerpt: "Gist: I bought 3 cars for people in 2 years. It might be pretty but it's going to cost you an arm and a leg in repairs. Research and get a dependable vehicle."
 layout: post
-guid: http://nikitakazakov.com/how-to-not-buy-a-lemon-car/
 permalink: /how-to-not-buy-a-lemon-car/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-ocean_gallery_link_images:
-  - 'off'
-  - 'off'
-ocean_sidebar:
-  - "0"
-  - "0"
-ocean_second_sidebar:
-  - "0"
-  - "0"
-ocean_disable_margins:
-  - enable
-  - enable
-ocean_display_top_bar:
-  - default
-  - default
-ocean_display_header:
-  - default
-  - default
-ocean_center_header_left_menu:
-  - "0"
-  - "0"
-ocean_custom_header_template:
-  - "0"
-  - "0"
-ocean_header_custom_menu:
-  - "0"
-  - "0"
-ocean_menu_typo_font_family:
-  - "0"
-  - "0"
-ocean_disable_title:
-  - default
-  - default
-ocean_disable_heading:
-  - default
-  - default
-ocean_disable_breadcrumbs:
-  - default
-  - default
-ocean_display_footer_widgets:
-  - default
-  - default
-ocean_display_footer_bottom:
-  - default
-  - default
-ocean_custom_footer_template:
-  - "0"
-  - "0"
-ocean_link_format_target:
-  - self
-  - self
-ocean_quote_format_link:
-  - post
-  - post
-ocean_post_layout:
-  - full-screen
-  - full-screen
-image: /wp-content/uploads/2018/08/d2d23-1emousnqti4mjdhpaikraug.jpeg
-categories:
-  - Uncategorized
 tags:
-  - "2016"
-  - Car Sales
-  - Cars
+    - life lessons
 ---
+
+Bottom Line: I bought 3 cars for different folks in 2 years. Here's how I went about researching what a good car is.
+
 I’m going to share what I learned in buying 3 cars for different people within 2 years.
 
 So you’re looking to buy a car but are not sure which one to go for. Picking a car solely by style, coolness factor, or by color is good in short-term but short-sighted in the long term. **You want the total package where reliability comes first and everything else second.**
@@ -138,7 +73,3 @@ Go on craigslist and search for a used vehicle that you’re looking for to see 
 I no longer believe in the saying that it is foolish to buy a new car because it quickly depreciates once you take it off the lot. Lexus, Toyota’s, Honda’s, Subaru’s do not suffer from this depreciation effect. You might save $4k on the used car with 30k miles on it rather than buying that car new. I’d rather have a new car that I can break in myself, rather than buy an almost new car that was previously broken in by a driver whose driving habits I do not know.
 
 That’s it. You’re now armed with information to buy a vehicle that will last you many years.
-
-* * *
-
-_Originally published at_ <a href="http://basicdrop.com" target="_blank" rel="noopener noreferrer"><em>www.basicdrop.com</em></a> _on April 7, 2016._

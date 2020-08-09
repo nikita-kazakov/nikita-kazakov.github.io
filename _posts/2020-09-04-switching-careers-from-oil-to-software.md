@@ -3,6 +3,7 @@ title: Why I switched careers from Petroleum Engineering to Software Development
 date: 2020-08-09
 layout: post
 permalink: /switching-careers-from-oil-to-software/
+tags: experiences
 ---
 
 Bottom Line --- My heart wasn't in it. The cyclical downturns got old. I jumped to software. No regrets about starting with petroleum engineering.
