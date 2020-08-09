@@ -1,19 +1,9 @@
 ---
-id: 229
 title: Why I don’t make promises
 date: 2014-10-14T00:00:00+00:00
 author: Nikita Kazakov
-excerpt: |
 layout: post
-guid: http://nikitakazakov.com/why-i-dont-make-promises/
 permalink: /why-i-dont-make-promises/
-restapi_import_id:
-  - 5b79ddaa06ba5
-  - 5b79ddaa06ba5
-categories:
-  - Uncategorized
-tags:
-  - "2014"
 ---
 
 Someone tells me “I promise I’ll…” When that promise is broken, I’ll feel let down. Trust points are shaved off. I would rather have that person not use the word promise and then I could attribute it to human error. I make mistakes too, so I’ll sympathize with a fellow human.
