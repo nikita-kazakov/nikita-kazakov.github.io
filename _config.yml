@@ -112,6 +112,9 @@ search_full_content: true
 tag_archive_path: "/tags/#"
 #category_archive_path: "/categories/#"  Commented out because I'm not using categories yet.
 
+disqus:
+  shortname: nikitakazakov-com
+
 
 
 # Build to Github
