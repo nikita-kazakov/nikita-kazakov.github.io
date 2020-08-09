@@ -115,7 +115,8 @@ tag_archive_path: "/tags/#"
 disqus:
   shortname: nikitakazakov-com
 
-
+# Enter your custom google analytics tracking id.
+google_analytics: UA-141896799-1
 
 # Build to Github
 
