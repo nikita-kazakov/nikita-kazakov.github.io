@@ -5,7 +5,7 @@ permalink: '/wordpress-to-jekyll/'
 tags: branding
 ---
 
-Bottom Line --- My blog is meant for writing. A Jekyll allows me to write with ease and avoid friction I experienced with WordPress.
+Bottom Line --- My blog is meant for writing. A Jekyll static site allows me to write with ease and avoid friction I experienced with WordPress.
 
 # Why I switched
 
