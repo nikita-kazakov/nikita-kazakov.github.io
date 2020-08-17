@@ -6,6 +6,8 @@ permalink: /specify-ruby-version-in-gemfile/
 tags: ruby
 ---
 
+Bottom Line --- Specify a ruby version and RVM will automatically switch them for you when you open a different project.
+
 # Problem
 
 I had several Ruby and Ruby on Rails projects I was working on that used different versions of Ruby. Each time I'd open a project, I had to set the correct version of Ruby using [RVM](https://rvm.io/). It was a pain.

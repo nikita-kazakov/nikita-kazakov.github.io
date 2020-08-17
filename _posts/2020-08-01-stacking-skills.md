@@ -67,7 +67,7 @@ What were other junior developers not doing and how could the sum of my stacked 
 
 I saw that most did not have demo projects on GitHub. Those that did, did not have documentation. They didn’t have a live demo. They didn’t have a blog with technical articles. They didn’t have a presence except for a resume and a LinkedIn profile.
 
-Taking notes from [Soft Skills](https://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397) by John Sonmez, I knew what I had to do to get an edge.
+Taking notes from [Soft Skills](https://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397){:target="_blank"} by John Sonmez, I knew what I had to do to get an edge.
 
 Besides, I wasn’t going to compete solely on programming prowess. I had years of industry engineering experience and building software products from scratch and shipping them.
 
