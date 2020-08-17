@@ -7,7 +7,7 @@ tags:
     - life lessons
 ---
 
-Bottom Line: Here's what I learned about lending money and how to minimize the chances of getting screwed.
+Bottom Line --- Here's what I learned about lending money and how to minimize the chances of getting screwed.
 
 > “Can I borrow $50 from you?” He asks.
 

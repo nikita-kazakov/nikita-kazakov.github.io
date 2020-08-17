@@ -6,7 +6,7 @@ permalink: /www-yourname-com-and-four-reasons-why-you-need-it/
 tags: branding
 ---
 
-Bottom Line: With a custom domain, you have a better chance of ending up on the first page of search engines instead of your facebook page.
+Bottom Line --- With a custom domain, you have a better chance of ending up on the first page of search engines instead of your facebook page.
 
 I’m talking about getting your own personal domain name. Why? The reasons are: control, professionalism, email, and branding. You can’t lose, other than the yearly $12 registration fee.
 

@@ -7,7 +7,7 @@ tags:
   - management
 ---
 
-Bottom Line: I took the PMP exam in 2015. Not much changed today in the exam world in 2020. Here are all the strategies I used to pass the exam. Here's what I would teach my younger self.
+Bottom Line --- I took the PMP exam in 2015. Not much changed today in the exam world in 2020. Here are all the strategies I used to pass the exam. Here's what I would teach my younger self.
 
 *Post updated on February 2020.*
 

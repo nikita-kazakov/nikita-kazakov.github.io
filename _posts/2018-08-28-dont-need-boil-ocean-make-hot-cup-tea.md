@@ -8,7 +8,7 @@ permalink: /dont-need-boil-ocean-make-hot-cup-tea/
 tags: mindset
 ---
 
-Bottom Line: You don't need to be as ambitious as Bill Gates to have a worthwhile life.
+Bottom Line --- You don't need to be as ambitious as Bill Gates to have a worthwhile life.
 
 This is the mindset I recall when the possibilities of what could be done in the world overwhelm me.
 

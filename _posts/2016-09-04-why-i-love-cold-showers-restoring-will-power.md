@@ -6,7 +6,7 @@ permalink: /why-i-love-cold-showers-restoring-will-power/
 tags: health
 ---
 
-Bottom Line: Cold showers will jolt you out of a funky mood. I take them from time to time.
+Bottom Line --- Cold showers will jolt you out of a funky mood. I take them from time to time.
 
 *Update as of 2020 --- I don't religiously take cold showers everyday. Some days I take cool showers, others I don't at all. However, when my mood is down, I'll take a cold shower to get me out of the funk.*
 

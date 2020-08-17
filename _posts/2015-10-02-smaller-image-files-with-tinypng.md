@@ -7,7 +7,7 @@ permalink: /smaller-image-files-with-tinypng/
 tags: tech
 ---
 
-Bottom Line: "Don't be that person who uploads a 10mb thumbnail image. Compress it!"
+Bottom Line --- "Don't be that person who uploads a 10mb thumbnail image. Compress it!"
 
 I recently stumbled upon <a href="http://tinypng.com" target="_blank" rel="noopener noreferrer">TinyPNG</a> that has the ability to compress your images really well. The compression is lossy, but for the majority of the images I’ve processed, I couldn’t tell the difference. It works by “selectively decreasing the number of colors in the image” and supports png transparency. It also supports jpeg files.
 

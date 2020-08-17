@@ -6,7 +6,7 @@ permalink: /how-i-failed-physics-and-started-teaching-it/
 tags: mindset
 ---
 
-Bottom Line: I failed physics. Here's how I made my come back and ended up teaching physics to others.
+Bottom Line --- I initially failed physics. Here's how I made my come back and ended up teaching physics to others.
 
 {% include image_center_caption.html 
     caption = "This was me back in senior year of 2004"

@@ -7,7 +7,7 @@ permalink: /too-cool-for-earplugs-too-deaf-to-hear/
 tags: health
 ---
 
-Bottom Line: Our generation will have a record number of those who will be hard of hearing. It’ll be our own fault. Use ear plugs!
+Bottom Line --- Our generation will have a record number of those who will be hard of hearing. It’ll be our own fault. Use ear plugs!
 
 Our generation will have record numbers of those who will be hard of hearing. It’ll be our own fault. When you’re past 60 years old and retired, it’ll be tiresome to keep saying:
 

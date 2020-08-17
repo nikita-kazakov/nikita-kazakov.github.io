@@ -6,7 +6,7 @@ permalink: /make-powerpoint-file-size-4-times-smaller/
 tags: tech
 ---
 
-Bottom Line: Your powerpoint file doesn't need to be 100 megabytes. You can quickly batch compress images within it to a reasonable size.
+Bottom Line --- Your powerpoint file doesn't need to be 100 megabytes. You can quickly batch compress images within it to a reasonable size.
 <figure> 
 
 ![](http://nikitakazakov.com/wp-content/uploads/2018/08/ac551-1qcgv2znbifthrx9ukcga4w.png)  

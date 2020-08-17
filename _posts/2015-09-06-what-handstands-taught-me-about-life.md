@@ -7,7 +7,7 @@ tags:
   - life lessons
 ---
 
-Bottom Line: Handstand progress is not linear. Neither are learning other skills in life. I don't want it to be that way but that is the way it is.
+Bottom Line --- Handstand progress is not linear. Neither are learning other skills in life. I don't want it to be that way but that is the way it is.
 
 {% include image_center_caption.html 
     caption = "Sideways photo of Nikita doing a handstand."

@@ -7,7 +7,7 @@ tags:
   - management
 ---
 
-Bottom Line: You don't need to spend money on courses to renew your PMP certification. Here's exactly how to do it on the cheap.
+Bottom Line --- You don't need to spend money on courses to renew your PMP certification. Here's exactly how to do it on the cheap.
 
 So you took your PMP exam, and you passed. Excellent job. You now have a valid PMP certificate for 3 years. In order to keep it, you’ll need to renew your certification. You don’t need to retake the exam, but you will need to earn 60 professional development units (PDUs) before you’re eligible to renew. You have to earn them within the 3 years of your active certification. You need to renew your PMP certificate or it will expire.
 

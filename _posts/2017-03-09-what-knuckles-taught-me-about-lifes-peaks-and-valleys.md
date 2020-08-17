@@ -6,7 +6,7 @@ permalink: /what-knuckles-taught-me-about-lifes-peaks-and-valleys/
 tags: mindset
 ---
 
-Bottom Line: I look at my knuckles often to remind myself that this hard moment --- It too, shall pass.
+Bottom Line --- I look at my knuckles often to remind myself that this hard moment --- It too, shall pass.
 
 Make a fist right now and look at the front of it.<figure class="wp-caption">
 

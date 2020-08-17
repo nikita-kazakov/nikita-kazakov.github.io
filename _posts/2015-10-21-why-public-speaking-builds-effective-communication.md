@@ -6,7 +6,7 @@ permalink: /why-public-speaking-builds-effective-communication/
 tags: branding
 ---
 
-Bottom Line: Speaking skills will greatly amplify your other skills. Here are examples from my life and the lives of others.
+Bottom Line --- Speaking skills will greatly amplify your other skills. Here are examples from my life and the lives of others.
 
 I’ve been speaking to groups of people for a couple of years. Whether it is speaking at work, to groups, or just within <a href="https://medium.com/basicdrop/push-comforts-of-speaking-with-toastmasters-7948d9a37220#.5b5385om6" target="_blank" rel="noopener noreferrer">toastmasters</a>, it is a worthwhile endeavor.
 

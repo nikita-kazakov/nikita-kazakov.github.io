@@ -6,7 +6,7 @@ permalink: /use-video-background/
 tags: tips
 ---
 
-Bottom Line: With a video background, I could move around and other people can be behind me without being seen on video.
+Bottom Line --- With a video background, I could move around and other people can be behind me without being seen on video.
 
 I work remotely and we use video calls to communicate.
 

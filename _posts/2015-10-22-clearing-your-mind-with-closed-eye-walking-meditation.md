@@ -6,7 +6,7 @@ permalink: /clearing-your-mind-with-closed-eye-walking-meditation/
 tags: health
 ---
 
-Bottom Line: Close your eyes and pace a known room. My mind stops thinking and relaxes.
+Bottom Line --- Close your eyes and pace a known room. My mind stops thinking and relaxes.
 
 I use this powerful technique to clear my mind when it is running too hot. The mind runs hot when you have unexpected things popup, and when you’re so wound up, that you’re having a hard time focusing on doing a single thing. Paradoxically, this is the hardest time for us to take a breath, and force ourselves to rest our head.
 

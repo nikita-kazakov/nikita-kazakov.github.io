@@ -8,7 +8,7 @@ tags:
   - tech
 ---
 
-Bottom Line: Pug makes HTML tags look a lot less messy.
+Bottom Line --- Pug makes HTML tags look a lot less messy.
 
 **2020 Update**: I don't use Pug templating anymore. I do use [HAML](https://haml.info) with Ruby and Ruby on Rails and it is very similar.
 {: .notice--info}

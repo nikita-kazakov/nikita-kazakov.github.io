@@ -7,7 +7,7 @@ tags:
   - ruby
 ---
 
-Bottom Line: You'll need a Ruby version manager if you plan on working with Ruby and Rails.
+Bottom Line --- You'll need a Ruby version manager if you plan on working with Ruby and Rails.
 
 **2020 Update**: I don't use ASDF anymore. I use [RVM](https://rvm.io/) for Ruby / Rails.
 {: .notice--info}

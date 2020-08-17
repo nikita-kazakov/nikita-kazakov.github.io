@@ -8,7 +8,7 @@ tags:
     - life lessons
 ---
 
-Bottom Line: I bought 3 cars for different folks in 2 years. Here's how I went about researching what a good car is.
+Bottom Line --- I bought 3 cars for different folks in 2 years. Here's how I went about researching what a good car is.
 
 I’m going to share what I learned in buying 3 cars for different people within 2 years.
 

@@ -6,7 +6,7 @@ permalink: /parkinsons-law-questioning-procrastination/
 tags: mindset
 ---
 
-Bottom Line: If you give yourself 3 weeks to do a project, you'll start it on the last day and finish it in a few hours. That's Parkinson's Law.
+Bottom Line --- If you give yourself 3 weeks to do a project, you'll start it on the last day and finish it in a few hours. That's Parkinson's Law.
 
 {% include image_center_caption.html 
     caption = "Salvador Dali — The Persistence of Memory"

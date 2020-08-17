@@ -6,7 +6,7 @@ permalink: /getting-started-with-wet-shaving/
 tags: health
 ---
 
-Bottom Line: Tired of using triple blade blades? You don't have to. Here's how you can shave just like your grandfather did.
+Bottom Line --- Tired of using triple blade blades? You don't have to. Here's how you can shave just like your grandfather did.
 
 Men shave for a clean facial look and it makes us look younger. Another side effect of shaving is that it gives a certain stereotype. You typically associate clean or trimmed faces with business people or people that are socially active. It shows that they take the time to care for themselves even if it is just in shaving.<figure class="wp-caption"> 
 

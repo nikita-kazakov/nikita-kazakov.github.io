@@ -7,7 +7,7 @@ tags:
  - life lessons
 ---
 
-Bottom Line: There is no perfect time to call someone. When you think about calling that person, just call them and stop over thinking it.
+Bottom Line --- There is no perfect time to call someone. When you think about calling that person, just call them and stop over thinking it.
 
 *Post Updated in 2020*
 

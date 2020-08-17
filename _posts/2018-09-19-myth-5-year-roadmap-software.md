@@ -6,7 +6,7 @@ permalink: /myth-5-year-roadmap-software/
 tags: management
 ---
 
-Bottom Line: 5 year roadmaps are as successful as fast weight loss programs.
+Bottom Line --- 5 year roadmaps are as successful as fast weight loss programs.
 
 I’ve been a software product manager for more than 6 years and wrote 5-year roadmaps for my products several times.  And once again, I’ll be wrong.
 

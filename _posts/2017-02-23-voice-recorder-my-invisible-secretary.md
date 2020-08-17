@@ -6,7 +6,7 @@ permalink: /voice-recorder-my-invisible-secretary/
 tags: skills
 ---
 
-Bottom Line: Ideas come to my head randomly. If I don't jot them down, I forget them. I use a voice recorder app to collect them and transcribe them later. That's how I generate creative ideas and reduce the stress of having to remember a lot.
+Bottom Line --- Ideas come to my head randomly. If I don't jot them down, I forget them. I use a voice recorder app to collect them and transcribe them later. That's how I generate creative ideas and reduce the stress of having to remember a lot.
 
 *Post updated in 2020: I’ve used a voice recorder since 2010 and it’s still an essential tool I use today for remembering ideas.*
 

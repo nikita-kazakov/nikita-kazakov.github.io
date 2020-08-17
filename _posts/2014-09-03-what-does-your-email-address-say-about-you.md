@@ -7,7 +7,7 @@ permalink: /what-does-your-email-address-say-about-you/
 tags: branding
 ---
 
-Bottom Line: Using toughdude23xx1@aol.com or user@phonecompany.com is a bad idea. Skip the stereotypes.
+Bottom Line --- Using toughdude23xx1@aol.com or user@phonecompany.com is a bad idea. Skip the stereotypes.
 
 Are email addresses stereotyped? You bet they are. Whether you’re using email for personal or business communications, the person on the other end can’t help but try to decipher your personality just by looking at the email address.
 

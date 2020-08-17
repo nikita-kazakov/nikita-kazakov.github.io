@@ -7,7 +7,7 @@ tags:
   - life lessons
 ---
 
-Bottom Line: Life is easier when you have a solid credit history. Start building it sooner rather than later. Here's how to do it.
+Bottom Line --- Life is easier when you have a solid credit history. Start building it sooner rather than later. Here's how to do it.
 
 ![](http://nikitakazakov.com/wp-content/uploads/2018/08/0ce58-1wtozuya4nj5u1qgcccoe-a.jpeg)  
 

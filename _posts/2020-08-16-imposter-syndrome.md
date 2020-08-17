@@ -6,7 +6,7 @@ permalink: /overcome-imposter-syndrome/
 tags: skills
 ---
 
-Bottom Line: Imposter syndrome will kill your self-confidence in your craft. The solution is to teach your craft. Teach through writing or video work. You don't have to be an expert to begin.
+Bottom Line --- Imposter syndrome will kill your self-confidence in your craft. The solution is to teach your craft. Teach through writing or video work. You don't have to be an expert to begin.
 
 The imposter syndrome happens when you feel like a fraud with your career, your title, or your skills.
 

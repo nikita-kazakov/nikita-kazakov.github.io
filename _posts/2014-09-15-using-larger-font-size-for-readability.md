@@ -6,7 +6,7 @@ permalink: /using-larger-font-size-for-readability/
 tags: design
 ---
 
-Bottom Line: Content begs for easy readability. Think about if your text size is too small and therefore hard to read for the average reader.
+Bottom Line --- Content begs for easy readability. Think about if your text size is too small and therefore hard to read for the average reader.
 
 {% include image_center_caption.html 
     caption = "This font size is for ants."
