@@ -1,6 +1,6 @@
 ---
 title: Parable --- BS is not enough.
-date: 2020-09-18
+date: 2020-09-05
 layout: post
 permalink: /ocorporate-parable-bs/
 tags:
