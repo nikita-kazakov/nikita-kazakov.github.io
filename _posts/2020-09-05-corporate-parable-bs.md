@@ -2,7 +2,7 @@
 title: Parable --- BS is not enough.
 date: 2020-09-05
 layout: post
-permalink: /ocorporate-parable-bs/
+permalink: /corporate-parable-bs/
 tags:
     - life lessons
 ---
