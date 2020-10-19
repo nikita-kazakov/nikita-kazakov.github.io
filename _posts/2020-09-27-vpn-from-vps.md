@@ -6,7 +6,7 @@ permalink: /vpn-from-vps/
 tags: tech
 ---
 
-Bottom Line — using a VPN is great for online privacy. Hosting it on a VPS ensures your IP won't be blacklisted.asy to setup with a script. It's easy to setup with an automated script.
+Bottom Line — using a VPN is great for online privacy. Hosting it on a VPS ensures your IP won't be blacklisted. It's easy to setup with an automated script.
 
 I previously wrote about how VPNs can protect you from from packet sniffing on public WIFIs and from ISPs knowing which sites you visit (some sell this information).
 
