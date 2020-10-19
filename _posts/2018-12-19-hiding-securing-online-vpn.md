@@ -1,19 +1,28 @@
 ---
-title: How a VPN keeps you secure at starbucks hotspots
+title: How to hide your online traffic with a VPN.
 date: 2018-12-19T15:50:46+00:00
 layout: post
 permalink: /hiding-securing-online-vpn/
 tags: tech
 ---
+
+*Post Updated on October 2020.*
+
+I made a post on how to setup your own [WireGuard VPN on a VPS](/vpn-from-vps/)
+
+Privacy continues to erode as technology exponentially progresses. Did you know that your Internet Service Provider (ISP) logs every single website you go to?
+
+I don't like that.
+
 What juicy details are you revealing as you browse the web?
 
-From your IP address, your [approximate location](https://www.iplocation.net/) is visible. If you&#8217;re transmitting any data such as form fields, usernames, or passwords over a website that&#8217;s not secured by HTTPS, [it can be sniffed](https://www.youtube.com/watch?v=YzP3ZL4vlkY).
+From your IP address, your [approximate location](https://www.iplocation.net/) is visible. If you&#8217;re transmitting any data such as form fields, usernames, or passwords over a website that&#8217;s not secured by HTTPS, [it can be sniffed](https://www.youtube.com/watch?v=YzP3ZL4vlkY) on an insecure connection.
 
-In fact, packets can be captured and reveal what you&#8217;re browsing.
+On a public WIFI, packets can be captured and reveal what you&#8217;re browsing.
 
 <img src="http://nikitakazakov.com/wp-content/uploads/2018/12/2018-12-22_15-50-52-1024x395.jpg" sizes="(max-width: 1024px) 100vw, 1024px" srcset="http://nikitakazakov.com/wp-content/uploads/2018/12/2018-12-22_15-50-52-1024x395.jpg 1024w, http://nikitakazakov.com/wp-content/uploads/2018/12/2018-12-22_15-50-52-300x116.jpg 300w, http://nikitakazakov.com/wp-content/uploads/2018/12/2018-12-22_15-50-52-768x296.jpg 768w, http://nikitakazakov.com/wp-content/uploads/2018/12/2018-12-22_15-50-52.jpg 1058w" alt="" width="1024" height="395" /> 
 
-The easiest place to prey on you and your data is on public WiFi hotspots.  Airports and coffee shops are big targets because many people use these hotspots.
+Using Public WIFI can be analogous to having unprotected sex.
 
 It&#8217;s true that much of the internet uses HTTPS encryption. You&#8217;re safe browsing HTTPS secured sites, even on compromised public hotspots. The problem is getting caught off guard and sending data over an non-secure connection.
 
