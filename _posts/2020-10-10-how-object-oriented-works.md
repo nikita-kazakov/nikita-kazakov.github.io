@@ -7,38 +7,38 @@ tags:
     - Ruby
 ---
 
-It took me a while to understand how objects in Object Oriented languages work. Once it clicked, I needed to share what made it click.
+It took me a while to comprehend how objects worked in Ruby. If I had to explain it to my younger self again, here's how I would do it.
 
-Let's break down what an object is in object oriented programming. An object could be anything but let's ground ourselves with something simple.
+An object in object-oriented programming could be anything but let's ground ourselves with something simple.
 
 Let's use Jim --- a person --- as the object.
 
 Like any other human, Jim stores information in his brain.
 
-I'm going to grossly over-simplify the brain into two parts. We're not learning biology here. This simplified model will help you understand how objects store data and communicate with other objects.
+I'm going to grossly over-simplify the brain into two parts. We're not learning biology here. Objects can store data and they have behaviors. This simplified model shows how objects store data and behave by communicating with other objects.
 
 {% include image_center_caption.html 
-    caption = "Jim's brain and the part of it that stores data about Jim has a circle around it."
+    caption = "Jim's brain and the part of it that stores data has a circle around it."
     image = "/assets/images/2020/how-object-oriented-works/01a.jpg"
-    alt = "Jim's brain and the part of it that stores data about Jim has a circle around it."
+    alt = "Jim's brain and the part of it that stores data has a circle around it."
 %}
 
-I won't know the data inside Jim's brain unless he chooses to share it with me.
+I won't know the data inside Jim's brain unless he chooses to share it with me. Jim's data is **private to him**.
 
-All the data in his brain is **private to him**. This is similar to when a cop apprehends a suspect and tells him "you have the right to remain silent".
+This is similar to when a cop apprehends a suspect and tells him "you have the right to remain silent". The cop doesn't know what the suspect knows.
 
-All data inside the circle is isolated, or using a fancier programming vocabulary word, it is **ENCAPSULATED**. It is isolated from all things outside the circle.
+All data inside the circle is isolated, or in programming jargon --- it is **ENCAPSULATED**. It is isolated from all things outside the circle.
 
 I can't telepathically read Jim's mind.
 
 If I ask "What's your name?" --- his brain needs to understand my request (message) and have a way to respond to it.
 
-The second part of our over-simplified brain understands language. It is able to respond to questions. Unlike us, it has direct access to Jim's data circle.
+The second circle in the over-simplified brain in the messenger. It responds to those questions it can understand. Unlike us, the messenger has direct access to Jim's data circle.
 
 {% include image_center_caption.html 
-    caption = "The cortex circle has direct access to Jim's data and can respond to requests from us."
+    caption = "The messenger circle has direct access to Jim's data and can respond to requests from us."
     image = "/assets/images/2020/how-object-oriented-works/01.jpg"
-    alt = "The cortex circle has direct access to Jim's data and can respond to requests from us."
+    alt = "The messenger circle has direct access to Jim's data and can respond to requests from us."
 %}
 
 Using this analogy we'll understand how objects store data and how they understand messages and respond to them.
@@ -47,10 +47,10 @@ Using this analogy we'll understand how objects store data and how they understa
 
 Here's what happens when you ask Jim his name:
 
-  1. Jim receives the question
-  2. If the cortex circle understands the question, it can ask the data circle for Jim&#8217;s name.
-  3. Data circle sends Jim's name to the cortex.
-  4. The cortex responds with 'Jim'.
+  1. Jim receives a question
+  2. If the messenger circle understands the question, it can ask the data circle for Jim&#8217;s name.
+  3. Data circle sends Jim's name to the messenger.
+  4. The messenger responds with 'Jim'.
   
 {% include image_center_caption.html 
     caption = "The four things that happen when asking Jim his name."
@@ -58,44 +58,45 @@ Here's what happens when you ask Jim his name:
     alt = "The four things that happen when asking Jim his name."
 %}
 
-The cortex is the middle man between you and Jim's data. You can't get to Jim's data directly without first going through the cortex circle.
+The messenger is the middle man between you and Jim's data. You can't get to Jim's data directly without first going through the messenger circle.
 
-Let's redraw this as two concentric circles. The inner circle is the data circle and the outer circle contains knowledge about your questions. The cortex is like an ambassador between you and Jim's data circle.
-
-{% include image_center_caption.html 
-    caption = "The outer cortex circle (ambassador) and the inner data circle."
-    image = "/assets/images/2020/how-object-oriented-works/04.jpg"
-    alt = "The outer cortex circle (ambassador) and the inner data circle."
-%}
-
-What happens if you ask a question that Jim's cortex can't understand? You ask his name in Russian but he doesn't speak Russian.
+Let's redraw the data and the messenger circles as two concentric circles. The inner circle is the data circle and the outer circle is the messenger.
 
 {% include image_center_caption.html 
-    caption = "The outside circle (the ambassador) does not understand the question you asked and cannot grab his name from Jim's data circle"
+    caption = "The outer messenger circle and the inner data circle."
     image = "/assets/images/2020/how-object-oriented-works/04.jpg"
-    alt = "The outside circle (the ambassador) does not understand the question you asked and cannot grab his name from Jim's data circle"
+    alt = "The outer messenger circle and the inner data circle."
 %}
 
-Even though Jim's age is available in his data circle, the cortex circle cannot understand the question you just asked. You don't get a response back.
+What happens if you ask a question that Jim's messenger can't understand? You ask his name in Russian but he doesn't speak Russian.
 
-Using the above analogy, we covered that objects data is encapsulated within the object (stays private) unless it is exposed by the cortex (getters). By asking Jim's name, we sent a **message** to Jim.
+{% include image_center_caption.html 
+    caption = "The messenger (outer circle) does not understand the question you asked and cannot grab his name from Jim's data circle."
+    image = "/assets/images/2020/how-object-oriented-works/05.jpg"
+    alt = "The messenger (outer circle) does not understand the question you asked and cannot grab his аge from Jim's data circle."
+%}
 
-Let's use Ruby to model what we discussed above.
+Even though Jim's age is available in his data circle, the messenger circle doesn't understand *сколько тебе лет*. The object doesn't respond with Jim's age.
+
+Using the above analogy, we covered that an object's data is encapsulated within the object (stays private) unless it is exposed by the messenger.
+
+Let's apply our analogy to Ruby code.
 
 # Jim as a Ruby Object
 
-In Object Oriented programming, we often create objects --- known as instantiating --- from a class. A class is like a factory template.
+In Object Oriented programming, we create objects --- known as instantiating --- from a class. A class is like a factory template.
 
-Jim is a person. To get Jim, we'll instantiate Jim from a Person class (factory).
+Jim is a person. We'll ask the Person factory (class) to build a person object Jim. In other words, we'll instantiate Jim from the Person Class.
 
-Let's write an empty Person class.
+Let's create an empty Person class.
 
 ```ruby
 class Person
 end
 ```
 
-The Person class will hold two pieces of data. The Person's name and age. We'll use a special Ruby initialize method to build those two parameters.
+The Person class allows us to pass two pieces of data (name and age) to objects we create from it. The Person's name and age. We use a special Ruby initialize method to pass that data as two parameters.
+
 ```ruby
 class Person
   def initialize(name, age)
@@ -103,14 +104,14 @@ class Person
 end
 ```
 
-Now, we can instantiate a Jim object out of a Person class and store it in `jim` local variable. If you inspect it, you'll notice it isn't holding any data.
+Let's instantiate a Jim object from the Person class and reference it in a `jim` variable. If you inspect it, you'll notice it isn't holding any data.
 
 ```ruby
 jim = Person.new("Jim", 20)
 jim.inspect # => <Person:0x00007fed7ac3a2c0>
 ```
 
-That's because we forgot to store the parameters we pass into the Person class as instance variables. Let's do with a `@name` and `@age` instance variables.
+That's because we forgot to store the parameters we passed into the Person class as **instance variables**. Let's do with a `@name` and `@age` instance variables.
 ```ruby
 class Person
   def initialize(name, age)
@@ -125,13 +126,14 @@ jim = Person.new("Jim", 20)
 jim.inspect # => "#<Person:0x00007fb8428be7a8 @name=\"Jim\", @age=20>"
 ```
 
-The Jim object is now storing a name and age. Those instance variables are the data circle we talked about in our analogy. Remember, we don't have direct access to that data. Let's try accessing Jim's name and see what happens.
+The object is now storing a name and age. Instance variables are the data circle we talked about in our analogy. Remember, we don't have direct access to that data. Let's try accessing Jim's name and see what happens.
 
 ```ruby
+jim.@name # => Syntax Error. You cannot call on instance variables directly from an object.
 jim.name # => undefined method `name'
 ```
 
-His name and age are private data that is encapsulated to Jim's object. We need a cortex, the ambassador to understand our request for Jim's name and give us his name. In Ruby, this ambassador is called a method. Specifically, it's a getter method because it's *getting* a piece encapsulated data from Jim.
+His name and age are stored in instance variables as private data. We need a messenger to understand our request for Jim's name and respond with his name. In object oriented languages like Ruby, this messenger is called a **method**. In this case, it's a **getter method** because it's *getting* a piece encapsulated data from Jim and exposing it outside the object..
 
 ```ruby
 class Person
@@ -151,9 +153,9 @@ end
 jim.name # => "Jim"
 ```
 
-It worked! We wrote a getter method, which is an ambassador between us and Jim's data. By writing `jim.name`, we send a `name` message to Jim. The name method recognizes that message and returns the value of the `@name` instance variable to us.
+It worked! We write a getter method, which is a messenger between us and Jim's data. By writing `jim.name`, we send a message `name` to Jim. The `name` method recognizes that message and returns the value of `@name`.
 
-The name of the method could be whatever you want it to be. You could have said:
+The name of the method could be whatever you want it to be. You could write:
 
 ```ruby
 def what_are_you_called
@@ -173,7 +175,19 @@ end
 jim.name # => "My name is Jim"
 ```
 
-We can ask for Jim's name but we still can't ask for his age. Without looking ahead, go ahead and write a getter method that send a message to Jim to get his age.
+Or you could say something sassy:
+
+```ruby
+def name
+  "I won't tell you!"
+end
+
+jim.name # => "I won't tell you!"
+```
+
+The object has total control in how it chooses to respond to outside requests.
+
+We can ask for Jim's name but we still can't ask for his age. Let's write a getter method that will respond to `jim.age`.
 
 ```ruby
 class Person
@@ -197,9 +211,7 @@ jim.name # => "Jim"
 jim.age # => 20
 ```
 
-Methods (ambassadors) that are defined within a class have direct access to data (instance variables) of that class.
-
-Write a method that asks Jim to tell us his name and age in one sentence.
+Let's write a method that asks Jim to tell us his name and age in one sentence.
 
 ```ruby
 def name_and_age
@@ -210,14 +222,13 @@ jim.name_and_age # => "My name is Jim and my age is 20"
 ```
 
 ## Setter Methods
-What if we wanted to change Jim's age to something else?
+What if we wanted to modify Jim's age?
 
 ```ruby
 jim.age = 30 # => NoMethodError: undefined method `age='
 ```
 
-We get an error. Jim doesn't know what to do with that. Jim doesn't have an ambassador to change that instance variable. 
-
+We get an error. Look at the error message. Jim doesn't understand the method (message) `age=`. That method doesn't exist in the Person class.
 We can fix this by writing a **setter** method. Why a setter? Because it *sets* a new value.
 
 ```ruby
@@ -236,9 +247,22 @@ end
 jim.age = 30 # No errors
 ```
 
+You're probably wondering why the method was named `age=()` but we called `jim.age = 30`. This is Ruby syntactic sugar.
+
+```ruby
+# When you set a variable like below:
+jim.age = 30
+
+# Ruby actually runs this. Try it in your console!
+jim.age=(30)
+
+# It's just prettier to write jim.age = 30.
+```
+
+
 Pop Quiz Hotshot --- If you ask for Jim's age `jim.age` you'll get an error. Why?
 
-It's because we erased the getter method that gave us Jim's age. Let's put it back. I wanted to demonstrate that setter methods don't need getter methods to work.
+It's because we erased the getter method that gave us Jim's age. Let's put it back. I wanted to show that setter methods can work independently of getter methods.
 
 ```ruby
 class Person
@@ -263,7 +287,7 @@ jim.age # => 30
 ```
 
 # attr_reader, attr_writer, attr_accessor
-Ruby was made for developer happiness. And let's face it, developers are lazy and in our case, it's a virtue. In Ruby you'll seldom getter and setter methods explicitly written as we have above.
+Ruby was made for developer happiness. In Ruby you'll rarely see getter and setter methods explicitly written as above.
 
 There's a shortcut to having Ruby write them for you.
 
@@ -271,7 +295,7 @@ There's a shortcut to having Ruby write them for you.
 - `attr_writer` writes a setter method.
 - `attr_accessor` writes a getter AND setter method.
 
-Let's open the Person class again and add a getter method for name using `attr_reader`.
+Let's open the Person class again and have `attr_reader` create a getter method for name.
 
 ```ruby
 class Person
@@ -286,9 +310,21 @@ end
 jim.name # => "Jim"
 ```
 
-Notice we used `:name`. That's a symbol. We're naming it based off `@name` instance variables. Just remove the `@` and add the `:`.
+Notice we used `:name`. That's a symbol. The symbol needs to be named the same as the instance variable that is holding the data.
 
-You can add multiple getters on one line.
+For example in name is referenced by `@name` instance variables, then the `attr_` symbol should be named `:name`.
+
+```ruby
+  # This won't work because the instance variable is not @name.
+  # Modify it to attr_reader :what_am_i_called to make it work.
+  attr_reader :name 
+  
+  def initialize(name, age)
+    @what_am_i_called = name
+  end
+```
+
+You can add multiple getters on one line separated by commas.
 
 ```ruby
 attr_reader :name, :age
@@ -307,11 +343,12 @@ Let's say Jim is a very open person, we can add getters and setters to his name 
 attr_accessor :name, :age
 ```
 
+Other objects can now get and set jim's name and age.
+
 There's nothing magical about these `attr_` methods. Ruby writes the same exact getter and setter methods we wrote manually above.
 
 ```ruby
-# This below
-attr_accessor :name
+attr_reader :name # This
 
 # is the same as writing:
 def name
@@ -320,8 +357,7 @@ end
 ```
 
 ```ruby
-# This below
-attr_writer :age
+attr_writer :age # This
 
 # is the same as writing:
 def age=(num)
@@ -330,8 +366,7 @@ end
 ```
 
 ```ruby
-# This below
-attr_accessor :age
+attr_accessor :age # This
 
 # Writes both the getter and setter methods for age.
 def age
@@ -345,7 +380,7 @@ end
 
 # Instantiating Objects from Classes
 
-Since the Person class is a factory, we can create (instantiate) other people with other names and ages.
+Since the Person class is a factory, we can create (instantiate) other people with different names and ages.
 
 ```ruby
 class Person
@@ -360,7 +395,7 @@ end
 
 # Create 3 different Person objects.
 jim = Person.new("Jim", 20)
-sally = Peron.new("Sally", 40)
+sally = Person.new("Sally", 40)
 bob = Person.new("Bob", 70)
 
 jim.name # => "Jim"
@@ -376,7 +411,7 @@ bob.age # => 70
 jim.age + sally.age + bob.age # => 190
 ```
 
-Notice how each object tracks it's own internal data. That's because in object oriented languages, objects have data (instance variables) and behavior (methods).
+Notice how each object tracks it's own internal data. As we've mentioned before, in object oriented languages, objects have data (instance variables) and behavior (methods).
 
 
 # Mapping an Object
