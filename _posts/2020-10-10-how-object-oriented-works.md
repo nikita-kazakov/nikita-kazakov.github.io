@@ -1,5 +1,5 @@
 ---
-title: How Object Oriented Design Works
+title: How Objects Work in Object Oriented Languages --- Ruby Edition.
 date: 2020-10-10
 layout: post
 permalink: /how-object-oriented-design-works/
@@ -414,66 +414,128 @@ jim.age + sally.age + bob.age # => 190
 Notice how each object tracks it's own internal data. As we've mentioned before, in object oriented languages, objects have data (instance variables) and behavior (methods).
 
 
-# Mapping an Object
+# Example with Cash Registers
 
-An object in object oriented programming works very similarly as Jim did above. An object can be anything. Let&#8217;s say we have a cash register object. Just like Jim, an object that you create can have properties that you can specify. In this example, we created a cash amount of $200 as one property of this cash register. We can write as many as we want.<figure class="wp-block-image size-large">
+Let's apply our knowledge of objects to a cash register.
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/02/image-22-1024x536.png" alt="" class="wp-image-6962" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/image-22-1024x536.png 1024w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-22-300x157.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-22-768x402.png 768w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-22.png 1188w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
+```ruby
+class CashRegister
+  def initialize(cash)
+    @cash = cash
+  end
+end
 
-When we ask an object for something and an object responds, that&#8217;s better understood as sending a message.
+cash_register = CashRegister.new(200)
+```
 
-If I send a message to the cash register asking for the cash amount, what should happen?
+The cash register currently holds the cash total as data (inner circle).
 
-Remember, we don&#8217;t have direct access to the cash data. To us the object properties are hidden. They are private to the object. They are encapsulated.<figure class="wp-block-image size-large">
+{% include image_center_caption.html 
+    caption = "Cash register has one data variable (cash total)."
+    image = "/assets/images/2020/how-object-oriented-works/cash_01.jpg"
+    alt = "Cash register has one data variable (cash total)."
+%}
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/02/image-23.png" alt="" class="wp-image-6963" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/image-23.png 638w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-23-300x285.png 300w" sizes="(max-width: 638px) 100vw, 638px" /> </figure> 
+To external objects, that cash total is not known. That data is encapsulated to the `cash_register` object.
 
-The middle man circle that envelops the dark data circle is empty. The cash register object receives the **cash_amount?** message, it doesn&#8217;t know what to do with it.
+If we send a message `cash_register.cash` it won't respond with the total.
 
-Objects are not as smart as humans when making sense of what is asked of them. That&#8217;s where YOU come in. You have to specifically write the the messages that objects will understand and how they will respond to them.
+```ruby
+cash_register.cash # => NoMethodError: undefined method `cash'
+```
 
-In programming these messages are called **methods**.
+Let's create a getter method `cash` using `attr_reader :cash` to get the `@cash` value.
 
-Let&#8217;s say you write a **cash_sum?** method in the cash register object that will grab the cash value ($200) directly from the data circle and return it. You can now send a **cash_sum?** message to the cash register and it will know how to respond to you.<figure class="wp-block-image size-large">
+```ruby
+class CashRegister
+  attr_reader :cash
+  def initialize(cash)
+    @cash = cash
+  end
+end
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/02/image-24.png" alt="" class="wp-image-6965" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/image-24.png 634w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-24-300x287.png 300w" sizes="(max-width: 634px) 100vw, 634px" /> </figure> 
+cash_register = CashRegister.new(200)
+cash_register.cash # => 200
+```
 
-## Methods
+{% include image_center_caption.html 
+    caption = "We added a cash method to the outer circle."
+    image = "/assets/images/2020/how-object-oriented-works/cash_02.jpg"
+    alt = "We added a cash method to the outer circle."
+%}
+
+## Methods are behaviors
 
 How do you know which messages (methods) an object should understand? Ask yourself, what should your object be able to do?
 
 A cash register should be able to store cash (data) and you should be able to check the value of it, deposit money, and withdraw money from the register.
 
-With that implemented, here&#8217;s how the cash register object looks like:<figure class="wp-block-image size-large">
+{% include image_center_caption.html 
+    caption = "A cash register that responds to checking cash value, depositing cash, and withdrawing cash"
+    image = "/assets/images/2020/how-object-oriented-works/cash_03.jpg"
+    alt = "A cash register that responds to checking cash value, depositing cash, and withdrawing cash"
+%}
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/02/image-26.png" alt="" class="wp-image-6967" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/image-26.png 922w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-26-300x285.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-26-768x730.png 768w" sizes="(max-width: 922px) 100vw, 922px" /> </figure> 
+As a person trying to use this object, all you see is this object understanding three messages `withdraw`, `cash_sum?`, and `deposit`. 
 
-As a person trying to use this object, all you see is that this object understanding three messages `withdraw`, `cash_sum?`, and `deposit`. You have no idea what data the object is holding in the data circle. 
+As an outsider passing a message to the cash register, you don’t need to worry about HOW it handles what you tell it to do. The cash register will do that internally. Again, that’s the idea of encapsulation. You trust the object to handle the messages you send to it without you meddling in them.
+
+Let's add `withdraw` and `deposit` methods to the CashRegister class.
+
+```ruby
+
+class CashRegister
+  attr_reader :cash
+  def initialize(cash)
+    @cash = cash
+  end
+  
+  # Added method to deposit cash.
+  def deposit(amount)
+    @cash = @cash + amount
+  end
+
+  # Added method to withdraw cash.
+  def withdraw(amount)
+    @cash = @cash - amount
+  end
+end
+
+cash_register = CashRegister.new(200)
+cash_register.cash # => 200
+
+cash_register.deposit(500)
+cash_register.cash # => 700
+
+cash_register.withdraw(100)
+cash_register.cash # => 600
+```
 
 ## Sending Messages
 
 To send a message to an object, you first specify the object followed by a dot and then the message.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="ruby" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">cash_register.cash_sum?    #200
-</pre>
+```ruby
+cash_register.cash # => 200
+```
 
-Let&#8217;s say you want to deposit or withdraw money into / from the cash register. The next question is how much? You can pass the amount as an argument with the message like this.
+Let's say you want to deposit or withdraw money into / from the cash register. The next question is how much? You can pass the amount as an argument with the message like this.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">cash_register.deposit(25)
-cash_register.withdraw(50)</pre>
+```ruby
+cash_register.deposit(25)
+cash_register.withdraw(50)
+```
 
-As an outsider passing a message to the cash register, you don&#8217;t need to worry about **HOW** it handles what you tell it to do. The cash register will do that internally. Again, that&#8217;s the idea of encapsulation. You trust the object to handle the messages you send to it without you meddling in them.
+## More examples of objects
 
-## Examples of Objects
+Let's take a look at how other objects might look like. 
 
-Let&#8217;s take a look at how other objects might look like. Notice that with the TV remote object, I cannot send a message to it asking for it&#8217;s color or width. It won&#8217;t understand those messages as it doesn&#8217;t have them defined in the outer circle.
+Notice that with the TV remote object, I cannot send a `color` or `width` message. Those aren't defined in the outer circle. They haven't been written as methods yet.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="ruby" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">tv.color #error message. No method found.</pre><figure class="wp-block-image size-large">
+The remote will respond to `remote.color` but it will be with an error message. Objects **ALWAYS** respond to messages. The response might be an error message and not the value you were expecting.
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/02/image-27-1024x537.png" alt="" class="wp-image-6973" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/image-27-1024x537.png 1024w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-27-300x157.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-27-768x402.png 768w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-27-1536x805.png 1536w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-27.png 1664w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
-
-## Takeaways
-
-  * When sending a message to an object, an object will always respond back. The response may be an error but there will always be a response.
-
-link to understanding everything is an object post.
+{% include image_center_caption.html 
+    caption = "A car object and a TV remote object."
+    image = "/assets/images/2020/how-object-oriented-works/06.jpg"
+    alt = "A car object and a TV remote object."
+%}
