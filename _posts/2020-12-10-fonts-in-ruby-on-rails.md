@@ -25,7 +25,7 @@ First tip — put your fonts folder inside of assets to load them with the asset
         └── stylesheets
 ```
 
-When loading fonts from scss, do not use `url`. Instead, use `asset_url` to import fonts.
+When loading fonts from scss, do not use `url`. Instead, use `font_url` to import fonts. Did you know you could also use `image_url` and `asset_url` in scss with your Rails project?
 
 Here’s an example how it would look like:
 
@@ -33,11 +33,11 @@ Here’s an example how it would look like:
 
 @font-face {
   font-family: 'unicons';
-  src: asset_url('unicons.eot?34404611');
-  asset_url('unicons.woff2?34404611') format('woff2'),
-  asset_url('unicons.woff?34404611') format('woff'),
-  asset_url('unicons.ttf?34404611') format('truetype'),
-  asset_url('unicons.svg?34404611#unicons') format('svg');
+  src: font_url('unicons.eot?34404611');
+       font_url('unicons.woff2?34404611') format('woff2'),
+       font_url('unicons.woff?34404611') format('woff'),
+       font_url('unicons.ttf?34404611') format('truetype'),
+       font_url('unicons.svg?34404611#unicons') format('svg');
 }
 ```
 
