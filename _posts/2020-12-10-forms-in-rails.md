@@ -1,5 +1,5 @@
 ---
-title: Ruby on Rails Forms
+title: How Ruby on Rails Forms and Nested Forms Work.
 date: 2020-12-19
 layout: post
 permalink: /forms-in-ruby-on-rails/
@@ -355,8 +355,7 @@ Let's play around with this first.
 
 ```ruby
 # In ruby.rb
-attr
-attr_accessor :payment_token
+attribute :payment_token
 ```
 
 ```bash
@@ -394,3 +393,174 @@ We want to pass it in the form but keep it hidden. The client should not see the
   = form.submit
 ```
 
+# Nested Forms
+Let's try building a complex form that updates two tables. I'm going to add an address table with a city, state, and user_id column.
+
+## One to One Relationship Nested Form
+```bash
+rails g model address city:string state:string user:references
+rails db:migrate
+```
+
+```ruby
+class Address < ApplicationRecord
+  belongs_to :user
+end
+
+class User < ApplicationRecord
+  has_one :address
+end
+```
+
+This form will have a one-to-one relationship. A user has one address and an address has one user. If we want rails to update the User model and the Address model at the same time, we need to add `accepts_nested_attributes_for` on the user.
+
+```ruby
+class User < ApplicationRecord
+  has_one :address
+  accepts_nested_attributes_for :address
+end
+```
+
+The form is not going to be much different. We simply use a `fields_for` tag to pass in the `address` key with city and state values.
+```haml
+= form_for @user do |form|
+  = form.text_field :name
+  = form.text_field :age
+  = form.fields_for :address do |f|
+    = f.text_field :city
+    = f.text_field :state
+  = form.submit
+```
+
+What is the magic behind `accepts_nested_attributes_for`? By adding that method to User, Ruby writes a setter method on User. Here's what happens in the background
+
+```ruby
+class User < ApplicationRecord
+  def address_attributes=(attributes)
+  end
+end
+```
+
+## One to Many Relationship Nested Form
+
+Let's say a person has multiple addresses. There's not much of a change here.
+
+```ruby
+class User < ApplicationRecord
+  has_many :addresses # Note it's plural
+  accepts_nested_attributes_for :addresses # Note it's plural
+end
+```
+
+Since `accepts_nested_attributes_for` takes a plural `addresses`, that means the underlying setter method Rails will use `addresses_attributes` is also plural. Because Rails is forgiving, they will also allow you to keep the singular way `address_attributes`.
+
+```ruby
+  def user_params
+    params.require(:user).permit(:name, :age, addresses_attributes: {}) # make addresses_attributes plural
+  end
+```
+
+The form stays the same! Rails will automatically iterate through the `fields_for :addreses` if there are multiple addresses in the database and you'll see multiple input fields in your form.
+
+```haml
+= form_for @user do |form|
+  = form.text_field :name
+  = form.text_field :age
+  = form.fields_for :addresses do |f| # Will automatically iterate.
+    = f.text_field :city
+    = f.text_field :state
+  = form.submit
+```
+
+Let's create another address in console.
+```ruby
+rails console
+user = User.first
+user.addresses.new(city: "san diego", state: "california")
+```
+
+Refresh the form and you'll see there are two iterations of the address fields. Make a change and submit the form. Add `binding.pry` in the update controller action and take a look at the params.
+
+```bash
+"user"=>{"name"=>"Stacy", 
+         "age"=>"25", 
+         "addresses_attributes"=>{
+            "0"=>{"city"=>"San", "state"=>"CA", "id"=>"2"}, 
+            "1"=>{"city"=>"san diego", "state"=>"california", "id"=>"3"}
+          }
+         }
+```
+
+The `addresses_attributes` key is has address keys of 0 and 1 passed with the different addresses. Notice how 0 and 1 also pass in an address id. If you pass in a new address into `addresses_attributes` hash without an id, Rails will know that this is a new address and it should save it. If an existing id is passed, Rails knows to try to find an address with that id and update it.
+
+Adding an address into the `addresses_attributes` field without an id is useful when you want to edit a form and dynamically add another address using javascript. We'll look at that another time.
+
+# Deeply Nested Forms
+
+We can take form nesting even further. Let's say a user has_many addresses. Addresses have many phone numbers. Let's say we want to edit all of this in one form. I'm not saying this is an ideal idea. I think a form like this becomes too deeply nested. But it's possible to do.
+
+Let's create a Phone resource that will create a Phone model and Phone controller.
+
+```bash
+rails g resource phone number:string
+rails db:migrate
+```
+
+```ruby
+class Address < ApplicationRecord
+  belongs_to :user 
+  has_many :phones
+  accepts_nested_attributes_for :phones
+end
+```
+
+Modify the form to add another `fields_for` tag for phones that is nested within the address `fields_for` tag.
+
+```haml
+= form_for @user do |form|
+  = form.text_field :name
+  = form.text_field :age
+    
+  = form.fields_for :addresses do |address_form|
+    = address_form.text_field :city
+    = address_form.text_field :state
+    
+    = address_form.fields_for :phones do |phone_form|
+      = phone_form.text_field :number
+    
+  = form.submit
+```
+
+Submit the form and look at the params again. Notice that the phone attributes are NESTED within the address attributes hash. 
+
+```bash
+{"user"=> 
+    {"name"=>"Stacy", 
+    "age"=>"25", 
+    "id" => "2"
+    "addresses_attributes"=>
+        {"0"=> {
+        "city"=>"san diego", 
+        "state"=>"california", 
+        "id"=>"3", 
+        "phones_attributes"=>
+            {"0"=>{
+                   "number"=>"2025551000", 
+                   "id"=>"1"}
+            }
+        }
+    }
+}
+```
+
+Did you notice that we didn't have to update the user_params to include `phone_attributes`? Why does the form work without us needing to add `address_attributes`. 
+
+```ruby
+# The address_attributes: {} hash below is empty. It will accept ANYTHING that's added into it.
+# Since phone_attributes is inside addresses_attributes, we don't need to manually add it.
+def user_params
+    params.require(:user).permit(:name, :age, addresses_attributes: {})
+end
+```
+
+The more you play around with forms on your own time, the better you'll get applying them to real problems.
