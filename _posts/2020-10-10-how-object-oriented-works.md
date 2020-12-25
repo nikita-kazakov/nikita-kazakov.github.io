@@ -4,7 +4,7 @@ date: 2020-10-10
 layout: post
 permalink: /how-object-oriented-design-works/
 tags: 
-    - Ruby
+    - ruby
 ---
 
 It took me a while to comprehend how objects worked in Ruby. If I had to explain it to my younger self again, here's how I would do it.
