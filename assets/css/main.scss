@@ -6,3 +6,9 @@ sitemap: false
 @charset "utf-8";
 
 @import "so-simple";
+
+// Custom CSS Edits
+.custom-nikita-wrap {
+  max-width: $medium;
+  margin: auto
+}

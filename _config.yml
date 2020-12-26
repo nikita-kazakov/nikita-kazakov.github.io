@@ -21,7 +21,7 @@
 title: Nikita Kazakov
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I’m a software developer building applications with Ruby on Rails and other technologies. I also write about things that matter to me.
+  I’m a full stack Ruby on Rails software developer. I write about technical and personal topics here.
 
 #baseurl: ""
 url: "https://nikitakazakov.com" # the base hostname & protocol for your site, e.g. http://example.com
