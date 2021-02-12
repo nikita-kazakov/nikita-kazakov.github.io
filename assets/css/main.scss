@@ -2,13 +2,17 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 sitemap: false
 ---
+// Resist the urge to comment out the top dashes and whatever is inside. It breaks the SASS file. Leave it!
 
 @charset "utf-8";
-
 @import "so-simple";
 
-// Custom CSS Edits
+// Add custom CSS edits here
 .custom-nikita-wrap {
   max-width: $medium;
   margin: auto
+}
+
+.embed-container {
+  margin-bottom: 35px;
 }

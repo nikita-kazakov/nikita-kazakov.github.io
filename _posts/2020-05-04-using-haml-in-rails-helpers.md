@@ -4,7 +4,7 @@ date: 2020-05-04T23:49:33+00:00
 layout: post
 permalink: /using-haml-in-rails-helpers/
 tags:
-  - ruby
+  - ruby on rails
 ---
 
 Using HAML in Rails views is great because its more succinct than ERB.
