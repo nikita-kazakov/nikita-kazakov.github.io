@@ -16,3 +16,11 @@ sitemap: false
 .embed-container {
   margin-bottom: 35px;
 }
+
+// overflows large tables and makes them horizontally scrollable.
+.table--overflow {
+  overflow-x: auto;
+  table {
+    white-space: nowrap;
+  }
+}
