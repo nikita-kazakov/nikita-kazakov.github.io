@@ -1,5 +1,5 @@
 ---
-title: Practicing SQL by Examples.
+title: Practicing SQL through examples.
 date: 2021-01-27
 layout: post
 permalink: /sql-by-examples/
