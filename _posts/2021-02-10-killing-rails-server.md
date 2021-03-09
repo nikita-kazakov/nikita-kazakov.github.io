@@ -4,7 +4,7 @@ date: 2021-02-10
 layout: post
 permalink: /killing-rails-server/
 tags: 
-    - rails
+    - ruby on rails
 ---
 
 I can't be the only one who occasionally tries to start `rails server` and gets:
