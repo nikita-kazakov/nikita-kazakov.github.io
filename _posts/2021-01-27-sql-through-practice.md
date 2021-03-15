@@ -107,6 +107,9 @@ select
 |-------------------|--------|---------------|
 |                 4 | fifty  | 50 cents      |
 
+You could also use double quotes for aliasing. For example, instead of `simple_arithmetic`, you could write `"simple arithmetic"`. 
+You can use spaces with double quotes.
+
 # FROM
 
 In the real world, you're going to want to `select` data from database tables and do something with it. We do this with a `from`.
@@ -585,9 +588,192 @@ The table below is taken from the [postgresql docs](https://www.postgresql.org/d
 
 If you want to use regular expressions (REGEX), you can use `SIMILAR TO` clause. That's a topic beyond this scope. See [more here](https://www.postgresql.org/docs/8.3/functions-matching.html).
 
+## Aggregate Functions
+
+To aggregate means to combine several elements together to get a whole. When building reports, you want sums, averages, and counts of
+many rows. This is where aggregate functions come into play.
+
+Let's start with the `count`. Let's say you want to count the number of rows in the artists table.
+
+```sql
+select count(*)
+from artists
+```
+
+| count |
+|-------|
+|   275 |
+
+The result is 275 rows! The `count` is a function that takes a parameter. We're passing in the `*` splat, which represents a whole row.
+
+What if we want to count the number of composers in the tracks tables and leave out the null values?
+
+```sql
+
+select count(*)
+from tracks;
+-- The count is 3503
+
+select count(composer)
+from tracks;
+-- The count is 2525
+```
+
+Note that this is NOT the same count as counting all the rows in the tracks table because we're counting the composer rows that are not NULL.
+
+We can do multiple aggregate calculations. 
+
+Let's count all the rows in tracks and sum up the unit_price for all the rows. Let's also alias them to meaningful names.
+
+```sql
+select 
+    count(*) as track_count, 
+    sum(unit_price) as unit_price_sum
+from tracks
+```
+
+| track_count | unit_price_sum |
+|-------------|----------------|
+|        3503 |        3680.97 |
+
+Here are some common aggregate functions you can use:
+
+|    Function     |                What it does                 |
+|-----------------|---------------------------------------------|
+| MIN             | The minimum number                          |
+| MAX             | The maximum Number                          |
+| SUM             | sum of all the values                       |
+| AVG             | average (mean)                              |
+| COUNT           | count of the # of values                    |
+| COUNT DISTINCT  | count of the # of unique (distinct) values. |
+
+Count DISTINCT will not double count rows that have the same value.
+
+How many unique prices are there in the tracks table?
+
+```sql
+select count(distinct unit_price)
+from tracks
+-- Count is 2.
+```
+
+Can you aggregate the average, minimum, and maximum unit_price from the tracks table. Also alias them to more readable column names.
+
+```sql
+select 
+	avg(unit_price) as avg_price,
+	max(unit_price) as maximum_price, 
+    min(unit_price) as minimum_price
+from tracks
+```
+
+| avg_price | maximum_price | minimum_price |
+|-----------|---------------|---------------|
+|     1.050 |          1.99 |          0.99 |
+
+**Aside** If you are a Ruby or Ruby on Rails developer, don't use Ruby to aggregate thousands of rows of data. This is a common mistake.
+SQL is incredibly fast compared to Ruby when it comes to manipulating database values. Now that you know how to aggregate and
+group data, use SQL to do the calculation heavy lifting for you instead of iterating with an each block in Ruby.
+{: .notice--info}
+
+## Group By
+
+Group By function is incredibly powerful in generating reports. It's also a bit confusing to understand at first.
+Group by tells the database how to group a result set.
+
+The question is --- which composer has the most number of tracks? To answer this, let's sum the number of tracks each composer has done in descending order.
+
+```sql
+select 
+	composer, 
+	count(*)
+from tracks
+where composer is not null
+group by composer
+order by count desc
+```
+
+|    composer     | count |
+|-----------------|-------|
+| Steve Harris    |    80 |
+| U2              |    44 |
+| Jagger/Richards |    35 |
+| Billy Corgan    |    31 |
+| Kurt Cobain     |    26 |
 
 
+**Gotcha**: If you're mixing aggregate functions and normal column names, you'll need a group by function in your statement otherwise you'll get an error.
+{: .notice--danger}
 
+```sql
+select 
+	composer,
+	count(*)
+from tracks
+-- This will result in an error as you've mixed 
+-- composer (column name) with an aggregate function (count*)
+```
+
+Can you find the minimum file size (bytes) of a track and group by composer?
+
+```sql
+select composer, min(bytes)
+from tracks
+group by composer
+```
+
+|                     composer                     |   min   |
+|--------------------------------------------------|---------|
+| Clapton/F.eldman/Linn                            | 6006154 |
+| Delroy "Chris" Cooper, , Luke Smith, Paul Watson | 3426106 |
+| Bruce Dickinson/Janick Gers                      | 3151872 |
+| James Hetfield, Lars Ulrich and Kirk Hammett     | 8024047 |
+| Pearl Jam & Eddie Vedder                         | 9991106 |
+
+Let's order that table by the minimum file size in ascending order.
+
+```sql
+select composer, min(bytes)
+from tracks
+group by composer
+order by min
+```
+
+You can see that Samuel Rosa has the smallest track size.
+
+|   composer   |   min   |
+|--------------|---------|
+| Samuel Rosa  |   38747 |
+|              |  161266 |
+| L. Muggerud  |  319888 |
+| Gilberto Gil | 1039615 |
+
+Let's group by multiple values. Can you group composers by the maximum track time (milliseconds) and then by maximum file size (bytes)?
+
+```sql
+select composer, 
+	max(milliseconds) as max_time, 
+	max(bytes) as max_bytes
+from tracks
+where
+	composer is not null
+group by composer
+order by 
+	max_time desc,
+	max_bytes desc
+```
+
+It looks like Jimmy Page has tracks with the most track time and largest file size.
+
+
+|                 composer                 | max_time | max_bytes |
+|------------------------------------------|----------|-----------|
+| Jimmy Page                               |  1612329 |  52490554 |
+| Blackmore/Gillan/Glover/Lord/Paice       |  1196094 |  39267613 |
+| Jimmy Page/Led Zeppelin                  |  1116734 |  36052247 |
+| Gillan/Glover/Lord/Nix - Blackmore/Paice |   913658 |  29846063 |
+
+## JOINS
 
 ## Big table
 
