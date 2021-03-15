@@ -178,7 +178,7 @@ It's not needed if you're just querying one table. However, we'll be joining mul
 
 # Order By
 
-SQL will let you order your rows ascending and descending with the `order by` command.
+SQL will let you order your rows ascending and descending with the `order by` clause.
 
 Let's say I want to select the id and the name from the artists table and order by name in ascending order (alphabetical order).
 
@@ -216,6 +216,9 @@ order by name desc
 
 By default, SQL orders the rows by the primary key of the table, which is typically the `id`. 
 
+Note that when using `order by`, SQL will order in ascending order by default. For example:
+`order by name` and `order by name asc` are exactly the same.
+
 Try to select all columns from the artists table and order the id in descending order:
 
 ```sql
@@ -234,6 +237,356 @@ order by id desc
 | 272 | Emerson String Quartet                                                             | 2021-02-13 22:05:36.193975 | 2021-02-13 22:05:36.193975 |
 
 </div>
+
+# Limits and Offsets
+
+Running a query and listing all the rows can be risky if your table has millions of rows. 
+You'll needlessly stress that database server and piss off the database administrator.
+
+Instead we can `limit` our queries to give us a limited number of rows.
+
+```sql
+select *
+from artists
+order by id desc
+limit 4
+```
+
+| id |       name        |
+|----|-------------------|
+|  1 | AC/DC             |
+|  2 | Accept            |
+|  3 | Aerosmith         |
+|  4 | Alanis Morissette |
+
+We can also `offset` rows. Let's say we want to get rows 3 to 7. Offsetting rows is useful when paginating results on a website.
+
+```sql
+select id, name
+from artists
+limit 5
+offset 2
+```
+
+| id |        name         |
+|----|---------------------|
+|  3 | Aerosmith           |
+|  4 | Alanis Morissette   |
+|  5 | Alice In Chains     |
+|  6 | Antnio Carlos Jobim |
+|  7 | Apocalyptica        |
+
+# WHERE
+
+The `where` clause is powerful because you can start to filter down what you want to see in your SQL query.
+
+For example, let's select a name column from the artists table where the name is Metallica. 
+Read this sentence and compare to how similar the SQL query below sounds.
+
+```sql
+select name
+from albums
+where
+    name = 'Metallica'
+```
+
+|   name    |
+|-----------|
+| Metallica |
+
+## Multiple Where / AND
+
+Can you select the id and the name columns from artists where id is equal to 5, 10, 30?
+
+One way to do it is to give multiple where clauses separated by `or`. You're telling SQL that the `id`
+can be 5 or 10 or 30.
+
+```sql
+select id, name
+from artists
+where
+    id = 5 or
+    id = 10 or
+    id = 30
+```
+
+A less verbose and more straightforward way to do this is to use the `in`. The `in` takes an array of 5, 10, 30 and gives a result.
+
+```sql
+select id, name
+from artists
+where
+    id in (5, 10, 30)
+```
+
+| id |      name       |
+|----|-----------------|
+|  5 | Alice In Chains |
+| 10 | Billy Cobham    |
+| 30 | Jorge Vercilo   |
+
+
+Let's take a look at the `AND` operator. Select the tracks where the composer is 'Foo Fighters' and the track length is greater than 300000 milliseconds.
+
+```sql
+select *
+from tracks
+where
+	composer = 'Foo Fighters' and
+	milliseconds > 300000
+```
+
+<div class="table--overflow" markdown="block">
+
+|  id  |     name     | album_id | media_type_id | genre_id |   composer   | milliseconds |  bytes   | unit_price |         created_at         |         updated_at         |
+|------|--------------|----------|---------------|----------|--------------|--------------|----------|------------|----------------------------|----------------------------|
+| 1014 | Tired Of You |       81 |             1 |        4 | Foo Fighters |       311353 | 10094743 |       0.99 | 2020-10-23 23:38:36.402027 | 2020-10-23 23:38:36.402027 |
+| 1015 | Halo         |       81 |             1 |        4 | Foo Fighters |       306442 | 10026371 |       0.99 | 2020-10-23 23:38:36.402027 | 2020-10-23 23:38:36.402027 |
+| 1019 | Come Back    |       81 |             1 |        4 | Foo Fighters |       469968 | 15371980 |       0.99 | 2020-10-23 23:38:36.402027 | 2020-10-23 23:38:36.402027 |
+
+</div>
+
+Now narrow down that table and select only the name, composer, milliseconds, and bytes. Also order the table by name in the ascending order.
+
+```sql
+select 
+    name, 
+    composer, 
+    milliseconds, 
+    bytes
+from tracks
+where
+	composer = 'Foo Fighters' and
+	milliseconds > 300000
+order by name
+```
+
+|     name     |   composer   | milliseconds |  bytes   |
+|--------------|--------------|--------------|----------|
+| Come Back    | Foo Fighters |       469968 | 15371980 |
+| Halo         | Foo Fighters |       306442 | 10026371 |
+| Tired Of You | Foo Fighters |       311353 | 10094743 |
+
+Milliseconds are not really intuitive. Can you instead convert milliseconds into seconds show that as an additional column in the table report?
+
+```sql
+select 
+	name, 
+	composer, 
+	milliseconds, 
+	(milliseconds / 1000) as seconds,
+	bytes
+from tracks
+where
+	composer = 'Foo Fighters' and
+	milliseconds > 300000
+order by name
+```
+
+|     name     |   composer   | milliseconds | seconds |  bytes   |
+|--------------|--------------|--------------|---------|----------|
+| Come Back    | Foo Fighters |       469968 |     469 | 15371980 |
+| Halo         | Foo Fighters |       306442 |     306 | 10026371 |
+| Tired Of You | Foo Fighters |       311353 |     311 | 10094743 |
+
+Let's make the report even better and convert the bytes column into megabytes and seconds into minutes.
+
+```sql
+select 
+	name, 
+	composer, 
+	milliseconds, 
+	(milliseconds / 1000) / 60 as minutes,
+	(bytes / 1024) as megabytes,
+	bytes
+from tracks
+where
+	composer = 'Foo Fighters' and
+	milliseconds > 300000
+order by name
+```
+
+
+|     name     |   composer   | milliseconds | minutes | megabytes |  bytes   |
+|--------------|--------------|--------------|---------|-----------|----------|
+| Come Back    | Foo Fighters |       469968 |       7 |     15011 | 15371980 |
+| Halo         | Foo Fighters |       306442 |       5 |      9791 | 10026371 |
+| Tired Of You | Foo Fighters |       311353 |       5 |      9858 | 10094743 |
+
+You can easily mix `or` and `and` statements. There are different ways to do this and some are cleaner than others.
+
+Can you select name, composer, milliseconds, bytes from the tracks table where the composer is either Chuck Berry or Little Richard AND 
+the track size in bytes is smaller than 8,000,000?
+
+First way to do it is below. Notice how we use parenthesis to isolate the or statements together.
+
+```sql
+select 
+	name, 
+	composer,
+	milliseconds,
+	bytes
+from tracks
+where 
+	bytes < 8000000 and 
+    (composer = 'Chuck Berry' or composer = 'Little Richard')
+```
+
+A cleaner way is to use the `IN` statement.
+
+```sql
+select 
+	name, 
+	composer,
+	milliseconds,
+	bytes
+from tracks
+where 
+	bytes < 8000000 and 
+	composer in ('Chuck Berry', 'Little Richard')
+```
+
+## NOT (negation) and ! (not equal to)
+
+You can also invert a where clause. There are two ways of doing this. 
+
+Select the id and name from the artists table where the artist name is not Aerosmith. Limit the rows to 5.
+
+```sql
+select *
+from artists
+where
+	not name = 'Aerosmith'
+limit 5
+```
+
+| id |        name         |
+|----|---------------------|
+|  1 | AC/DC               |
+|  2 | Accept              |
+|  4 | Alanis Morissette   |
+|  5 | Alice In Chains     |
+|  6 | Antnio Carlos Jobim |
+
+Note that the id equal to 3 is missing from the table. That was Aerosmith. 
+
+In many programming languages, `!=` is not equal to. You can also write `<>` instead of `!=`. Let's use it in our example below.
+
+```sql
+select id, name
+from artists
+where
+	name != 'Aerosmith'
+limit 5
+```
+
+## Null
+
+Nulls are empty cell in the database. To test whether a cell is empty, you can use either `is null` or `is not null` to test that it's not empty. You can't use `=` or `!=` with nulls.
+
+Let's select the tracks where the composer fields are null.
+
+```sql
+select 
+    id, 
+    name, 
+    composer
+from tracks
+where
+    composer is null
+```
+
+| id |                 name                 | composer |
+|----|--------------------------------------|----------|
+|  2 | Balls to the Wall                    |          |
+| 63 | Desafinado                           |          |
+| 64 | Garota De Ipanema                    |          |
+| 65 | Samba De Uma Nota S (One Note Samba) |          |
+| 66 | Por Causa De Voc                     |          |
+| 67 | Ligia                                |          |
+
+
+## Operators
+
+Below are common operators used with SQL. They are used with the `where` clause.
+
+| Operator  |      What it does     |
+|-----------|-----------------------|
+| =         | equal                 |
+| >         | greater than          |
+| <         | less than             |
+| >=        | greater than or equal |
+| <=        | less than or equal    |
+| !=        | not equal             |
+| <>        | not equal             |
+
+## Pattern matching (string operators)
+
+Pattern string matching is a powerful feature of a database. You can use `LIKE`, where a string matches a pattern. There's
+also `ILIKE`, which a case insensitive version of `LIKE`.
+
+Find the Artists that have the word 'Orchestra' in the name.
+
+```sql
+-- This is incorrect as it will search exactly for the word Orchestra.
+-- There are zero results
+select *
+from artists
+where name = 'Orchestra'
+```
+
+This is where you want to pattern match:
+
+```sql
+select id, name
+from artists
+where
+    name like '%Orchestra%'
+```
+
+| id  |                                     name                                     |
+|-----|------------------------------------------------------------------------------|
+| 192 | DJ Dolores & Orchestra Santa Massa                                           |
+| 210 | Hilary Hahn, Jeffrey Kahane, Los Angeles Chamber Orchestra & Margaret Batjer |
+| 217 | Royal Philharmonic Orchestra & Sir Thomas Beecham                            |
+| 220 | Chicago Symphony Chorus, Chicago Symphony Orchestra & Sir Georg Solti        |
+| 223 | London Symphony Orchestra & Sir Charles Mackerras                            |
+| 224 | Barry Wordsworth & BBC Concert Orchestra                                     |
+| 229 | Boston Symphony Orchestra & Seiji Ozawa                                      |
+| 230 | Aaron Copland & London Symphony Orchestra                                    |
+| 233 | Chicago Symphony Orchestra & Fritz Reiner                                    |
+| 234 | Orchestra of The Age of Enlightenment                                        |
+| 235 | Emanuel Ax, Eugene Ormandy & Philadelphia Orchestra                          |
+| 241 | Felix Schmidt, London Symphony Orchestra & Rafael Frhbeck de Burgos          |
+| 243 | Antal Dorti & London Symphony Orchestra                                      |
+
+It gives you the artists name that have the word "Orchestra". But what the heck is `%`? It's a wildcard. By putting `%` before
+'Orchestra' says it doesn't matter what comes before the word 'Orchestra'. By putting it afterwards also says it doesn't matter
+what comes after 'Orchestra'.
+
+I usually use `ilike` unless the word I'm pattern matching is case specific. For example, I could use `ilike` below and 
+match on `orchestra` (lower case). It would return the same thing as above.
+
+```sql
+select id, name
+from artists
+where
+    name ilike '%OrCHEstRA%'
+```
+
+The table below is taken from the [postgresql docs](https://www.postgresql.org/docs/8.3/functions-matching.html). Here are some examples of `like` matching:
+
+|    Statement     | Result  |
+|------------------|---------|
+| 'abc' LIKE 'abc' |  true   |
+| 'abc' LIKE 'a%'  |  true   |
+| 'abc' LIKE '_b_' |  true   |
+| 'abc' LIKE 'c'   |  false  |
+
+If you want to use regular expressions (REGEX), you can use `SIMILAR TO` clause. That's a topic beyond this scope. See [more here](https://www.postgresql.org/docs/8.3/functions-matching.html).
+
+
+
 
 
 ## Big table
