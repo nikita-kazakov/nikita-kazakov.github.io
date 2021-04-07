@@ -19,9 +19,9 @@ Reach out and write something like this:
 
 I learned this trick when I was applying to jobs as a junior software developer. One recruiter hooked me up with several interviews and came back to me with feedback about why the interviewers decided to reject me. It hurt reading that feedback but I quickly knew what to target to make myself stand out better in interviews.
 
-Your goal is to extract value out of the rejection you get. I'm going to guess most companies will respond back and give you their critiques. Your job is to compile those critiques into common critiques.
+Your goal is to extract value out of the rejection you get. I'm going to guess most companies will respond and give you their critiques. Your job is to compile those critiques into common critiques.
 
-Break down those common critiques and fix them for your future interviews. That's how you get better at interviewing. Rejection starts to make you a stronger candidate because it exposes your blind spots. You learn your own weaknesses and learn the game of the interview and how to play it *better.*
+Break down those common critiques and fix them for your future interviews. That's how you get better at interviewing. Rejection starts to make you a stronger candidate because it exposes your blind spots. You learn your weaknesses and learn the game of the interview and how to play it *better.*
 
 I recently started to review coding challenges and resumes at my company. I make detailed notes as to the pros and cons of every candidate that comes through. If candidates reached out, I'd gladly share the feedback.
 
