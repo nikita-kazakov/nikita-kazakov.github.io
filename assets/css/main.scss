@@ -39,3 +39,14 @@ $color-purple: #6200F0;
     }
   }
 }
+
+// -------------------------
+// Code Syntax Highlighting SECTION
+// -------------------------
+
+/* Inline code block */
+
+code.highlighter-rouge {
+  color: #f2efe3;
+  background-color: #f2efe3 !important;
+}
