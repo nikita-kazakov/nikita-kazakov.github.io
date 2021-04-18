@@ -7,6 +7,9 @@ sitemap: false
 @charset "utf-8";
 @import "so-simple";
 
+$color-blue: #0020FF;
+$color-purple: #6200F0;
+
 // Add custom CSS edits here
 .custom-nikita-wrap {
   max-width: $medium;
@@ -22,5 +25,17 @@ sitemap: false
   overflow-x: auto;
   table {
     white-space: nowrap;
+  }
+}
+
+// Makes anchor links blue for blog post content.
+.page-content {
+  .e-content {
+    a {
+      color: $color-blue;
+      &:visited {
+        color: $color-purple;
+      }
+    }
   }
 }
