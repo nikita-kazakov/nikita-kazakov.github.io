@@ -6,7 +6,7 @@ permalink: /how-objects-send-messages/
 tags:
     - ruby
 ---
-If open IRB (interactive ruby) and type in the following expression `2 + 3`, you&#8217;ll get `5`. If you reverse that with `3 + 2`, you&#8217;ll still get `5`.
+If you open IRB (interactive ruby) and type in the following expression `2 + 3`, you&#8217;ll get `5`. If you reverse that with `3 + 2`, you&#8217;ll still get `5`.
 
 Numbers are just one of the many types of objects in Ruby. Whole numbers are an **Integer** type of object.
 
