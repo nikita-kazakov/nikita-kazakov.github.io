@@ -18,9 +18,10 @@ There’s pleasure in getting dirty, submerging in cold water, climbing ropes ov
 
 Obstacle courses are growing in numbers.  We have UK’s Tough Guy (closed in 2017), Tough Mudder, Warrior Dash, Spartan Race.
 
- <figure> 
-
-<img width="1000" height="845" src="http://nikitakazakov.com/wp-content/uploads/2018/09/nikita_muckfest_2018.jpg" alt="" srcset="http://nikitakazakov.com/wp-content/uploads/2018/09/nikita_muckfest_2018.jpg 1000w, http://nikitakazakov.com/wp-content/uploads/2018/09/nikita_muckfest_2018-300x254.jpg 300w, http://nikitakazakov.com/wp-content/uploads/2018/09/nikita_muckfest_2018-768x649.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /> <figcaption>At MuckFest 2018</figcaption></figure> 
+{% include image_center_caption.html
+caption = ""
+image = "/assets/images/imported/muck_2018.jpg"
+%}
 
 Obstacle courses let us quickly go through a Hero’s Journey.  They let us experience life shortened down to several hours.  There’s a start point and a finish point.  
 

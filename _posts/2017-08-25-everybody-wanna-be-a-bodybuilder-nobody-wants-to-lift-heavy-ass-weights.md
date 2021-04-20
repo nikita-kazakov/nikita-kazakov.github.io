@@ -18,7 +18,10 @@ Here are lessons I picked up from Ronnie.
 
 Ronnie is huge. He weighed damn near 300 lb at his bodybuilding competitions.<figure class="wp-caption">
 
-![ronnie](http://nikitakazakov.com/wp-content/uploads/2018/08/e0501-1qt_y6qyzwfwb9b96kd7xta.jpeg)
+{% include image_center_caption.html
+caption = ""
+image = "/assets/images/imported/ronnie-1.jpeg"
+%}
 
 {% include embed_youtube.html id="4UlgXIL0-3g" %}
 

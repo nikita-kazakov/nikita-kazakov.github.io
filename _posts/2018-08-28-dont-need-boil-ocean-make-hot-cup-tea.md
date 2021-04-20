@@ -24,7 +24,10 @@ Bill Gates changed the world of computer software and now I feel that I must rea
 
 That puts you on a downhill slope to feeling like a lazy ass.
 
-<img src="http://nikitakazakov.com/wp-content/uploads/2018/08/2018-08-28_09-31-11-1024x472.jpg" sizes="(max-width: 1024px) 100vw, 1024px" srcset="http://nikitakazakov.com/wp-content/uploads/2018/08/2018-08-28_09-31-11-1024x472.jpg 1024w, http://nikitakazakov.com/wp-content/uploads/2018/08/2018-08-28_09-31-11-300x138.jpg 300w, http://nikitakazakov.com/wp-content/uploads/2018/08/2018-08-28_09-31-11-768x354.jpg 768w, http://nikitakazakov.com/wp-content/uploads/2018/08/2018-08-28_09-31-11.jpg 1109w" alt="" width="1024" height="472" /> 
+{% include image_center_caption.html
+caption = ""
+image = "/assets/images/imported/boil-1.jpg"
+%}
 
 Realize that your heros had no idea they would impact the world. I don’t think Gates as teenager woke up and said I’m going to revolutionize the world with this thing called DOS (precursor to windows). He didn’t have any conception of Microsoft Windows yet.  The idea came while he was busy working on local achievements.
 
@@ -32,7 +35,10 @@ Now put him in your position instead. Anything less reaching than the success of
 
 That’s why you don’t need to boil the ocean to make a cup of hot tea. The ocean is your biggest life dream.  It’s the highest potential you can imagine rising to.  It’s being, owning, creating the top 1% that changes the world.
 
-<img src="http://nikitakazakov.com/wp-content/uploads/2018/08/2018-08-28_10-05-32.jpg" sizes="(max-width: 942px) 100vw, 942px" srcset="http://nikitakazakov.com/wp-content/uploads/2018/08/2018-08-28_10-05-32.jpg 942w, http://nikitakazakov.com/wp-content/uploads/2018/08/2018-08-28_10-05-32-300x189.jpg 300w, http://nikitakazakov.com/wp-content/uploads/2018/08/2018-08-28_10-05-32-768x484.jpg 768w" alt="" width="942" height="594" /> 
+{% include image_center_caption.html
+caption = ""
+image = "/assets/images/imported/boil-2.jpg"
+%}
 
 The hot cup of tea in your hand represents the local achievements that you’re accomplishing right now.
 

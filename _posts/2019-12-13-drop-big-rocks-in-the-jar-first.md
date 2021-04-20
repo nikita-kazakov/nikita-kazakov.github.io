@@ -8,7 +8,10 @@ tags: mindset
 
 This analogy is about putting important things first. Sounds like the same old crap you hear from self-help books. However, I admire a good analogy that sticks in my head and this is one of those. This analogy comes from [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey).
 
-<figure class="wp-block-image size-large"><img src="https://nikitakazakov.com/wp-content/uploads/2020/02/image-4-1024x550.png" alt="" class="wp-image-6915" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/image-4-1024x550.png 1024w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-4-300x161.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-4-768x412.png 768w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-4.png 1140w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Put in rocks first and then pebbles and sand. (1)</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "Put in rocks first and then pebbles and sand. (1)"
+    image = "/assets/images/imported/jar-1.png"
+%}
 
 Imagine you have a jar and you have big rocks, pebbles, and sand that you need to fill the jar with.
 
@@ -16,7 +19,11 @@ How are you going to fill the jar? Order matters.
 
 If you start to fill it with sand and pebbles and have the rocks come last, there&#8217;s a good chance there won&#8217;t be enough room for rocks.<figure class="wp-block-image size-large">
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/02/image-5.png" alt="" class="wp-image-6919" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/image-5.png 1012w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-5-300x239.png 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/image-5-768x612.png 768w" sizes="(max-width: 1012px) 100vw, 1012px" /> <figcaption>If you throw in pebbles and sand first, you&#8217;ll quickly find that the rocks won&#8217;t all fit in the jar. [Image Source](https://www.chronicle.com/blogs/profhacker/files/2015/02/The-5-Choices-rocks-680x355.png).</figcaption></figure> 
+
+{% include image_center_caption.html
+    caption = "If you throw in pebbles and sand first, you’ll quickly find that the rocks won’t all fit in the jar."
+    image = "/assets/images/imported/jar-2.png"
+%}
 
 Rocks are the things that give your life meaning. These aren&#8217;t limited to family, relationships, and vocation. They are the things you&#8217;re compelled to do and you&#8217;d feel empty inside if they aren&#8217;t at least attempted.
 

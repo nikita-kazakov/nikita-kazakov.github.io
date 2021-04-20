@@ -17,16 +17,26 @@ I wrote a post about [making sense of PDUs and different ways you can earn them]
 
 Sign up at [ccrs.pmi.org](https://ccrs.pmi.org)<figure class="wp-block-image size-large">
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_ccrs-1024x544.jpg" alt="" class="wp-image-6864" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_ccrs-1024x544.jpg 1024w, https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_ccrs-300x159.jpg 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_ccrs-768x408.jpg 768w, https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_ccrs-1536x816.jpg 1536w, https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_ccrs-2048x1088.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption>You&#8217;ll see all the relevant information on the dashboard.</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "You’ll see all the relevant information on the dashboard."
+    image = "/assets/images/2020/pmi_ccrs-2048x1088.jpg"
+    alt = "You’ll see all the relevant information on the dashboard."
+%}
 
 Select the option to report your PDUs. If you&#8217;ve read my previous post on [how to earn PDUs and where to get them from](https://nikitakazakov.com/how-i-renewed-my-pmp-certification/), you probably have been keeping track of all PDUs you&#8217;ve earned in a spreadsheet.<figure class="wp-block-image size-large">
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_report_pdus-1024x637.jpg" alt="" class="wp-image-6865" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_report_pdus-1024x637.jpg 1024w, https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_report_pdus-300x187.jpg 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_report_pdus-768x478.jpg 768w, https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_report_pdus.jpg 1186w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption>Click on &#8220;Report PDUS&#8221;</figcaption></figure> 
+{% include image_center_caption.html
+    caption = "Click on Report PDUS"
+    image = "/assets/images/2020/pmi_report_pdus.jpg"
+%}
 
-You don&#8217;t have to provide a lot of detail in the description box when claiming PDUs. For example, when I submit a podcast that I&#8217;ve listened to, I provide the titles of each podcast episodes and the dates when I listed to them.<figure class="wp-block-image size-large">
+You don't have to provide a lot of detail in the description box when claiming PDUs. For example, when I submit a podcast that I&#8217;ve listened to, I provide the titles of each podcast episodes and the dates when I listed to them.<figure class="wp-block-image size-large">
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_podcast_list_-1024x438.jpg" alt="" class="wp-image-6867" srcset="https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_podcast_list_-1024x438.jpg 1024w, https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_podcast_list_-300x128.jpg 300w, https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_podcast_list_-768x329.jpg 768w, https://nikitakazakov.com/wp-content/uploads/2020/02/pmi_podcast_list_.jpg 1398w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption>Claiming PDUs for listened podcast episodes.</figcaption></figure> 
+{% include image_center_caption.html 
+    caption = "Claiming PDUs for listened podcast episodes."
+    image = "/assets/images/2020/pmi_podcast_list.jpg"
+%}
 
-You don&#8217;t have to submit PDUs individually. I tend to submit them in bulk as you see above with multiple podcast episodes. If you&#8217;re using the same [podcast spreadsheet I&#8217;m using](https://docs.google.com/spreadsheets/d/1zYKe_f7YJYrAoNXTMPf9pQqmx8NsCZqVgkS_SoYPLTI/edit#gid=0) created by Cornelius Fichtner, then you&#8217;ll have an easy time determining which category each podcast episode fulfills.
+You don't have to submit PDUs individually. I tend to submit them in bulk as you see above with multiple podcast episodes. If you&#8217;re using the same [podcast spreadsheet I&#8217;m using](https://docs.google.com/spreadsheets/d/1zYKe_f7YJYrAoNXTMPf9pQqmx8NsCZqVgkS_SoYPLTI/edit#gid=0) created by Cornelius Fichtner, then you&#8217;ll have an easy time determining which category each podcast episode fulfills.
 
 Claim 60 PDUs and then you&#8217;ll be able to renew your PMP certificate on that same website.

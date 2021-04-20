@@ -9,7 +9,10 @@ tags:
 
 Bottom Line --- Life is easier when you have a solid credit history. Start building it sooner rather than later. Here's how to do it.
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/0ce58-1wtozuya4nj5u1qgcccoe-a.jpeg)  
+{% include image_center_caption.html
+caption = ""
+image = "/assets/images/imported/credit-1.jpeg"
+%}
 
 If you’re working, you should be building your credit history. We don’t think ahead. One day you buy a house and realize you don’t any credit history and banks don’t trust you. Even worse, you have bad credit history. Banks can only offer you a high interest loan. You end up throwing money away on interest payments because you didn’t think ahead. That’s why I’m telling you it’s important to build a **_good_ credit history early on**.
 
@@ -29,7 +32,10 @@ If you don’t have a steady salary stream, you’re considered high risk. Banks
 
 These five factors are: credit utilization (35%), payment history (35%), length of credit history (15%), new credit (10%), credit diversity (10%).
 
-![](https://cdn-images-1.medium.com/max/800/0*e5I_WQSM8Y85Ld1e.)
+{% include image_center_caption.html
+caption = ""
+image = "/assets/images/imported/credit-2.png"
+%}
 
 source: [http://www.myfico.com/credit-education/whats-in-your-credit-score/](http://www.myfico.com/credit-education/whats-in-your-credit-score/)
 
@@ -43,7 +49,10 @@ Credit utilization is the percentage of how much you borrow out of the total all
 
 Let’s say your credit limit is $500. 10% of that is $50. While can borrow up to $500, it’s not a good idea because you’ll exceed the 10% threshold and your credit score will suffer for it. You should only borrow $50 or less.
 
-![](https://cdn-images-1.medium.com/max/800/0*x1ElqRSEygfCXJsF.)  
+{% include image_center_caption.html
+caption = ""
+image = "/assets/images/imported/credit-3.png"
+%}
 
 Here’s another example. Your credit limit is $2000. 10% of that is $200. Don’t borrow more than $200 each month or your credit score might suffer.
 

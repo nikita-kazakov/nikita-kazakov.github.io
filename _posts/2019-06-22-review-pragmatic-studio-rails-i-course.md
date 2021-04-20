@@ -7,7 +7,7 @@ permalink: /review-pragmatic-studio-rails-i-course/
 tags:
   - software development
 ---
-I finished <a rel="noreferrer noopener" target="_blank" href="https://pragmaticstudio.com/rails">Pragmatic Studio’s Rails I course</a> and it gave me the skills to build a CRUD Rails app from scratch. &nbsp;That speaks volumes about how great this course truly is
+I finished <a rel="noreferrer noopener" target="_blank" href="https://pragmaticstudio.com/rails">Pragmatic Studio’s Rails I course</a> and it gave me the skills to build a CRUD Rails app from scratch. &nbsp;That speaks volumes about how great this course truly is.
 
 The course features 26 video chapters that walk you through creating a Rails app to finishing a full featured application. &nbsp;Check out my <a rel="noreferrer noopener" target="_blank" href="https://github.com/nikita-kazakov/flix-rails-app">modified version of the Movie App</a> that I built while going through the course.
 
@@ -17,7 +17,9 @@ The course is not simply a video code-along. After watching Mike and Nicole expl
 
 # Am I ready to learn Rails?
 
-If you’re new to development and don’t understand object oriented design, then I strongly recommend you take their <a rel="noreferrer noopener" target="_blank" href="https://pragmaticstudio.com/ruby">Pragmatic Studio Ruby Course</a> first. <a rel="noreferrer noopener" target="_blank" href="https://nikitakazakov.com/why-i-quit-ruby-in-2015-and-how-i-made-a-comeback-4-years-later/">Here’s how I went about learning Ruby</a> and some tool recommendations.
+If you’re new to development and don’t understand object oriented design, 
+then I strongly recommend you take their <a rel="noreferrer noopener" target="_blank" href="https://pragmaticstudio.com/ruby">Pragmatic Studio Ruby Course</a> first. 
+[Here’s how I went about learning Ruby](https://youtu.be/PEszRnBBYNw) and some tool recommendations.
 
 Without having a solid understanding of Ruby, you won’t know what’s Ruby and what’s Rails syntax and quickly become overwhelmed.
 
@@ -33,7 +35,7 @@ I recommend taking notes because when you end up building your own app, you’ll
 
 # Skip TDD
 
-If you’re new to development, <a rel="noreferrer noopener" target="_blank" href="http://#">I recommend skipping</a> [](https://nikitakazakov.com/why-skip-testing-if-youre-new-to-software-development/)<a rel="noreferrer noopener" target="_blank" href="http://#">TDD</a> and instead focusing on Rails. I tried to do TDD (optional) in the middle of the course but it was too much to handle.
+If you’re new to development, [I recommend skipping TDD](/why-skip-testing-if-youre-new-to-software-development/) and instead focusing on Rails. I tried to do TDD (optional) in the middle of the course but it was too much to handle.
 
 When I finished the course, I returned to TDD and went through it. TDD made much more sense afterward! I saw the value in automated testing with Rspec and Capybara.
 
@@ -67,9 +69,12 @@ There’s a lot to learn in this course. Learning new material is hard. I knew t
 
 When I got to the optional TDD section of the course (about 30%), I created a new rails app and tried to rebuild the app from scratch (without TDD). I used my notes to help me get through roadblocks.
 
-As I rebuilt the new app and caught up to 30% of the course, I continued building until I reached 60% of the course and rebuilt everything from scratch again. I then finished up the app<figure class="wp-block-image">
+As I rebuilt the new app and caught up to 30% of the course, I continued building until I reached 60% of the course and rebuilt everything from scratch again. I then finished up the app.
 
-<img src="https://nikitakazakov.com/wp-content/uploads/2019/06/2019-06-22_13-12-13.jpg" alt="" class="wp-image-6744" srcset="https://nikitakazakov.com/wp-content/uploads/2019/06/2019-06-22_13-12-13.jpg 935w, https://nikitakazakov.com/wp-content/uploads/2019/06/2019-06-22_13-12-13-300x185.jpg 300w, https://nikitakazakov.com/wp-content/uploads/2019/06/2019-06-22_13-12-13-768x474.jpg 768w" sizes="(max-width: 935px) 100vw, 935px" /> </figure> 
+{% include image_center_caption.html
+    caption = "How I worked through the course project."
+    image = "/assets/images/imported/pragmatic-1.jpg"
+%}
 
 It’s more work to rebuild the app from scratch several times but it’s worth it. When you finish the course, you won’t say “Uh, where do I start if I want to build my own Rails app?”.
 

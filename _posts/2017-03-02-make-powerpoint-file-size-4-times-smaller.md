@@ -7,22 +7,29 @@ tags: tech
 ---
 
 Bottom Line --- Your powerpoint file doesn't need to be 100 megabytes. You can quickly batch compress images within it to a reasonable size.
-<figure> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/ac551-1qcgv2znbifthrx9ukcga4w.png)  
-</figure> 
+{% include image_center_caption.html
+caption = ""
+image = "/assets/images/imported/power-1.png"
+%}
 
-**How is this file 40MB?** This file is overflowing with image bureaucracy. I can’t email this PowerPoint.
+**How is this file 40MB?** This file is too damn big. I can't email it.
 
 There were lots of images but they looked small in size. No way did they add up to 40MB.
 
 I tried the PowerPoint compress option but it wasn’t good enough (22MB). **I found a way to half the size of the already compressed PowerPoint** without noticeably destroying image quality.<figure class="wp-caption"> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/9b7c7-1sxooqbv2lb-zfpldimncfa.png) <figcaption class="wp-caption-text">From 40MB to 9MB in PowerPoint</figcaption></figure> <figure class="wp-caption"> 
+{% include image_center_caption.html
+caption = "From 40MB to 9MB in PowerPoint"
+image = "/assets/images/imported/power-2.png"
+%}
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/88938-1jwpgijakuy7wteanosmqzg.png) <figcaption class="wp-caption-text">It does make the PointPoint smaller but we can half this size.</figcaption></figure> 
+{% include image_center_caption.html
+caption = "It does make the PointPoint smaller but we can half this size."
+image = "/assets/images/imported/power-3.png"
+%}
 
-### 4x Smaller Method
+# 4x Smaller Method
 
 Save your PowerPoint as *.pptx
 
@@ -30,23 +37,30 @@ Download <a href="http://www.rarlab.com/download.htm" target="_blank" rel="noope
 
 It opens! The *.pptx file is actually a zip file.<figure class="wp-caption"> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/2d601-1h9pn4rzix275zoyykrsajw.gif) <figcaption class="wp-caption-text">Opening PowerPoint with WinRAR. Go to ppt -> media. Those are all the images in your PowerPoint.</figcaption></figure> 
+{% include image_center_caption.html
+caption = "Opening PowerPoint with WinRAR. Go to ppt -> media. Those are all the images in your PowerPoint."
+image = "/assets/images/imported/power-4.gif"
+%}
 
 **These image files are not optimized and are the problem.**
 
 Copy the **media folder** to your desktop.
 
-### Use TinyPNG.com to optimize images
-
-<a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer">TinyPNG.com</a> works magic with png and jpeg files and **makes them smaller**. It will compress them but you likely **won’t see the difference visually**.
+# Use TinyPNG.com to optimize images
 
 Drag and drop the images into TinyPNG and download the optimized smaller images.<figure class="wp-caption"> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/7f4c7-1ilw-qvaxnesz_tnda3g8la.gif) <figcaption class="wp-caption-text">Converting images using TinyPNG</figcaption></figure> 
+{% include image_center_caption.html
+caption = "Converting images using TinyPNG"
+image = "/assets/images/imported/power-5.gif"
+%}
 
 Delete the original images from the media folder you opened in WinRAR and add back the optimized images.<figure class="wp-caption"> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/4442b-1bmal7u0r0nwgenw0ivr8ew.gif) <figcaption class="wp-caption-text">Deleting original images. Adding back the optimized images.</figcaption></figure> 
+{% include image_center_caption.html
+caption = "Deleting original images. Adding back the optimized images."
+image = "/assets/images/imported/power-6.gif"
+%}
 
 That’s it! Check your file size. It should be smaller than what PowerPoint could do on its own and the images are in better quality.
 
@@ -54,6 +68,9 @@ That’s it! Check your file size. It should be smaller than what PowerPoint cou
 
 Here’s another example:<figure class="wp-caption"> 
 
-![](http://nikitakazakov.com/wp-content/uploads/2018/08/31af3-1xzfsywmso6pmlqk3womyzg.png) <figcaption class="wp-caption-text">From 8 MB to 2.5 MB in PowerPoint</figcaption></figure> 
+{% include image_center_caption.html
+caption = ""
+image = "/assets/images/imported/power-7.png"
+%}
 
 *If the images are privacy sensitive, I wouldn’t use TinyPNG as your files will be uploaded to the server and converted. I’d use something like Photoshop instead.

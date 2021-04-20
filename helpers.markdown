@@ -12,7 +12,6 @@ Below are the helpers I use with this static website.
 {% include image_center_caption.html 
     caption = "This is an awesome caption bro."
     image = "/assets/images/2014-09-03/wwwimage.jpeg"
-    alt = "image showing www"
 %}
 ```
 {% endraw %}
