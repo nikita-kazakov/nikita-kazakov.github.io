@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby '2.6.6'
+ruby '2.7.1'
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -8,9 +8,7 @@ ruby '2.6.6'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-# gem "jekyll", "~> 4.1.1"
-
-
+gem 'jekyll'
 
 # Custom Themes
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -22,8 +20,8 @@ gem "jekyll-theme-so-simple"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "github-pages"
-  gem "jekyll-feed", "~> 0.12"
+  gem 'github-pages', '~> 214'
+  gem 'jekyll-feed', '~> 0.15.1'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
