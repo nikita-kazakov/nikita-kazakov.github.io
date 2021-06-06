@@ -14,8 +14,7 @@ You ain’t gonna get credit for it.
 
 Whoever is asking you for a favor, ask them to make their hidden request visible.
 
-The road to hell is paved with favors / requests from slack direct messages. 
-That's how you lose productivity. I'm not talking about sensitive messages that should stay private.
+The road to hell is paved with favors / requests from slack direct messages. That's how you lose productivity. I'm not talking about sensitive messages that should stay private.
 
 These are the messages that innocently start out as questions and turn into requests / favors. 
 Requests turn into unscheduled time away from prioritized features I’m working on for the quarter. 
@@ -33,7 +32,7 @@ Let’s say a person from another department is asking you for a non-trivial fav
 
 Respond with “Do you mind if we bring visibility to this request — can you copy / paste this request to this public channel `#relevant-channel`?” 
 
-If you have manager, it’s better that the manager is in that channel. 
+If you have a manager, it’s better that the manager is in that channel. 
 
 Now there’s visibility. 
 
