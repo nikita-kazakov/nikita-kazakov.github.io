@@ -7,24 +7,28 @@ tags:
     - software development
 ---
 
-Here’s the summary: Manage your time and priorities. 
+Bottom line --- Manage your time and priorities. 
 If you don’t, someone else will and you won’t like it. 
 Keep your work public and visible within your team. Resist doing hidden work at the expense of your priorities. 
 You ain’t gonna get credit for it.
 
 Whoever is asking you for a favor, ask them to make their hidden request visible and do it if you have buy-in from your manager.
 
-The road to hell is paved with favors / requests from slack private direct messages.
+The road to hell is paved with favors / requests from slack direct messages. 
+That's how you lose productivity.  
+I'm not talking about sensitive messages that should stay private.
 
-I lose productivity with private slack messages. These are not sensitive private messages that should stay private that I’m complaining about.
-
-There are messages that innocently start out as questions and turn into requests / favors. Requests turn into unscheduled time away from prioritized features I’m working on for the quarter. Worst of all, these request aren’t publicly visible. They are hidden.
+It's the messages that innocently start out as questions and turn into requests / favors. 
+Requests turn into unscheduled time away from prioritized features I’m working on for the quarter. 
+Worst of all, these request aren’t publicly visible. They are hidden.
 
 When it comes to a quarterly review, your manager is not going to know about side favors you worked on because they were hidden in private messages.
 
+*Why'd you work on these when you had other priorities?* is even worse to hear.
+
 Don’t let hidden favors sidetrack the prioritized quarterly goals that you set with your team / manager.
 
-Take conversations to public channels
+# Taking private conversations to public channels.
 
 Let’s say a person from another department is asking you for a non-trivial favor by direct messaging you in Slack.
 
@@ -36,4 +40,7 @@ Now there’s visibility. If the request isn’t trivial, your manager will push
 
 The second benefit is that it’s harder to ask someone to do something for you publicly unless you have a good reason for it.
 
-I’ve asked people to take requests / favors to public channels and suddenly they never did. Like magic, the problem was resolved. If the favor was not important enough to ask publicly, then it wasn’t important enough to sidetrack your priorities.
+I’ve asked people to take requests / favors to public channels and nothing came of it. 
+Like magic, the problem was resolved. 
+
+If the favor isn't important enough to ask publicly, then it's not important enough to sidetrack your priorities.
