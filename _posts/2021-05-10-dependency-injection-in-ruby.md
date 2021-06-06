@@ -1,6 +1,6 @@
 ---
 title: OOP Dependency Injection with a car example
-date: 2021-05-02
+date: 2021-05-16
 layout: post
 permalink: /dependency-injection-ruby-car/
 tags: 
