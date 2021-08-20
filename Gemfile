@@ -8,7 +8,7 @@ ruby '2.7.1'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem 'jekyll'
+gem 'jekyll', '~> 3.9'
 
 # Custom Themes
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
