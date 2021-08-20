@@ -7,8 +7,6 @@ tags:
     - ruby
 ---
 
-# Avoiding bundle exec
-
 When I mix multiple projects in the same Ruby environment, I end up with different versions of the same gem.
 
 Let's say I'm running Rails 5 and Rails 6 under Ruby 2.7.1.
