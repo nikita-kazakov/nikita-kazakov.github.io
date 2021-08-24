@@ -1,6 +1,6 @@
 ---
 title: Why learning IDE shortcuts is worth it.
-date: 2021-08-22
+date: 2021-08-21
 layout: post
 permalink: /learn-keyboard-shortcuts
 tags: 
