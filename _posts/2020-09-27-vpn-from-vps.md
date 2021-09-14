@@ -57,7 +57,16 @@ Check the root directory on your vps:
 
 `ls`
 
-You'll see your configuration files.
+You'll see your configuration files with the extension `.conf`.
+
+There are two ways to grab those configuration settings.
+
+## Method 1: Copy and Paste Method
+
+The `conf` files are small and I prefer this method. Type in `nano {config-file-name}`. Copy the contents and paste 
+them into a text editor on your computer. Keep the same file name and save it.
+
+## Method 2: Transferring files with scp (secure copy)
 
 We'll use scp (secure copy files) to transfer them from the vps server to your local machine for setup.
 
@@ -84,3 +93,11 @@ Ensure that your VPN IP address [is NOT blacklisted](https://whatismyipaddress.c
 Run [ipleak.net](https://ipleak.net/) to make sure your DNS isn't leaking information. You'll know because your location won't be present anywhere on that page.
 
 Finally, do a [speed test to check your VPN speed](https://www.speedtest.net/). It will be slower than your actual internet speed but it should be fast enough. If not, you can choose to look for another VPS provider.
+
+# Fixing Connectivity Issues
+I had issues where the VPN connection would stall on my iOS and Android devices. I was able to fix it by adding a 
+Persistent Keepalive setting to the conf file. This setting pings the VPN server every 20 seconds to keep the 
+connection alive. 20 seconds is not set in stone but it worked for me.
+
+Open the conf file in a text editor and add the line `PersistentKeepalive = 20`. Save the file and use it in Wireguard.
+
