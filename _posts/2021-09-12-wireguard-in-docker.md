@@ -16,7 +16,7 @@ SSH into your VPS server.
 Run `apt update` and `apt install curl` to update packages and install curl from the package manager.
 
 # Install docker via script
-`curl -fsSL https://get.docker.com -o get-docker.sh`
+`curl -fsSL https://get.docker.com -o get-docker.sh`  
 `sudo sh get-docker.sh`
 
 Install docker-compose which will set up Wireguard VPN container.
