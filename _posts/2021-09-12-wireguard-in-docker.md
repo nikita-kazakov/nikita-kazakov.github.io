@@ -4,7 +4,7 @@ date: 2021-09-12
 layout: post
 permalink: /wireguard-vpn-in-docker
 tags: 
-    - software development
+    - docker
 ---
 
 Most VPN setups assume that the entire server will be dedicated to the VPN. By using docker containers, I can run a vpn and other applications all on one single server.
