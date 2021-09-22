@@ -4,7 +4,7 @@ date: 2021-05-02
 layout: post
 permalink: /postgresql-backup-restore/
 tags: 
-    - web development
+    - sql
 ---
 
 Here's why you might want to do this:

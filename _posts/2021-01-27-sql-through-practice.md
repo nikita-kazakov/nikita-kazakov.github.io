@@ -4,7 +4,7 @@ date: 2021-01-27
 layout: post
 permalink: /sql-by-examples/
 tags: 
-    - software development
+    - sql
 ---
 
 Bottom Line - Practice SQL by solving real problems.
