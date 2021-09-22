@@ -1,6 +1,6 @@
 ---
 title: Extracting video metadata with Ruby and Mediainfo gem.
-date: 2021-09-20
+date: 2021-09-21
 layout: post
 permalink: /mediainfo-video-metadata
 tags: 

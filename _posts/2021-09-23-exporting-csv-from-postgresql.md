@@ -1,6 +1,6 @@
 ---
 title: Exporting to a CSV from Postgresql
-date: 2021-09-22
+date: 2021-09-23
 layout: post
 permalink: /postgresql-export-csv
 tags:
