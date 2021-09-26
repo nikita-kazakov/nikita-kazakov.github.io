@@ -7,9 +7,9 @@ tags:
     - sql
 ---
 
-I had to run a query on a Postgresql database in production and export the CSV data. I couldn't use [Postico](https://eggerapps.at/postico).
+I had to run a query on a Postgresql database in production and export the data to a CSV file. I couldn't use [Postico](https://eggerapps.at/postico).
 
-Enter psql on the server. Create a Postgresql view (essentially saving your query to a variable).
+Enter psql on the Postgresql server. Create a Postgresql view (saves the query to a variable).
 
 ```sql
 CREATE VIEW company_locations AS
@@ -18,16 +18,14 @@ CREATE VIEW company_locations AS
     WHERE location = 'US';
 ```
 
-Run this to export a query to a csv and keep the header. We are saving it to 'home/deploy/csv_export.csv' on the
-server.  
-
+Run the line below to export the view to a csv and keep the header. It is saved to 'home/deploy/csv_export.csv' 
+on the server.
 
 ```shell
 copy (select * from view_1) to /local/path/csv_export.csv csv header;
 ```
 
-Use scp (secure copy) to move `csv_export.csv` to your computer by typing this in your local terminal (not in the PSQL 
-terminal).
+Use scp (secure copy) to move `csv_export.csv` to your computer by typing the line below in your local terminal (not in the PSQL terminal).
 
 ```shell
 scp user@ec2.amazonaws.com:/home/user/csv_export.csv /Users/admin/desktop
