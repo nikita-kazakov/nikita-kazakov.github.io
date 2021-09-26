@@ -7,32 +7,33 @@ tags:
     - docker
 ---
 
-Did you know you could launch multiple small websites from the same server and have them totally isolated? Plus, you could link them to multiple domain names / subdomains and apply free SSL / TLS from Let's Encrypt?
+Did you know you could launch multiple small websites from the same server and keep them isolated from each other? 
+Plus, you could link them to multiple domain names / subdomains and apply free SSL / TLS from Let's Encrypt.
 
 I currently run multiple portfolio websites from one $10 / month virtual private server (VPS).
 
-Nginx Proxy Manager does a lot of the heavy lifting by acting as a single entry point to my server and re-directing users to the correct hosts.
+Nginx Proxy Manager does a lot of the heavy lifting by acting as a single entry point to my VPS and redirecting users to correct hosts.
 
-I use docker to cleanly isolate websites on a single server.
+I use docker to cleanly containerize websites on a single server.
 
 Our goal in this tutorial is to launch two simple websites and access them through different subdomains.
 
-Let's first launch one website.
+Let's launch the first website.
 
 # Buy a VPS
-Get yourself a VPS from Digital Ocean, Linode, or Vultr. For this tutorial, I'll use a 1 CPU / 1 GB RAM VPS that costs $5/month. I'm going to install Ubuntu 20.04 as the operating system on the server.
+Get yourself a VPS droplet from Digital Ocean, Linode, or Vultr. For this tutorial, I'll use a 1 CPU / 1 GB RAM VPS that costs $5/month. I'm going to install Ubuntu 20.04 as the operating system on the server.
 
 # Purchase a cheap domain name
-Get yourself a cheap $0.99 domain name. It can be anything as we're using it for this tutorial.
+Get yourself a cheap $0.99 domain name. It can be anything as we're using it for the sake of this tutorial.
 
-Access your domain name through the domain registrar and add an 'A' record to your domain DNS. Point the record to the IP of your VPS and set the name to a wildcard `*`. This means that ANY subdomain that is typed into the browser will be pointed towards your server and resolved by it.
+Access the domain name through the domain registrar and add an 'A' record to the domain DNS. Point the record to the IP of your VPS and set the name to a wildcard `*`. This means that ANY subdomain that is accessed in the browser will be pointed towards your server.
 
 {% include image_center_caption.html
 caption = "DNS Changes"
 image = "assets/images/2021/nginx_docker_1.png"
 %}
 
-These changes can take from a half hour or more to propagate.
+These changes can take a half hour or more to propagate.
 
 # SSH and Install Docker
 SSH into your server.
@@ -51,7 +52,7 @@ This tutorial assumes a basic knowledge of docker and docker-compose.
 
 # Running nginx proxy manager container
 
-We're going to pull the [nginx proxy manager](https://github.com/jc21/nginx-proxy-manager) image and run it in a container so that we avoid having to do the tedious set up work.
+We're going to pull the [Nginx Proxy Manager](https://github.com/jc21/nginx-proxy-manager) image and run it in a container.
 
 The commands below create a new directory called `nginx-proxy`. Then we change to that directory and create an empty `docker-compose.yml` file. We then open the file in the nano text editor.
 
@@ -62,7 +63,7 @@ touch docker-compose.yml
 nano docker-compose.yml
 ```
 
-Let's copy and paste the docker-compose configuration for nginx proxy manager taken directly from their [github readme](https://github.com/jc21/nginx-proxy-manager).
+Let's copy and paste the docker-compose configuration for Nginx Proxy Manager taken directly from their [github readme](https://github.com/jc21/nginx-proxy-manager).
 
 ```
 ---
@@ -98,11 +99,11 @@ services:
 
 Save the configuration file.
 
-If you're going to run this in production, I would suggest changing the database usernames / passwords above in the docker-compose configuration. For this tutorial, I'm leaving it as it is.
+If you're going to run this in production, I suggest changing the database username / password above in the docker-compose configuration. For this tutorial, I'm leaving it as it is.
 
-In a nutshell, docker-compose is going to create two containers: the application and a database in order to run nginx proxy manager.
+Docker-compose is going to create two containers: the application and a database in order to run Nginx Proxy Manager.
 
-Notice that we are exposing ports 80, 81, and 443 (ssl / tls) from the app service to the docker host.
+Notice that we are exposing ports 80, 81, and 443 (ssl / tls) from the application to the docker host.
 
 Let's run this configuration and create the two containers. We're bringing the docker containers 'up' and running both of them in 'detached' mode.
 
@@ -122,10 +123,10 @@ CONTAINER ID   IMAGE                             COMMAND             CREATED    
 694cdad1ec02   jc21/nginx-proxy-manager:latest   "/init"             About a minute ago   Up About a minute   0.0.0.0:80-81->80-81/tcp, :::80-81->80-81/tcp, 0.0.0.0:443->443/tcp, :::443->4>
 dd69467b4049   jc21/mariadb-aria:latest          "/scripts/run.sh"   About a minute ago   Up About a minute   3306/tcp
 ```
-Note again that ports 80, 81, and 443 are exposed to our host machine from the nginx proxy manager container.
+Ports 80, 81, and 443 are exposed to our host machine from the Nginx Proxy Manager container.
 
 # Setting up Nginx Proxy Manager Login
-Note down your VPS IP address. Yours will be different from mine. I'll use 137.220.37.65 in this tutorial.
+Note down your VPS IP address. Yours will be different than mine. I'll use 137.220.37.65 in this tutorial. Use yours.
 
 Type in `137.220.37.65` in your browser. You'll get a page that shows:
 
@@ -138,14 +139,14 @@ That's the page that is exposed on port 80. When you type in any IP or website i
 
 `137.220.37.65` typed in the browser is really `137.220.37.65:80`
 
-Note that the webpage is insecure. You'll see the padlock in your browser as red:
+Note that the webpage is insecure. You'll see a padlock with a red line through it.
 
 {% include image_center_caption.html
     caption = "Insecure page. It needs an SSL certificate."
     image = "assets/images/2021/nginx_docker_3.png"
 %}
 
-The login page for nginx proxy manager is located on port 81. Type in `137.220.37.65:81`. You should see a login page.
+The login page for Nginx Proxy Manager is located on port 81. Access `137.220.37.65:81` and a login page should appear.
 
 Login using the default credentials:
 
@@ -153,6 +154,7 @@ Login using the default credentials:
 Email: admin@example.com
 Password: changeme
 ```
+
 You'll be asked to change your email and your password.
 
 Try to access the domain name you registered in the browser. If all the DNS changes propagated, you should see:
@@ -162,7 +164,7 @@ Try to access the domain name you registered in the browser. If all the DNS chan
     image = "assets/images/2021/nginx_docker_2.png"
 %}
 
-Our first order of business is to set the login page as a subdomain and secure it.
+Our first order of business is to set the login page as a subdomain and to secure it.
 
 We want `137.220.37.65:81` to be accessible through `manager.selfhostbaby.xyz` and to be ssl / tls secure.
 
@@ -179,7 +181,7 @@ Put in the address you wish to set up in the 'Domain Names' field. When a user t
     image = "assets/images/2021/nginx_docker_5.png"
 %}
 
-If I type in `manager.selfhostbaby.xyz`, I see the login page comes up. However, the page is insecure. The padlock is not green and there's no tls / ssl encryption.
+If I access `manager.selfhostbaby.xyz`, the login page comes up. However, the page is insecure. The padlock is not green and there's no tls / ssl encryption.
 
 Let's fix that by adding automatic FREE encryption from Let's Encrypt through Nginx Proxy Manager.
 
@@ -197,9 +199,10 @@ Make sure to force the SSL:
     image = "assets/images/2021/nginx_docker_7.png"
 %}
 
-Now try typing in `https://manager.selfhostbaby.xyz` into your browser again. Your login page is now secure! There's a green padlock.
+Now try accessing `https://manager.selfhostbaby.xyz` again. Your login page is now secure! There's a green padlock.
 
-This is exactly how we'll set up websites in this remaining tutorial. We'll isolate each website in a docker container and expose a port, similar to how port 81 was exposed to the docker host. We'll then set up a subdomain through nginx proxy manager, point it to the new port, and secure it with Let's Encrypt SSL.
+This is exactly how we'll set up another website in this remaining tutorial. We'll isolate each website in a docker container and expose a port, similar to how port 81 was exposed to the docker host. 
+We'll then set up a subdomain through Nginx Proxy Manager and point it to the new port, and secure it with Let's Encrypt.
 
 # A simple NGINX webserver
 [Linuxserver has an Nginx docker image](https://hub.docker.com/r/linuxserver/nginx) that we'll use to set up an example website.
@@ -236,7 +239,7 @@ Now run this docker compose file and let it set this container up in a detached 
 
 `docker-compose up -d`
 
-Run `docker ps` and note down the container ID. Notice that it is running.
+Run `docker ps` and note down the container ID. Note that it is running.
 
 I can access this container web server by typing in: `137.220.37.65:4000`
 
@@ -249,28 +252,30 @@ You'll see something like this. You're running a web server on your VPS!
 
 Let's create a subdomain for it and secure it with Let's Encrypt using Nginx Proxy Manager.
 
-Go to `https://manager.selfhostbaby.xyz` and let's add a new proxy.
+Go to `https://manager.selfhostbaby.xyz` and add a new proxy.
 
 {% include image_center_caption.html
     caption = "Nginx container proxy setup"
     image = "assets/images/2021/nginx_docker_9.png"
 %}
 
-Click on the SSL and let's encrypt it like you encrypted the login page for Nginx Proxy Manager.
+Click on the SSL tab and add the Let's Encrypt certificate.
 
-Now go to `blog.selfhostbaby.xyz`. The site should load up and it is also secured by Let's Encrypt (green-pad lock).
+Access `blog.selfhostbaby.xyz`. The site should load up and it is also secured by Let's Encrypt (green-pad lock).
 
 You can repeat this process for setting up websites for any other containers you want. Heck, you can run the same nginx docker-compose file but rename the container within the `docker-compose.yml` to something else. That's a brand new webserver that you're serving on a single VPS!
 
 You're probably thinking that this web server message is boring and it would be nice to put your own content there instead.
 
-The cool thing about these docker containers is that you can 'jump' into them. I love this feature of docker. You can jump into them and run command line right from the container.
+The cool thing about these docker containers is that you can 'jump' into them.
 
 `docker exec -it nginx bash`
 
 The `-i` flag enters an interactive container mode. The `-t` enters a simulated terminal mode.  `-it` simply combines them together. You could have written them separately like this: `-i -t`.
 
-Then goes the running container name, which is `nginx` and then the command you want to enter. We want to run `bash` to access the terminal. Some flavors of linux won't have bash installed. In that case, you just run `sh` instead.
+Then goes the running container name, which is `nginx` and then the command you want to run. 
+We want to run `bash` to access the terminal. Some flavors of linux won't have bash installed. 
+In that case, use `sh` instead of `bash`.
 
 Notice that your command line prefix changed! It's something like this:
 
@@ -282,8 +287,10 @@ Browse around the container. It is totally isolated from the host. If you `cd co
 
 `nano index.html`
 
-Go ahead and edit this file and save it and refresh `blog.selfhostbaby.xyz`. It changed! You can serve a static website from this `www` folder.
+Go ahead and edit this file and refresh `blog.selfhostbaby.xyz`. It changed! You can serve a static website from this `www` folder.
 
 Play around and make more running containers from the Nginx docker image. Point them to different subdomains using Nginx Proxy Manager.
 
-The power is in your hands. You can run multiple Wordpress websites like this or other open source services. You can have them all running from one single VPS server and be neatly isolated from each other.
+The power is in your hands. 
+You can run multiple Wordpress websites like this or other open source services. 
+You can have them all running from one single VPS server.

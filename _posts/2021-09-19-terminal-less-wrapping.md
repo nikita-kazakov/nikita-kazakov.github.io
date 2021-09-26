@@ -7,15 +7,14 @@ tags:
     - linux
 ---
 
-When I run `docker ps` to look at docker containers, the results are always wrapped and hard to read because there are 
-too many displayed columns.
+When I run `docker ps` to look at docker containers, the results are typically wrapped and are hard 
+to read due to too many displayed columns.
 
-A good solution is to pipe the output to `less` with an `-s` flag which chops long lines
-rather than wrapping them.
+A good solution is to pipe the output to `less` with an `-s` flag which chops long lines.
 
 `docker ps | less -S`
 
-The result is tabular display that fits on the screen and looks something like this. 
+The result is a tabular display that fits on the screen and looks something like this. 
 
 ```bash
 CONTAINER ID   IMAGE                             COMMAND                  CREATED        STATUS                PORTS                                            NAMES
@@ -27,7 +26,7 @@ f6c1ffd8026b   ruby:2.7.4-alpine3.14             "irb"                    13 day
 ef916710b8b2   mysql:5.7                         "docker-entrypoint.s…"   5 months ago   Up 5 months           3306/tcp, 33060/tcp
 ```
 
-Hit the left and right keys see more columns in the terminal.
+Hit the left and right keys to see more columns in the terminal.
 
 
 

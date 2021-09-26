@@ -7,17 +7,12 @@ tags:
     - ruby
 ---
 
-I had to come up with a way to extract video metadata for work so that video files could be quickly inspected without
-manually playing each video.
+I had to come up with a way to extract video metadata for work. I found [Mediainfo](https://github.com/greatseth/mediainfo) to be a great fit.
 
-I found [Mediainfo](https://github.com/greatseth/mediainfo) to be a great fit.
-
-It provides video and audio metadata from the video. It can also strip out metadata without downloading an entire video.
-
-Here's how to get started with analyzing videos through urls.
+It strips video and audio metadata from a video file. It provides metadata without downloading an entire video.
 
 # Install
-You have to install the [MediaInfo CLI](https://mediaarea.net/en/MediaInfo) first. I used the MacOS in development 
+Install the [MediaInfo CLI](https://mediaarea.net/en/MediaInfo) first. I used the MacOS in development 
 and Ubuntu setup in production.
 
 Let's use Brew to install it on a MacOS in development.
@@ -26,14 +21,14 @@ Let's use Brew to install it on a MacOS in development.
 brew install media-info
 ```
 
-Add the gem script of [mediainfo you can from rubygems.org](https://rubygems.org/gems/mediainfo/versions/1.5.0) to 
+Add the gem script for [MediaInfo from rubygems.org](https://rubygems.org/gems/mediainfo/versions/1.5.0) to 
 your `Gemfile`.
 
 ```bash
 gem 'mediainfo', '~> 1.5'
 ```
 
-Run `bundle install` to install it. Let's jump into the Rails Console and play around.
+Run `bundle install` to install. Let's jump into the Rails Console and play around.
 
 ```ruby
 rails console
@@ -43,4 +38,4 @@ metadata = MediaInfo.from(url)
 metadata = JSON.parse(metadata.to_json)
 ```
 
-That metadata will be a Ruby hash and have a lot of metadata available for use.
+The metadata will be a Ruby hash.
