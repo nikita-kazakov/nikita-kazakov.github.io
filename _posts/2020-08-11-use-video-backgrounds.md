@@ -3,7 +3,8 @@ title: Use video backgrounds during video calls
 date: 2020-08-11
 layout: post
 permalink: /use-video-background/
-tags: tips
+tags: 
+  - career
 ---
 
 Bottom Line --- With a video background, I could move around and other people can be behind me without being seen on video.

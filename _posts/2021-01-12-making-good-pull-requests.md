@@ -4,7 +4,7 @@ date: 2021-01-12
 layout: post
 permalink: /making-good-pull-requests/
 tags: 
-    - software development
+    - software dev
 ---
 
 Bottom Line - Don’t waste the reviewer’s time. Don’t make them over-think about things you should have provided ahead of time in the pull request description.

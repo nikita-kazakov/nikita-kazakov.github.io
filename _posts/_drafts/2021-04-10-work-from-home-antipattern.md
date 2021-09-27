@@ -4,7 +4,7 @@ date: 2021-03-20
 layout: post
 permalink: /removing-work-from-home/
 tags: 
-    - software development
+    - software dev
 ---
 
 Hey Jim,

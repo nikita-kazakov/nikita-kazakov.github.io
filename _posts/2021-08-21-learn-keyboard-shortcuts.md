@@ -4,7 +4,7 @@ date: 2021-08-21
 layout: post
 permalink: /learn-keyboard-shortcuts
 tags: 
-    - software development
+    - software dev
 ---
 
 I lost significant productivity by relying mostly on the mouse rather than the keyboard. A few days ago, I took a few 

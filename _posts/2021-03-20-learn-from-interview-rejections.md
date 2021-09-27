@@ -4,7 +4,7 @@ date: 2021-03-20
 layout: post
 permalink: /interview-rejections-information/
 tags: 
-    - software development
+    - career
 ---
 
 Bottom Line - Ask for feedback after your rejection. Find the common threads, fix them, and get better at the interview game.

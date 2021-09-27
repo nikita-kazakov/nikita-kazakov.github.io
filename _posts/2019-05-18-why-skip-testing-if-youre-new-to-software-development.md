@@ -5,7 +5,7 @@ author: Nikita Kazakov
 layout: post
 permalink: /why-skip-testing-if-youre-new-to-software-development/
 tags:
-  - software development
+  - software dev
 ---
 Doing Test Driven Development (TDD) and learning Ruby simultaneously is a problem for brand new developers.
 

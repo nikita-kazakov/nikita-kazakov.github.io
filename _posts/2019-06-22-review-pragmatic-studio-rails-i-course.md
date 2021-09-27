@@ -5,7 +5,7 @@ author: Nikita Kazakov
 layout: post
 permalink: /review-pragmatic-studio-rails-i-course/
 tags:
-  - software development
+  - software dev
 ---
 I finished <a rel="noreferrer noopener" target="_blank" href="https://pragmaticstudio.com/rails">Pragmatic Studio’s Rails I course</a> and it gave me the skills to build a CRUD Rails app from scratch. &nbsp;That speaks volumes about how great this course truly is.
 

@@ -4,7 +4,7 @@ date: 2021-06-03
 layout: post
 permalink: /slack-make-a-new-channel/
 tags: 
-    - software development
+    - software dev
 ---
 
 Why do we strive to write DRY (do not repeat yourself) code but fail to apply that technique in communications?

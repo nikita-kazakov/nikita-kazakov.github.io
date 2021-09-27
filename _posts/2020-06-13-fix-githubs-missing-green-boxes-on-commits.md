@@ -4,7 +4,7 @@ date: 2020-06-13T03:30:39+00:00
 layout: post
 permalink: /fix-githubs-missing-green-boxes-on-commits/
 tags:
-  - software development
+  - software dev
 ---
 
 When I setup a new development environment, I’ll commit my code to GitHub but the green boxes won’t show my contribution for that day.
@@ -21,7 +21,6 @@ It’s usually because my git email / name is incorrect. The fix is pretty simpl
 git config --global user.name  "Your Name"
 git config --global user.email  "yourgithubaccountemail@blah.com"
 ```
-
 
 Try to commit and push your code again to see if your contributions are now showing.
 

@@ -4,7 +4,7 @@ date: 2021-03-09
 layout: post
 permalink: /code-review-iterate-less/
 tags: 
-    - software development
+    - software dev
 ---
 
 Bottom Line - Don't involve the reviewer prematurely in product management / feature iterations.
