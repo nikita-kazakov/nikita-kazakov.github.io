@@ -95,8 +95,18 @@ Run [ipleak.net](https://ipleak.net/) to make sure your DNS isn't leaking inform
 Finally, do a [speed test to check your VPN speed](https://www.speedtest.net/). It will be slower than your actual internet speed but it should be fast enough. If not, you can choose to look for another VPS provider.
 
 # Fixing Connectivity Issues
-I had issues where the VPN connection would stall on my iOS and Android devices. I was able to fix it by adding a 
-Persistent Keepalive setting to the conf file. This setting pings the VPN server every 20 seconds to keep the 
+
+For a whole year I've had connectivity problems with wireguard on iPad (2018) and MacBook Pro (2020). 
+It would connect but then the Wireguard handshake wouldn't happen and it would appear as if the internet connection was lost. 
+
+I had to constantly disconnect and re-connect Wireguard. The problem did not occur on my Dell laptop.
+
+The problem was that my router was beaming 2.4ghz and 5ghz WiFi signals. I noticed they had the same SSID (name). I decided to make their SSIDs different. 
+
+That fixed all my connectivity issues. 
+I think the iPad and the Macbook were switching between the SSIDs and that caused wireguard connectivity issues.
+
+I also added a Persistent Keepalive setting to the conf file. This setting pings the VPN server every 20 seconds to keep the 
 connection alive. 20 seconds is not set in stone but it worked for me.
 
 Open the conf file in a text editor and add the line `PersistentKeepalive = 20`. Save the file and use it in Wireguard.
