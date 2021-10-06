@@ -1,9 +1,12 @@
 ---
-title: "On Writing Well: The Classic Guide to Writing Nonfiction."
+author: William Zinsser
+title: On Writing Well - The Classic Guide to Writing Nonfiction.
+purchase_link: https://www.amazon.com/Writing-Well-30th-Anniversary-Nonfiction-ebook/dp/B0090RVGW0/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1633490377&sr=8-2
 date: 2021-07-15
-image:
-    thumbnail: assets/images/books/on-writing-well/on-writing-well.jpg
+rating: 10
 ---
+
+{% include book_data.html %}
 
 This book has practical tips on almost every page. It's excellent and deserves detailed study.
 Here are notes I took from the book.

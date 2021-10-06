@@ -1,9 +1,13 @@
 ---
+author: Gino Wickman
 title: What the heck is EOS?
+purchase_link: https://www.amazon.com/What-Heck-EOS-Employees-Companies-ebook/dp/B06Y1XFZR6/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1633489543&sr=8-1
 date: 2020-01-16
-image:
-    thumbnail: /assets/images/books/what-the-heck-is-eos/eos_thumb.png
+rating: 7
 ---
+
+{% include book_data.html %}
+
 Bottom Line --- 7/10 --- Read it if your organization is using EOS or if you're building an organization. Otherwise you can skip it.
 
 The company I’m working with started to use EOS (Entrepreneurial operating system) to manage vision, priorities and making sure everyone is clear about what the company is aiming to achieve.

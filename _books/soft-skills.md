@@ -1,10 +1,14 @@
 ---
-title: "Soft Skills: The software developer's life manual"
+author: John Sonmez
+title: Soft Skills - The software developer's life manual
+purchase_link: https://www.amazon.com/Soft-Skills-Software-Developers-Manual-ebook/dp/B08N9KTYW6
 date: 2019-06-03
-image:
-    thumbnail: /assets/images/books/soft_skills_thumbnail.jpg
+rating: 9
 ---
-Bottom-line --- 9/10 ---This is an excellent book with practical tips on how to market yourself as a software developer. I took away gold nuggets on improving my blog and technical writing from this book.
+
+{% include book_data.html %}
+
+This is an excellent book with practical tips on how to market yourself as a software developer. I took away gold nuggets on improving my blog and technical writing from this book.
 
 I read this book as I was transitioning from my previous Petroleum Engineering career to becoming a software developer. I highly recommend reading this as it helped me market myself as a software developer.
 
