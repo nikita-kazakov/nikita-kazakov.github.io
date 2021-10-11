@@ -2,7 +2,7 @@
 title: Changing git commit date
 date: 2021-10-09
 layout: post
-permalink: /pass-ruby-variables-to-javascript
+permalink: /changing-git-commit-date
 tags:
     - software dev
 ---
