@@ -7,7 +7,7 @@ tags:
     - software dev
 ---
 
-Sometimes I forget to commit my changes until days later. I prefer these commits show an accurate commit date.
+At times I forget to commit my changes until days later. I prefer these commits show an accurate commit date of when the work was actually done.
 
 You can change the commit date of any git commit with the `--date` flag.
 

@@ -7,7 +7,7 @@ tags:
     - ruby on rails
 ---
 
-If you import data into a Rails project but you manually using something like Postico, you'll see that the primary key count in Rails might be off. For example, running `User.last` doesn't truly yield the last row in the User table.
+If you import data into a Rails project manually, you'll see that the primary key count in Rails might be off. For example, running `User.last` doesn't show the last row in the User table.
 
 The problem is that the primary key sequence is off. This value is maintained by Postgresql every time you add a new row.
 

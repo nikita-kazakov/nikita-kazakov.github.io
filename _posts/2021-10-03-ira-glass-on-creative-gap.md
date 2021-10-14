@@ -37,6 +37,7 @@ I know what good writing reads like but I can't replicate it _yet_.
 
 To write simply, I must copy the styles of the authors that write simply and let their style melt with mine.
 
-Producing regularly is hard. It needs to be a habit. Even a habit of producing a short informative blog post. 200 words consistently is better than 1000 words _occassionally_.
+Producing regularly is hard. It needs to be a habit. 
+Producing a short informative blog post of 200 words _consistently_ is better than 1000 words _occasionally_.
 
 Sucking at the craft you have a rich taste for _is the way_. I'll suck less as my volume of work continues to build.

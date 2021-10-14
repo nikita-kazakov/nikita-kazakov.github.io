@@ -7,12 +7,12 @@ tags:
     - ruby
 ---
 
-I had to pass Ruby variables to Javascript in my Ruby on Rails applications on two occasions:
+I often pass Ruby variables to Javascript in Ruby on Rails on two occasions:
 
-- Send user data to tracking snippets (sends through javascript).
+- Send user data to tracking snippets (through javascript).
 - Integrate payment tokens that use Javascript rather than a ruby gem.
 
-Since Ruby is on the backend and Javascript is on the front end, their integration isn't seamless.
+Since Ruby is on the backend and Javascript is on the frontend, their integration isn't seamless.
 I'm going to use HAML in the examples below rather than ERB.
 
 You can add in-line javascript in your view templates and interpolate ruby variables. 
@@ -32,10 +32,10 @@ Using  `#{}` by itself can result in errors. For example, let's say I interpolat
 ```haml
 :javascript
   email = #{@user.email}
-  // Javascript will return it as:
+  // Javascript will see it as:
   email = bob@mail.com
-  // bob@mail.com is not a string. It's a series of characters javascript thinks are a variable or method name.
-  // This will result in an error.
+  // bob@mail.com is not a string. It's a series of characters Javascript thinks are variables or method names.
+  // This results in an error.
 ```
 
 I find it more reliable to put double quotes around it: `"#{}"`.
@@ -44,12 +44,10 @@ I find it more reliable to put double quotes around it: `"#{}"`.
   email = "#{@user.email}"
   // Javascript will return it as:
   email = "bob@mail.com"
-  // This is valid javascript.
+  // This is valid.
 ```
 
-The interpolated result will always be a string.
-
-If you're passing in a number, you don't need to use quotes around `#{}`.
+The interpolated result will always be a string. If you're passing in a number, you don't need to use quotes around `#{}`.
 
 ```haml
 :javascript
@@ -69,7 +67,7 @@ If the data I'm passing has quotes, brackets, or some other special character, I
   // user_email = "This will not &#39;be escaped&#39; &#39;properly&#39;"
 ```
 
-There are a few ways to escape HTML. You can use `raw`.
+There are a few ways to escape HTML. One is to use `raw`.
 ```haml
 :javascript
   user_email = "#{raw "This will not 'be escaped 'properly'."}"
@@ -94,22 +92,23 @@ What if you want to pass an ActiveRecord collection to Javascript?
   users = #{raw(@orders.to_json)}  
 ```
 
-You want to output the ActiveRecord collection as JSON with `to_json` and escape the results with `raw` or `html_safe`. 
-The result will be a JSON (an array with several elements) passed to Javascript.  
+You want to send an ActiveRecord collection as JSON with `to_json` and escape the results with either `raw` or `html_safe`. 
+The result will be a JSON (an array with several elements) passed to Javascript. 
+
 You can then iterate on that JSON with a `forEach` or `map` within Javascript.
 
 # Fetching data attributes on HTML tags
 
-You can also pass ruby variables through data attributes on an HTML tag. Let's do that using HAML.
+You can also pass ruby variables through data attributes on HTML tags. Let's do that in HAML.
 
 ```haml
-%div#items{ data: { email: @user.email } }
+#items{ data: { email: @user.email } }
 
 // This generates this html:
 // <div data-email="apm@designpickle.com" id="items"></div>
 ```
 
-Fetch information with Javascript:
+Fetching this information with Javascript:
 ```javascript
 document.getElementById('items').getAttribute('data-email')
 ```
@@ -117,5 +116,10 @@ document.getElementById('items').getAttribute('data-email')
 Feel free to pass in ActiveRecord through data attributes like this:
 
 ```haml
-%div#items{ data: { email: @user.email, orders: @orders.to_json } }
+#items{ data: { email: @user.email, orders: @orders.to_json } }
+```
+
+```javascript
+// Fetch the JSON in Javascript
+document.getElementById('items').getAttribute('data-orders')
 ```

@@ -44,4 +44,4 @@ Item.update(price: 1000.00)
 => # ERROR. You exceeded precision 5. 
 ```
 
-The column accepts numbers with a lower precision. The column will round up decimal value (scale) if it is more than 2 digits in our example. The column will return an error if the number of digits (precision) is higher than 5.
+The column accepts numbers with a lower precision. The column will round up decimal values (scale) if it is more than 2 digits in our example. The column will return an error if the number of digits (precision) is higher than 5.
