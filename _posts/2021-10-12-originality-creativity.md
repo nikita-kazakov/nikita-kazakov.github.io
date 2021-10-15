@@ -19,7 +19,7 @@ The music you listen to is widely sampled.
 
 You just don't know it because you don't recognize original references to the works you cherish by others.
 
-Creatives give themselves permission to ~~collect~~ steal good ideas from others and mash them together to produce something looks original.
+Creatives give themselves permission to ~~collect~~ steal good ideas from others and mash them together to produce something that looks original.
 
 The book [Steal like an Artist by Austin Kleon](https://www.nikitakazakov.com/books/steal-like-an-artist/) goes deep into this concept.
 
@@ -34,16 +34,16 @@ This even works genetically. You're not original. You are branched genetically o
 
 # Writing
 
-Copywork is directly copying written material from other authors in order to internalize their style.
+Copy work is directly copying written material from other authors to internalize their style.
 
-You like the style of Rudyard Kipling and want it to rub off on you? 
+Do you like the style of Rudyard Kipling and want it to rub off on you? 
 Pick up his book and start copying it chapter by chapter.
 
 Sounds silly?
 
-That's exactly what Jack London did. He spend days doing copywork with Kipling's material.
+That's exactly what Jack London did. He spent days doing copy work with Kipling's material.
 
-Benjamin Franklin also did copywork to improve his writing.
+Benjamin Franklin also did copy work to improve his writing.
 
 >...I met with an odd volume of the "Spectator." I had never before seen any of them. I bought it, read it over, and was much delighted with it.
 >
@@ -53,12 +53,12 @@ Benjamin Franklin also did copywork to improve his writing.
 
 I took a copywriting course a few years ago as I thought it might be a good career switch out of Oil and Gas.
 
-The entire course was copywork. I spent hours and hours copying copywriters and their ads in the hopes that their style rubs off on me.
+The entire course was copy work. I spent hours and hours copying copywriters and their ads in the hopes that their style rubs off on me.
 
 > If you rip off [the style of] a hundred people, everyone will say you’re so original!  
 > — Gary Panter
 
-Hunter Thompson also used copywork and copied Hemingway's *For Whom the Bell Tolls* and Fitgerald's *The Great Gatsby* to find his style.
+Hunter Thompson also used copywork and copied Hemingway's *For Whom the Bell Tolls* and Fitzgerald's *The Great Gatsby* to find his style.
 
 # Music
 The Beatles started off as a band playing cover songs.
@@ -76,7 +76,7 @@ Jimi Hendrix added his own style to it and made it so good that it's what you kn
 
 {% include embed_youtube.html id="nyTQ-j9Mm1c" %}
 
-Many of these artists sold millions of albums. They gave themselves permission to take good ideas and mix them with their own style. They aren't pure originals and sampled heavily.
+Many of these artists sold millions of albums. They gave themselves permission to take good ideas and mix them with their own style. They aren't pure originals and sampled others heavily.
 
 # Video Game Music
 
@@ -86,7 +86,7 @@ There are a ton of sampled beats and cadences in video game music.
 
 # Painters
 
-Vincent Van Gogh applied copywork to painting by copying the works of his favorite artists including Millet and Delacroix.
+Vincent Van Gogh applied copy work to painting by copying the works of his favorite artists including Millet and Delacroix.
 
 > Those who do not want to imitate anything, produce nothing  
 > — Salvador Dali
