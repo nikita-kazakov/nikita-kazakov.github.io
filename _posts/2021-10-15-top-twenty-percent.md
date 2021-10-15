@@ -1,111 +1,86 @@
 ---
-title: Don't let originality paralyze your creativity
+title: Why aiming for the top 20% is good enough
 date: 2021-10-12
 layout: post
-permalink: /originality-paralyzes-creativity
+permalink: /top-twenty-percent
 tags:
-    - craft
+    - mindset
 ---
 
-The problem is sitting down to write and thinking *I have nothing original to say.* 
-You start a blog and a few weeks later you forget about it. 
-Someone told you that original thought is a prerequisite for creative work.
+I’m not the best at anything and that’s a strength.
 
-It's a lie.
+Aspiring to be the best kept me from getting things that mattered done.
 
-The authors you read copied ideas.
-The artwork you see is heavily borrowed.
-The music you listen to is widely sampled.
+I don’t want to reach for the stars nor do I want to be all that you can be. Exceptionalism comes with a cost. Perfectionism leads to procrastination — which often leads to giving up. The cost is not worth it.
 
-You just don't know it because you don't recognize original references to the works you cherish by others.
+The challenge is to differentiate the top 1% from the top 20% in the skill that you’re learning.
 
-Creatives give themselves permission to ~~collect~~ steal good ideas from others and mash them together to produce something that looks original.
+When it comes to learning an individual skill, I ask — what does being in the top 20% look like in that skill? Then I set goals based on that.
 
-The book [Steal like an Artist by Austin Kleon](https://www.nikitakazakov.com/books/steal-like-an-artist/) goes deep into this concept.
+Inching closer to the top 1% will automatically happen when you’re stacking the skills you’re in the top 20% in.
 
-> There is nothing new under the sun  
-> — Ecclesiastes 1:9.
+Below are a few examples from my life where reaching for the top 20% worked out.
 
-I wasn't taught to take good ideas and try to re-mix them in school. We hear so much about the evils of plagiarism in primary school that we're afraid to take ideas from others and mix them with our own.
+# Switching careers
 
-Straight plagiarism is poor taste. It's adding nothing and is equivalent to identity theft. However --- if you mesh together 5 different ideas from others, it creates something new.
+It took me about a half year of study and practice before I was paid to do software development.
 
-This even works genetically. You're not original. You are branched genetically off your mom, dad, and your ancestors.
+My goal was clear — get good enough and get a job in the industry.
+
+I’ve seen posts where people are self-studying full-time for three or more years before applying for jobs.
+
+Linus Torvalds, Bill Gates, Mark Zuckberg are the top 1%. You don’t need to be in the top 1% to be a good developer.
+
+I fell into the same trap and only started applying for jobs when a few developer friends urged me to.
+
+And you know what? I wasn’t fully ready. I wasn’t even in the top 20% of a software developer.
+
+It didn’t matter — the goal was to start my career. Starting meant getting paid to be a software developer and learning on the job.
+
+Most of my interviews were rejections. It was a numbers game and eventually, I had an offer in my hand.
+
+Had I continued to reach for the stars and mistake the top 1% for the top 20%, I’d still be hoping to break into the industry.
+
+# Certifications
+
+It took me 3 months between studying and taking the PMP (Project Management Professional) exam.
+
+I read stories of people taking years to study just to take the first test. I’m not smarter than they are. They are prematurely aiming to be the top 1%.
+
+My primary goal was to pass the exam — not become the top 1% project manager. I didn’t have to be the best and instead focused on studying materials that would pass the exam and get me closer to real-world project management.
+
+The prep materials and the exam won’t teach you to be an effective product manager anyway. They’ll only give you a skeleton of project management. Real learning happens with on the job experience.
+
+You can’t get to on the job experience if you are stuck trying to be the best test taker.
 
 # Writing
 
-Copy work is directly copying written material from other authors to internalize their style.
+If I focused on becoming a top 1% writer, I’d give up writing.
 
-Do you like the style of Rudyard Kipling and want it to rub off on you? 
-Pick up his book and start copying it chapter by chapter.
+I know this because I began blogging in 2014 and compared to today, I wrote sporadically. I put too much pressure on myself to succeed like the bloggers I looked up to.
 
-Sounds silly?
+I’m not Stephen King, John Grisham, or JK Rowling. They are the 1% of authors but they worked up to being the top 1%.
 
-That's exactly what Jack London did. He spent days doing copy work with Kipling's material.
+I gave myself permission to also work up to being a better writer rather than quitting because of perfectionism.
 
-Benjamin Franklin also did copy work to improve his writing.
+Some of my blog posts are short. Even though I proofread — some of them still have grammatical errors.
 
->...I met with an odd volume of the "Spectator." I had never before seen any of them. I bought it, read it over, and was much delighted with it.
->
->I thought the writing excellent, and wished, if possible, to imitate it. With this view I took some of the papers, and making short hints of the sentiment in each sentence, laid them by a few days, and then, without looking at the book, tried to complete the papers again, by expressing each hinted sentiment at length, and as fully as it had been expressed before, in any suitable words that should come to hand. Then I compared my " Spectator" with the original, discovered some of my faults, and corrected them.
-> 
->--- Benjamin Franklin
+The point is that they get written and published regularly.
 
-I took a copywriting course a few years ago as I thought it might be a good career switch out of Oil and Gas.
+That beats the hell out of not regularly writing.
 
-The entire course was copy work. I spent hours and hours copying copywriters and their ads in the hopes that their style rubs off on me.
+# Public Speaking
 
-> If you rip off [the style of] a hundred people, everyone will say you’re so original!  
-> — Gary Panter
+I went to Toastmasters to get better at public speaking and presenting.
 
-Hunter Thompson also used copywork and copied Hemingway's *For Whom the Bell Tolls* and Fitzgerald's *The Great Gatsby* to find his style.
+I finished the speaking track of the program by giving over 40 presentations and it sharpened my speaking skills.
 
-# Music
-The Beatles started off as a band playing cover songs.
+Even though the program had a service track to complete to get to the distinguished toastmaster level — I quit.
 
->I emulated Buddy Holly, Little Richard, Jerry Lee Lew, Elvis. We all did.  
-— Paul McCartney
+My goal was to become the top 20% speaker and not the top 1%.
 
-Much of modern music is copied.
+# When to aim for the 1%
 
-{% include embed_youtube.html id="ckfPMZfWXqU" %}
+When I reach the top 20% competency in a skill and I feel a pull to continue working on it, I’ll give in and start inching towards the 1% on that specific skill.
 
-When I say "All along the watchtower" --- you think [Jimi Hendrix](https://www.youtube.com/watch?v=TLV4_xaYynY), right? Wrong. [Bob Dylan wrote it](https://www.youtube.com/watch?v=bT7Hj-ea0VE) and performed it first.
-
-Jimi Hendrix added his own style to it and made it so good that it's what you know.
-
-{% include embed_youtube.html id="nyTQ-j9Mm1c" %}
-
-Many of these artists sold millions of albums. They gave themselves permission to take good ideas and mix them with their own style. They aren't pure originals and sampled others heavily.
-
-# Video Game Music
-
-There are a ton of sampled beats and cadences in video game music.
-
-{% include embed_youtube.html id="GLlxSJO9kKk" %}
-
-# Painters
-
-Vincent Van Gogh applied copy work to painting by copying the works of his favorite artists including Millet and Delacroix.
-
-> Those who do not want to imitate anything, produce nothing  
-> — Salvador Dali
-
-# Tech
-
-Tech is full of theft. [Apple stole the idea of a GUI interface from Xerox](https://youtu.be/T0Z73Zbtlyg?t=662).
-
-Xerox had no idea it was sitting on a goldmine. Apple did.
-
-USPS existed before Fedex was started.
-
-MP3 players existed before the iPod showed up.
-
-Myspace ruled before Facebook took over.
-
-# Conclusion
-
-The creatives you worship gave themselves permission to learn from the creatives they liked.
-They stole a bunch of good ideas and remixed them.
-
-Don't sell yourself short by assuming you need pure originality. Your heroes didn't. Go out, take ideas, mix them, and create!
+Procrastination is no longer there because that skill is now a strength and I’m in the zone while working to improve it further. It’s enjoyable.
