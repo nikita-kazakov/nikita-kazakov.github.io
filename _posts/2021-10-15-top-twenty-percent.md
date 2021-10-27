@@ -17,7 +17,7 @@ The challenge is to differentiate the top 1% from the top 20% in the skill that 
 
 When it comes to learning a skill, I ask --- what does being in the top 20% look like in that skill? I set goals based on that.
 
-Inching closer to the top 1% will automatically happen when you're [stacking skills.](/stacking-skills).
+Inching closer to the top 1% will automatically happen when you're [stacking skills.](/stacking-skills)
 
 Here are a few examples from my life where reaching for the top 20% worked out well.
 
