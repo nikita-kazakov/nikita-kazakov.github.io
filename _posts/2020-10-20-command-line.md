@@ -11,7 +11,7 @@ Becoming a software developer forced me to learn the command line interface. At 
 
 There's no way around it because you'll need to ssh into your production servers and there won't be a GUI interface. Get comfortable now.
 
-I'll be using `bash` (bourne again shell) --- the most popular shell out there. A lot of this stuff with work wit `zsh` also.
+I'll be using `bash` (bourne again shell) --- the most popular shell out there. A lot of this stuff will work with `zsh`.
 
 {% include toc %}
 
