@@ -1,8 +1,8 @@
 ---
-title: Javascript --- wait until an element is loaded
+title: Javascript --- wait for DOM or element to load.
 date: 2022-01-06
 layout: post
-permalink: /js-wait-until-loaded-element
+permalink: /js-wait-until-loaded-dom-element
 tags:
     - javascript
 ---
