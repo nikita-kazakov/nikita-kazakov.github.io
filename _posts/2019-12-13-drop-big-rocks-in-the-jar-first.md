@@ -6,22 +6,22 @@ permalink: /drop-big-rocks-in-the-jar-first/
 tags: mindset
 ---
 
-This analogy is about putting important things first. Sounds like the same old crap you hear from self-help books. However, I admire a good analogy that sticks in my head and this is one of those. This analogy comes from [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey).
+This analogy is about putting important things first. This is a good analogy that sticks in my head. It comes from [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey).
 
 {% include image_center_caption.html 
     caption = "Put in rocks first and then pebbles and sand. (1)"
     image = "/assets/images/imported/jar-1.png"
 %}
 
-Imagine you have a jar and you have big rocks, pebbles, and sand that you need to fill the jar with.
+Let's say you have a jar. Next to it you have big rocks, pebbles, and sand to fill the jar with.
 
-How are you going to fill the jar? Order matters.
+How are you going to fill the jar?
 
-If you start to fill it with sand and pebbles and have the rocks come last, there&#8217;s a good chance there won&#8217;t be enough room for rocks.<figure class="wp-block-image size-large">
+If you start filling it with sand and pebbles, the rocks won't fit.
 
 
 {% include image_center_caption.html
-    caption = "If you throw in pebbles and sand first, you’ll quickly find that the rocks won’t all fit in the jar."
+    caption = "Start filling it with sand and pebbles and the rocks won't fit."
     image = "/assets/images/imported/jar-2.png"
 %}
 
@@ -45,7 +45,7 @@ If the answer is no, then it&#8217;s likely sand.
 
 Unless you specifically block out time for rocks, the day will get filled with sand and some pebbles. By the time it&#8217;s 9pm, willpower is gone and rocks don&#8217;t stand a chance that day.
 
-However if you block out time for rocks before the day starts, you&#8217;ll notice that sand will shift around the rocks. Even some pebbles will start to shift around the rocks.
+If you block chunks of time for rocks before the day starts, you&#8217;ll notice that sand will shift around the rocks. Even some pebbles will start to shift around the rocks.
 
 Try shaking a jar with all three and you&#8217;ll see sand and pebbles shift and settle AROUND the rocks.
 
