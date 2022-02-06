@@ -2,9 +2,9 @@
 title: You are not your code
 date: 2022-01-16
 layout: post
-permalink: /craft
+permalink: /you-are-not-your-code
 tags:
-- career
+- craft
 ---
 
 The code you write today will be killed off in the future. You are not the code you write.
