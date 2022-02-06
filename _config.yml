@@ -98,9 +98,13 @@ footer_links:
   - title: GitHub
     url: https://github.com/nikita-kazakov
     icon: fab fa-github-square
+  - title: Twitter
+    url: https://twitter.com/kazperson
+    icon: fab fa-twitter
   - title: YouTube
     url: https://www.youtube.com/channel/UC4IjrYFRK3DIBO4aql_0KKQ
     icon: fab fa-youtube
+
 #  - title: Feed
 #    url: atom.xml
 #    icon: fas fa-rss-square
