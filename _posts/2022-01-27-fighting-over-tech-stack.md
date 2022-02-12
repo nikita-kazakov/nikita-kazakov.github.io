@@ -15,7 +15,7 @@ They voiced hurt feelings. They think the company doesn't care about their desir
 
 Don’t be like these two engineers.
 
-The fight is fruitless and harms the engineer and the company. Some software developers grow [too attached to their code](/you-are-not-your-code/).
+The fight is fruitless and harms the engineer and the company. Some software developers grow [too attached to their code](/you-are-not-your-code).
 
 If you work for a company then the code you write is not yours. The company pays you to deliver value.
 
