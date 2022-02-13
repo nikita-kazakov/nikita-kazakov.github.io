@@ -8,45 +8,78 @@ tags:
   - mindset
 ---
 
-It’s okay to give up on a dream. Nikita, what are you talking about man? I thought you had to persevere, fight, and never give up. That’s true if _you feel strongly about that dream_. Are you fooling yourself?
+Only losers give up on their dreams, right? 
+Common wisdom says to persevere, fight, and to never give up on your dreams.
+But what if the dream you have is someone else's or no longer makes sense to you today?
 
-{% include embed_youtube.html id="IVnol4fTZ4Q" %}
+This post was updated on February 2022
+{: .notice--info}
 
-I’m talking about the dream you wrote down 3 years ago, and now when you look at the list, you no longer feel that radiant glow towards it. **You actually look at it and your stomach clenches inwards instead**. Somewhere in the back of your head, you think “I don’t want it, but yet I can’t cross it off”. Ah yes, it’s the feeling of guilt that stops you. Internal thoughts go something like this:
+I sat down and made a _dreams list_ 5 years ago. 
+I listed things to pursue that would give my life satisfaction and purpose.
 
-> I wrote it down because I wanted to do something powerful in my life. If I cross it off now, that means I couldn’t hack it. Am I a failure? If I cross this one out, I’ll be crossing out other things I’ve planned in my life. What am I going to tell my friends? I’ve already told them that I’d become / do this. I must do it. I don’t feel like doing it though. No, I can’t cross it off. (Stomach starts to sink at this point)<figure class="wp-caption"> 
+I look at the list today (2016) and I don't feel a sense of joy. 
+Instead, my stomach clenches inwards with guilt that I hadn't accomplished the items in front of me.
 
-{% include image_center_caption.html 
-    caption = "Thankfully I can hide behind this chair from the guilt of erasing things."
-    image = "/assets/images/2016/hiding_behind_chair.jpg"
-    alt = "Thankfully I can hide behind this chair from the guilt of erasing things."
-%}
+My heart knows that some of these items are irrelevant but the brain fights to keep the dream list intact.
+
+It's internal guilt and guilt that comes from reading too much self-help literature that pounded _never give up_ in my head.
+
+The justification in my mind sounds like this --- I made this dream list because I wanted ~~to do something~~ feel powerful in my life. 
+If I cross it off now, that means I can't hack it. Am I a failure? If I cross this one out, I’ll give in and start crossing other things I've planned from my life. What am I going to tell my friends? I’ve already told them that I’d do these things. I must do them. Guilt sets in.
 
 # Dreams List
 
-I’ve kept a dreams list since early college days. It’s a good way to place your wishes and ideas for your projected life. Putting things on paper / digital writing solidifies ideas and beats juggling things in your head. It puts down an intention. I was able to accomplish some of the dreams I wrote down throughout the years. It felt really great crossing those out.
+I kept a dreams list since college days. Putting things on paper solidifies ideas rather than juggling them in your head. 
+I accomplished some of the dreams from the list and I was proud to cross them out.
 
-As I looked over that list throughout the years, there were several things on there that **my gut feeling no longer longed for**. I felt guilty for crossing those things off. I felt as if that would be downgrading myself. It’s as if I didn’t try hard enough.
+Many of the dreams I wrote years ago didn't fit into my life today (2016).
 
-I woke up one morning and realized that every half year, I’m at a different stage in life. I’m not the same Nikita as I was six months ago. My mindset grows, my body changes, and my views expand. **What was desirous for me 2 years ago might not be desirous for me _today_**_._ As time passes, your perspective changes! That’s called growth. That is okay, and not to be feared. Fear if changes don’t pop up in your head with passing time.
+I realized that every year or so, I’m living a different stage of my life. 
+I’m not the same Nikita as I was six months ago. My mind grows, my body changes, and my views expand. 
 
-# Eliminating
+What felt right 3 years ago feels wrong today.
 
-On the list I had things such as:
+It's a human condition called growth. 
+It's normal and shouldn't be feared. It was time to trim the dreams list.
+
+# Eliminating Dreams
+
+My dreams list included:
 
   1. Get a Ph.D. while simultaneously working full time.
   2. Learn a subset of economics and teach it.
   3. Learn a martial arts defense program and teach it.
-  4. A running certain time record.
-  5. Teach (insert person’s name) to swim
+  4. Run a mile faster than 8 minutes.
+  5. Teach a family member to swim
   6. Travel to something like 70 countries.
+  
+My workout routine changed and a time record in running made no sense.
 
-My views of working out changed. Health became a general priority that manages my energy rather than a specific time record to beat in running. While understanding economics and self-defense are important to personal expansion, teaching those two topics does not take priority in my heart. While the Ph.D. sounds like a worthwhile endeavor, it has to come from an inner burning desire to uncover something new in a field you can appreciate. It has to be a subject you really feel strongly about.
+While understanding economics and self-defense are important to personal expansion, teaching those two topics does not take priority in my heart. 
 
-Watch out for those dreams that involve another person. For example, I had a desire to teach someone swimming. As I thought about it more, I realized that I’m imposing my wants on another person. Although they wanted to learn, the impetus and action should come directly from them, not me. This dream is invalid until the other person takes action and **asks for help because they feel like accomplishing _their dream_.**
+Ph.D sounded good but it wasn't really my dream. It was more of a desire to make my family proud.
 
-Be careful of dreams that _don’t feel like yours._ They are imposters. These are the ones others might tell you are worthwhile _for them_. Take time to reflect on whether they are _worthwhile for you_. Early on, I put down a dream to travel to something like 70 countries worldwide. It seemed like I heard this from many of my influences as something that one should do. To be honest, I didn’t feel that desire inside, but I still put it down. Fast forward a few years, and I’ve traveled to several countries since then. While it was interesting to see how others get along, I saw similar trees, buildings, nature, and overall life of people as I saw in the US. I realized that this might have been a dream that I imposed on myself through influences, rather __than _being my internal desire to travel_. I took it out.
+Travel to 70 countries? Hell, [I don't really like to travel](/on-traveling-anxiety). But people say traveling is cool, right? It's a false dream.
 
-# In a Nutshell
+I wanted to teach a family member to swim. The problem is that a dream involving someone else is out of my control.
+What right do I have to impose my desire to teach another person something?
 
-They key is to recognize that feeling of guilt in your gut when you feel changing something in your life. Realize that you’re living life in stages. It’s like a video game where you power up on each stage. While growing up, one of the stages was educating yourself from K — 12th grade. Then there is a stage of experimenting with relationships. You might have a stage of raising a family (hopefully a continued journey). A stage with discovering a new skill, and so on. Stages come and go, and can repeat. What seems dull to you today, might grab your attention in the future. Who knows, maybe my mindset regarding world travel will change in the future. I don’t know and that’s okay. What I do know is that stages of life will change your perspective and make you grow. Grow with it and realize it’s okay to want something different today as compared to what you wanted years ago.
+I trashed the list of dreams that no longer made sense. My heart felt relief.
+
+# Reflections from 2022
+
+Many of the dreams I listed over a decade ago didn't make it into my life today.
+
+My career took a much different turn. 
+A decade ago I didn't think I'd become a software developer. 
+Back then, I didn't think writing would be an important outlet for self-expression.
+
+The Nikita from a decade ago and the Nikita I am now are vastly different in mindset.
+
+Look at your dreams and ask whether they are relevant to your life today.
+Make sure they aren't someone else's or that they're only relevant to the past-version of yourself.
+
+In the past few years, I loosened my grip on keeping a dreams list. 
+I still have life pursuits but I use another technique (entheogens) to discover what truly matters in my life.
+One day, I'll have the courage to write about it.
