@@ -40,6 +40,6 @@ The current work situation only continues to get worse as the complaints continu
 
 Everybody loses.
 
-The fight to prove you’re right and to protect your ego is not worth it. If you feel passionately about your decisions, then jump ship.
+The fight to prove you’re right and to protect your ego is not worth it. If you feel passionately about your decisions, then switch teams or jump ship.
 
 It’s easier to find a company that has the tech stack you'd prefer to work with rather than continue staying miserable where you’re at.
