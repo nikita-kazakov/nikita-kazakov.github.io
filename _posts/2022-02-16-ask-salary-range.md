@@ -15,7 +15,7 @@ Asking for a salary range doesn't make sense when applying to tier 1 companies a
 
 Asking for the salary range works well when applying to startups and mid-sized companies because it's hard to find salary data.
 
-I had a colleague go through 5 rounds of interviews only to realize at the end that the company could not afford them. 
+My colleague went through five rounds of interviews only to realize at the end that the company could not afford them. 
 It was a waste of time could have been avoided from the initial HR interview.
 
 A good recruiter will be upfront with the salary range and ask if it's in your acceptable range. If the recruiter doesn't ask, then you ask:
