@@ -1,35 +1,29 @@
 ---
-title: I set my phone to do not disturb for a year --- here's what I learned.
-date: 2022-02-08
+title: Why ask for the salary range as a software developer
+date: 2022-02-16
 layout: post
-permalink: /phone-do-not-disturb
+permalink: /ask-salary-range
 tags:
-- health
+- career
 ---
 
-Do not disturb means calls are ignored (except starred contacts). Text messages and alerts are silenced.
+I think the advice --- _the first to give a number loses_ --- doesn't make sense. Better said --- It's nuanced.
 
-I knew the pings were detrimetal. 
-I watched [The Social Dilemma (2020)](https://www.thesocialdilemma.com/) and saw how companies were fighting for my attention. 
+If you're a software developer looking for your first job, this advice doesn't apply to you. Your mission is to get your foot in the door and then come back to this advice when you're looking for your next job.
 
-My phone was no longer a tool. Each notification alert, text message ping, and call ringtone eroded my attention span.
+Asking for a salary range doesn't make sense when applying to tier 1 companies as salary ranges are available on [levels.fyi](https://www.levels.fyi/).
 
-I could take back control if I could silence them.
+Asking for the salary range works well when applying to startups and mid-sized companies because it's hard to find salary data.
 
-I was nervous about setting _do not disturb_ perpetually because I thought I'd miss an emergency phone call. One year later --- that hasn't happened.
+I had a colleague go through 5 rounds of interviews only to realize at the end that the company could not afford them. 
+It was a waste of time could have been avoided from the initial HR interview.
 
-# Starred Contacts and Emergency Calls
+A good recruiter will be upfront with the salary range and ask if it's in your acceptable range. If the recruiter doesn't ask, then you ask:
 
-Android has a feature that allows starred contacts to ring while _do not distrub_ is enabled. I starred a handful of close contacts on my phone.
+> Can you tell me the salary range for this position? I want to make sure both of us are in a similar ballpark.
 
-There's also a feature where a non-starred call goes through if dialed twice within 15 minutes. This is great for emergencies.
+Every time I asked this question, I got an answer. If the company refuses to answer then I'm suspicious of their hiring process.
 
-All text messages and app alerts are silenced. App alerts are especially annoying. Do I really need to be alerted when a new YouTube video is uploaded?
+When asking for a salary range, you're not leaving money on the table because you're asking for a range and you're not committing to a specific number.
 
-If I'm expecting an important call and I don't know the incoming number, I turn off _do not disturb_ until I finish talking with the person on the other line.
-
-# Easing Anxiety
-
-After months of continuous _do not disturb_, I noticed how much noise my friends' phones make. Each ping begs for attention. It induces anxiety.
-
-Attention span grows shorter with a noisy phone. Deep work turns shallow. Your phone is a tool. Don't let it control your life.
+You're already an experienced developer with marketable skills. There's no shame in asking about the salary range at the first HR interview.
