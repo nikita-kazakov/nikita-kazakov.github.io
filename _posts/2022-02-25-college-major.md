@@ -17,11 +17,13 @@ I was lucky to keep my job when others were getting laid off.
 
 During that time, I kept track of the industry by talking to friends that were still in it and by reading the [r/oilandgasworkers](https://www.reddit.com/r/oilandgasworkers/) on Reddit.
 
-I saw that many young Petroleum Engineers weren't so lucky. Many were finishing their degrees during the downturn. COVID hadn't hit yet. They graduated with debt and couldn't find work for several years a hiring freeze due to a downturn.
+I saw that other young Petroleum Engineers weren't so lucky. 
+Many were finishing their degrees during the downturn. COVID hadn't hit yet. 
+They graduated with debt and couldn't find work for several years due to a hiring freeze from an industry downturn.
 
 The longer you're without a job, the rustier your skills. It becomes harder to come back to the profession.
 
-I had a tough time picking my college major. If I had to do it again, here's what I'd tell myself.
+I remember having a tough time picking my college major. If I had to do it again, here's what I'd tell myself.
 
 # Do industry research outside of college
 
@@ -33,7 +35,8 @@ Can you imagine someone from a department telling you --- *hey, don't pursue thi
 
 It won't happen.
 
-You have to look outside for answers to these questions. Find an online community for the industry you're interested in. A place where people can talk freely.
+You have to look outside for answers to these questions. 
+Find an online community for the industry you're interested in --- a place where people can talk freely.
 
 For Oil and Gas, one community is [r/oilandgasworkers](https://www.reddit.com/r/oilandgasworkers/).
 
@@ -41,11 +44,12 @@ For software development, it's [r/cscareerquestions](https://www.reddit.com/r/cs
 
 Let's say you're interested in Oil and Gas, you'll [know the salaries](https://www.reddit.com/r/oilandgasworkers/comments/pu763p/oil_and_gas_salary_thread/) and see a [bunch](https://www.reddit.com/r/oilandgasworkers/comments/p6axvd/petroleum_engineering/) of [posts telling](https://www.reddit.com/r/oilandgasworkers/comments/phskjm/the_us_oil_industry_is_facing_a_talent_crunch/) you [not to get](https://www.reddit.com/r/oilandgasworkers/comments/p7h2gn/is_it_ever_going_to_get_better/) into [the industry](https://www.reddit.com/r/oilandgasworkers/comments/pmh8ws/comment/hchze2a/?utm_source=share&utm_medium=web2x&context=3).
 
-You'll also see experienced folks tell you to get a mechanical engineering or an electrical engineering degree. You can pivot into the petroleum industry with those and still have transferable skills when a downturn happens.
+You'll also see experienced folks tell you to get a mechanical engineering or an electrical engineering degree instead. 
+You can pivot into the petroleum industry with those degrees and still have transferable skills when you need to get out.
 
-It's much harder to pivot to mechanical or electrical industry with a petroleum engineering degree.
+It's much harder to pivot the other way to mechanical or electrical industries with a petroleum engineering degree.
 
-Some engineers will tell you to pivot into tech (software development) instead. I'm one of those engineers that [did exactly that](/switching-careers-from-oil-to-software).
+Some engineers will tell you to pivot into tech (software development) instead. [That's what I did](/switching-careers-from-oil-to-software).
 
 You won't get the raw info like this on campus or at sponsored networking events.
 
