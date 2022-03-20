@@ -1,79 +1,22 @@
 ---
-title: Applications I use on a Mac
-date: 2022-03-05
+title: Why consult your engineers before acquiring a product
+date: 2022-03-11
 layout: post
-permalink: /mac-applications
+permalink: /consult-your-engineers
 tags:
-- tech
+- management
 ---
 
-I used to be a Windows guy. I had to switch over to Mac for software development. I disliked iOS. It took about a year of installing the right apps and getting used to the Mac.
+Story time --- I saw hundreds of thousands of dollars thrown away on a prematurely acquired software product that was eventually killed off.
 
-Now I won't go back to Windows unless I'm forced to (thanks Windows updates).
+It didn't have to be this way.
 
-Below are the applications I regularly use on my Mac.
+Higher ups signed papers and informed the engineers afterwards. The engineering team didn't have enough resources and and the new product was architecturally incompatible with existing code. The intention wasn't to kill the product.
 
-### Lunar
+Two years later, about a handful of licenses were sold. Product integration failed. It was a dud.
 
-I have an external monitor and I often lower brightness and contrast at night. Instead of pressing buttons on my monitor, [Lunar](https://lunar.fyi/) lets me natively control those settings from the app.
+Had anyone talked to engineering before signing the contract, these problems could have been avoided.
 
-### Ubar
+An effective General (CEO) visits the trenches where his soldiers (engineers) fight from time to time and talks to them. He is cautious about surrounding himself with yes-men. Yes-men don't give you the whole picture.
 
-I couldn't get used to Apple's Mac Dock. Windows / Linux taskbar made more sense. [Ubar](https://brawersoftware.com/products/ubar) gave me the taskbar back.
-
-### Rectangle
-
-[Rectangle](https://rectangleapp.com/) lets me reposition windows and move them to different screens quickly without using a mouse.
-
-### f.lux
-
-[Save your eyes at night and sleep better](https://www.nikitakazakov.com/why-you-sleep-poorly-after-bright-screens-at-night/) by lowering the color temperature of your screen with [f.lux](https://justgetflux.com/). iOS has night mode built-in but it's lacking color ranges. That's why I continue using f.lux.
-
-### Pathfinder
-
-Mac file manager (finder) is frustrating. It's limited. [Pathfinder](https://www.cocoatech.io/) makes it better.
-
-### AppCleaner
-Want to fully remove an application? [AppCleaner](https://freemacsoft.net/appcleaner/) does that.
-
-### Monosnap
-I use [Monosnap](https://monosnap.com/) to take screenshots and annotate over them.
-
-### AudioHijack
-Need to record audio that is coming from a meeting? Or combine audio sources in a recording? Or do pretty much any kind of magic with audio. [AudioHijack](https://rogueamoeba.com/audiohijack/) does that.
-
-### Loom
-This is the easiest screen recorder I've used. I make lots of recordings showing demos and explaining things to teammates. I use [Loom](https://www.loom.com).
-
-### iTerm
-
-[iTerm](https://iterm2.com/) is a customizable terminal.
-
-### Homebrew
-
-[Homebrew](https://brew.sh/) is a package manager. Instead of having to download, install, and update applications individually, it'll do that work for you.
-
-### Jetbrains RubyMine
-
-I program with Ruby and Ruby on Rails as my day job. [RubyMine](https://www.jetbrains.com/ruby/) is a fantastic IDE. It's not free but it's feature-rich and well-integrated with Ruby.
-
-As an added benefit, if I had to switch languages to Python or Javascript, I could use Jetbrains' [PyCharm](https://www.jetbrains.com/pycharm/) or [WebStorm](https://www.jetbrains.com/webstorm/) and be comfortable because they look exactly like RubyMine.
-
-### Postico
-
-[Postico](https://eggerapps.at/postico/) is the tool I use to explore PostgreSQL databases. It's intuitive and lets you connect to local or remote PostgreSQL databases and query them.
-
-# Productivity Tips
-
-Here are some Mac productivity tips.
-
-### Multiple Desktops with Mac
-
-I'm used to working with an external monitor. When I travel, I don't have an external monitor. That's where multiple desktops come in.
-
-It's not an app but a feature of iOS.
-
-Put 3 fingers together and swipe up on the trackpad. Add a desktop from the top. Enter a desktop. Now swipe left or right with 3 fingers together to switch between desktop views.
-
-### Switching between apps
-You can use your mouse or trackpad to switch between apps but it's too slow. Hold `cmd` and keep pressing `tab` until you select the app you want to bring up. You can then use [Rectangle app](https://rectangleapp.com) to adjust it on your screen.
+The hard part about being a skilled worker is knowing where you're competent and where you're not. It's the second part that gets smart people into trouble..
