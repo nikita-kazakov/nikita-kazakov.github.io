@@ -11,30 +11,33 @@ All the jobs I've held as a petroleum engineer came from direct referrals. After
 
 I got zero results.
 
-I got my next petroleum engineering job through a university friend who was a CTO at the company. He randomly called me one evening. After a few interviews that were mostly formalities, and I was in.
+I landed my next petroleum engineering job through a university friend who was a CTO at the company. 
+He randomly called me one evening and after a few interviews that were mostly formalities, I was in.
 
-I asked him why'd he decide to call me? He said I took a class with his girlfriend and I helped her out in the class. We were also in the same graduate program while working on our advanced degrees.
+I asked him why'd he decide to call me? He said I took a class with his girlfriend and I helped her out. 
+He and I were also in the same graduate program while working on our graduate degrees.
 
-There's another lesson in life: be kind to others. You don't know how that kindness will be returned.
+Be kind to others. You don't know how that kindness will be returned.
 
-The longer I'm in my career the more I realize *who you know* is more important than *what you know*. In industries like oil and gas, it matters much more than in software development.
+The longer I'm in my career the more I realize *who you know* is more important than *what you know*. 
+In industries like oil and gas, it matters much more than others.
 
-I spent days applying to jobs after my first layoff. Knowing somebody bypassed all of that.
+I spent days applying to jobs after my first layoff. Knowing _someone_ bypassed all of that.
 
-A mistake I see people make is prioritizing the ambitions of their company to the detriment of their relationships with co-workers.
+A mistake I see people make is to prioritize the ambitions of a company to the detriment of their relationships with co-workers.
 
 A company is limited in scope to itself. One day you'll quit or be let go. Have you heard of a company that helps their former employees find work in the same industry? I haven't either. It doesn't exist. A previous co-worker, on the other hand, might help you.
 
 While you build connections with co-workers and they eventually leave to work for another company, your network grows wider.
 
 {% include image_center_caption.html
-caption = "Your network grows bigger through the connections you build."
+caption = "Your network grows wider through the connections you build."
 image = "/assets/images/2022/network_people_image.png"
 %}
 
-The conversation below can become reality.
+The conversation below becomes reality.
 
-**You**: I want to apply for company X.  
+**You**: I want to apply to company X.  
 **Friend**: I got a buddy that works there, let me reach out to him.
 
 Building connections makes you less exposed to the pains of being fired or laid off.
@@ -53,9 +56,10 @@ There's a saying --- when everyone around you is guilty, take a look in the mirr
 
 The problem with bullshitting is that it's like playing poker --- you'll bluff a few times but the people around you will eventually catch on.
 
-I've seen engineers deliver grandiose speeches about what they can do and what the next steps should be. It sounds impressive. Heck, it made me doubt my own skills.
+I've seen engineers deliver grandiose speeches about what they can do and what the next steps should be. 
+It sounds impressive. So impressive it makes me doubt my own skills.
 
-It all goes wrong several months later when the world is promised and nothing is delivered.
+It all goes wrong several months later when the entire world is promised and nothing is delivered.
 
 Your teammates will catch on. They won't tell you but they'll know.
 
