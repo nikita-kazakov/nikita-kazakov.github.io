@@ -19,4 +19,4 @@ Had anyone talked to engineering before signing the contract, these problems cou
 
 An effective General (CEO) visits the trenches where his soldiers (engineers) fight from time to time and talks to them. He is cautious about surrounding himself with yes-men. Yes-men don't give you the whole picture.
 
-The hard part about being a skilled worker is knowing where you're competent and where you're not. It's the second part that gets smart people into trouble..
+The hard part about being a skilled worker is knowing where you're competent and where you're not. It's the second part that gets smart people into trouble.
