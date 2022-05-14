@@ -18,6 +18,7 @@ Baby cries and screams evoke anxiety, depression, helplessness, anger and [frust
 I figured out that I had sensitive hearing and that baby cries were messing with my nervous system. I was overstimulated at the end of my shift. I felt the same when I went to Las Vegas in the past.
 
 Earbuds or noise cancelling headphones lower the volume of crying. I still hear when the baby but I no longer panic or wince. I respond intentionally rather than from dismay. Other parents on [Reddit came to a similar conclusion](https://www.reddit.com/r/parentsofmultiples/comments/sjlh6c/your_experience_with_baby_noisescreaming_and_ear/).
+Here's [another post](https://www.reddit.com/r/Parenting/comments/509pbq/am_i_wrong_for_wanting_to_purchase_ear_plugs_to/) where more people confirm that earbuds saved their sanity.
 
 My partner is not sensitive to the loudness of crying as I am. There's no shame in using earbuds and I'm going to continue doing it.
 
