@@ -9,18 +9,19 @@ tags:
 
 After watching my few week-old newborn for 7 hours, I was drained. I'm not going to sugarcoat it --- I was going through hell as he was fussing, crying, and intermittently sleeping.
 
-After two weeks of agony, I woke up one morning and had very little to give. I was running on empty and put my in-ear noise isolating ear buds and kept them on for the entire 7 hours.
+After two weeks of agony, I woke up one morning and had very little to give. I was running on empty and put my in-ear noise isolating ear buds and kept them on for the entire 7 hours to muffle the loud sounds.
 
-To my surprise, after the shift ended, I wasn't drained. I magically had energy to lift weights afterwards.
+To my surprise, after the shift ended, I wasn't drained as before. I still had energy to lift weights afterwards.
 
 Baby cries and screams evoke anxiety, depression, helplessness, anger and [frustration in parents](https://pubmed.ncbi.nlm.nih.gov/25812239/). It causes some parents to overreact and apply [harsher discipline towards their kids](https://pubmed.ncbi.nlm.nih.gov/23836807/). I don't want to overreact.
 
-I figured out that I had sensitive hearing and that baby cries were messing with my nervous system. I was overstimulated at the end of my shift. I felt the same when I went to Las Vegas in the past.
+I figured out that I had sensitive hearing and that baby cries were messing with my nervous system. 
+I was overstimulated at the end of my shifts. I feel the same when I go to Las Vegas for three days. The noise and overactivity saps my energy.
 
-Earbuds or noise cancelling headphones lower the volume of crying. I still hear when the baby but I no longer panic or wince. I respond intentionally rather than from dismay. Other parents on [Reddit came to a similar conclusion](https://www.reddit.com/r/parentsofmultiples/comments/sjlh6c/your_experience_with_baby_noisescreaming_and_ear/).
+Earbuds or noise cancelling headphones lower the volume of crying. I still hear the baby but I no longer panic or wince. I respond intentionally rather than from dismay. Other parents on [Reddit came to a similar conclusion](https://www.reddit.com/r/parentsofmultiples/comments/sjlh6c/your_experience_with_baby_noisescreaming_and_ear/).
 Here's [another post](https://www.reddit.com/r/Parenting/comments/509pbq/am_i_wrong_for_wanting_to_purchase_ear_plugs_to/) where more people confirm that earbuds saved their sanity.
 
-My partner is not sensitive to the loudness of crying as I am. There's no shame in using earbuds and I'm going to continue doing it.
+My partner is not sensitive to the loudness of crying as I am. There's no shame in using earbuds and I'm going to continue doing that.
 
 ## What I use
 
