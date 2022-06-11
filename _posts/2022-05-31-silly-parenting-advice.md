@@ -53,3 +53,14 @@ How the hell do you know if you've never been a parent? You most likely don't.
 No, you won't. I've been at it for over a month and I'm still not *used to it*. Is it better than the first week? No doubt. I have more capacity and I've built *some* structure around my new life. My kid is sleeping better as he's growing week by week.
 
 It can take months before a baby sleeps in 6 hour intervals. It takes about 6 months before you can start sleep training. Before then, you're working in shifts with your partner to take care of your baby and each other.
+
+
+# Judgement on breast milk
+
+You'd think that if you don't purely breast feed then you're a damn loser.
+
+I heard this sentiment from a few parents and health officials. There's breast milk elitism out there.
+
+Listen --- if you're mentally drained and cannot function because you're over-stressed and sleep deprived, you can't help your kid. Remember what they tell you on the airplane, put on your oxygen mask first before putting it on your kid.
+
+If you need to combo-feed breast milk and formula just so your partner can get much needed sleep and have capacity to take care of the little one --- do it.
