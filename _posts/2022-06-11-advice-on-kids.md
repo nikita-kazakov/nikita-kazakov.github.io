@@ -28,7 +28,7 @@ After your newborn arrives, you have diapers, baby formula, and baby clothes to 
 
 Hopefully you have a good paternity / maternity leave policy at work so that you can solely focus on taking care of the newborn without having to juggle work the first several weeks. I took 3 weeks off and still felt that wasn't enough. I now understand why Europe gives months off to mothers.
 
-Then there's sleep deprivation. If you don't have extended family that can watch the baby at night for you, be prepared for exhausting days where you and your partner juggle shifts watching the newborn. Nuclear family doesn't seem so great when it's just you and your partner handling life and the newborn.
+Then there's sleep deprivation. If you don't have extended family that can watch the baby at night for you, be prepared for exhausting days where you and your partner juggle shifts watching the newborn. [Nuclear family doesn't seem so great](https://www.theatlantic.com/magazine/archive/2020/03/the-nuclear-family-was-a-mistake/605536/) when it's just you and your partner handling life and the newborn.
 
 Money can buy happiness in the newborn stage. You can improve sleep deprivation by hiring a night nurse. It's expensive but it might be the difference between you reaching your breaking point and becoming depressed. For me personally, it got me out of the pull towards depression.
 
