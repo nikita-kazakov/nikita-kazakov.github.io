@@ -14,6 +14,7 @@ You'll grieve for your old life. You'll say hasty words to yourself while you're
 My kid is a few weeks old. Here's what I do to stay strong for him and for myself.
 
 # Shift Rotations
+
 If you and your partner can take time off work once your kid is born, I highly recommend doing shift rotations. Getting sleep is highest priority.
 
 Work in shifts by watching the baby and tending to his care. For example, when it's my shift, I'll watch the baby for several hours and do the diaper changing, feeding, and putting him to sleep. My wife will sleep in another room where the baby won't wake her up. We then switch.
@@ -57,3 +58,13 @@ The ones I couldn't connect with had traditional wives. Their wives stayed up mo
 I found [online communities where parents shared their experiences](parenting-online-communities). The good, the bad, and the ugly. The uglier it got, the better I felt about how fortunate I was. These stories let me know I wasn't the only one going through tough times.
 
 Reading stories about the experiences of others on Reddit kept me sane and I highly recommend it when you're doing through a tough time.
+
+# Keep a daily journal
+
+Your memory will turn to mush with a newborn. The first few weeks, you'll struggle to recall the previous day.
+Journaling was like my personal therapist. I expressed depression, anger, despair, misery, gratitude, and hope --- not at the same time.  
+
+Journaling made me realize how much I was struggling the first month. That's when I made changes to prioritize sleep as much as possible and to sacrifice former priorities.
+Things got better. Had I not journaled, I wouldn't have recognized my struggles and would have continued down a dark path into depression.
+
+Keep it simple --- create a google doc and make a new header for each day you journal. Keep it private so that you can express anything you want.
