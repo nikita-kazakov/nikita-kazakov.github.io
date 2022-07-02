@@ -87,13 +87,7 @@ Note that you'll see 5 folders: peer1, peer2, peer3, peer4, peer5. Each of those
 
 Let's change directory to peer1: `cd peer1`
 
-Let's open `peer1.conf` with nano editor. Since this is a barebones image, let's update packages and install nano before opening up the file:
-
-`apt update`  
-`apt install nano`   
-`nano peer1.conf`   
-
-You'll the wireguard configuration settings for peer1. It will look something like this:
+Let's look at `peer1.conf` with the head command: `head peer1.conf`. It will look something like this:
 
 ```
 [Interface]
@@ -105,20 +99,44 @@ DNS = 94.140.14.14 # Uses AdGuard DNS Server
 [Peer]
 PublicKey = j04cOA4lEFoGSojBaobODOkN8FlEzSX9tgehx6GCg=
 Endpoint = 104.444.143.149:51820
-AllowedIPs = 0.0.0.0/0, ::/0
 ```
 
-Copy this and create a new file on your computer with the same name `peer1.conf`. Paste the text into it and save it. You can now import this conf file into the Wireguard VPN app on your device. For more info on how to do this, look at (link to wireguard post).
+Create a new file on your on your computer and paste the above into it. Save it as `peer1.conf`. 
 
-Do not use the same conf file for multiple devices. Each needs to have it's own.
+**IMPORTANT** --- Add these two lines `AllowedIPs = 0.0.0.0/0, ::/0` and `PersistentKeepalive = 20` under `Endpoint` and save the file. 
+This allows all traffic coming from you to go through the Wireguard VPN tunnel. Without this, your IP will be exposed.
+I also add `PersistentKeepalive = 20` to send a packet every 20 seconds to Wireguard on your VPS. I found my connection was more reliable with this on.
+
+Here's how the final config file looks like
+
+```
+[Interface]
+Address = 10.13.13.2
+PrivateKey = wAyK0+O7Ywp1Af7IN3xydUl1/BzwIzzRSiQIAmJ6ZFw=
+ListenPort = 51820
+DNS = 94.140.14.14
+
+[Peer]
+PublicKey = DHadrtHzVoC4dYhQk512ZIIdnqAG9JPsLREiRDG3ZRs=
+PresharedKey = 4aUH7x92fBb5Oo30ADbOVAcS8G1WBHleHAYEFiQ9Aoc=
+Endpoint = 149.28.105.141:51820
+AllowedIPs = 0.0.0.0/0, ::/0
+PersistentKeepalive = 20
+```
+
+You can now import this conf file into the Wireguard app on one of your devices. Remember, you have 5 generated conf files. 
+In the `config` folder, go into each of the folders and repeat the process above and use those conf files on other devices.
+
+Do not use the same conf file for multiple devices. 
 
 # Getting a QR code
-Your smartphone / tablets will allow you to scan a Wireguard configuration QR code. It's easier than importing a conf file. Here's how you get a QR code:
+
+You can also read each conf file from a QR Code instead. Here's how you get a QR code:
 
 `cd /app`  
 `./show-peer 1`  
 
-You'll see a QR code appear. You can take a screenshot and save it or you can directy scan it from your phone and use it.
+You'll see a QR code appear. You can take a screenshot and save it or you can directly scan it from your phone and use it.
 
 To get a QR code for peer 2, you'd run:
 
