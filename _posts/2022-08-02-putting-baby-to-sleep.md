@@ -9,43 +9,47 @@ tags:
 
 Here's what I learned about putting my kid to sleep and the mistakes I've made.
 
-The first month will be torturous for you and your partner. You'll need to feed your baby on-demand. At best, it'll be every 3 hours. Realistically, feeding will range every one to three hours. Your kid will let you know by crying.
+The first month will be torturous for you and your partner. You'll need to feed your baby on-demand. At best, it'll be every 3 hours. 
+Your kid will let you know by crying.
 
-The second month does get better. Your baby should sleep longer and will know the difference between day and night. At night, their sleep cycle will be longer than daytime.
+The second month gets better. Your baby should sleep longer and will know the difference between day and night. At night, their sleep cycle will be longer than daytime.
 
 # Room not dark enough
 
-We had *blackout curtains* but daylight still passed through them, especially from each side of the curtain. Our night nurse suggested we fix the issue and darken the room to the point where it wouldn't be possible to read.
+We had curtains but daylight passed through them, especially from the sides. Our night nurse suggested to fix the issue and darken the room to the point where it wouldn't be possible to read.
 
-The baby's body produced melatonin better in a dark room and therefore will sleep better.
+Darkness encourages melatonin production and thereby leads to better sleep.
 
-We installed blackout roller shades but light would still seep through the sides of the room. To fix this problem, I took a large garbage bag, cut it in half, and draped it over the window. The bag is held to the wall by three push pins at the top.
+We installed blackout roller shades but light would still seep through the sides. To fix this problem, I took a large garbage bag, cut it in half, and draped it over the roller shades. The bag is held to the wall by two push pins at the top.
 
-The original curtains were closed over the garbage bag and the roller shades. The room was much darker.
+The original curtains were draped over the garbage bag and the roller shades. The room was much darker.
 
-Our baby took longer naps in a darker room. When he woke up, I opened the shades and lifted the garbage bag over the top rod and rolled up the roller shade so that daylight would come in.
+Our baby took longer naps in a darker room. When he woke up, I opened the shades by lifting the garbage bag over the top rod and then rolling up the roller shade so that daylight would come in.
 
-If you don't want to buy curtains, you could get away with layering up 2 pieces of trash bags over the window to reduce light in the room.
+If you don't want to buy curtains, you could get away with layering two pieces of trash bags over the window to reduce light in the room.
 
 # Expose the baby to sunlight during the day
 
 A newborn doesn't have an adjusted circadian rhythm. They'll likely be more awake during the night because when Mom carried the baby during the day, the movement rocked the little one to sleep.
 
-It's time to start building up the circadian rhythm in your baby. During the day, make sure that window blinds are open and daylight shines through when the baby is awake and eating. I took my kid on a walk in the morning so that his eyes were accustomed to early daylight.
+It's time to start building up the circadian rhythm in your baby. During the day, make sure that window blinds are open and daylight shines through when the baby is awake. 
+I took my kid on a walk in the morning so that his eyes were accustomed to early daylight.
 
 Once your kid is asleep, you can darken the room to encourage sleep.
 
 At night, try to minimize bright lights. Have a dimmable light set at a faint level when feeding the baby. We used this [Hatch sound machine](https://www.amazon.com/Hatch-Baby-Machine-Monitor-Nightlight/dp/B07WFXGNGF) as it was recommended by our night nurse.
 
-Within 6 weeks, our kid knew the difference between daytime and night and would sleep for longer intervals at night.
+Within weeks, our kid knew the difference between day and night and would sleep for longer intervals at night.
 
 # Nursing to sleep is okay
 
-One school of thought suggests that you shouldn't feed your baby to sleep. They say that a baby will only learn to fall asleep with a bottle in his mouth.
+One school of thought suggests that you shouldn't feed your baby to sleep. 
+They say it builds bad habits because a baby will associate sleep with food.
 
 I tried this advice for about one day and then gave up when my little one wouldn't sleep.
 
-I have been bottle-feeding my child to sleep for several months now and it's just fine. I haven't seen detrimental effects. If there are any, I'll cross that bridge when I get there. At the moment, I'll optimize for his sleep and my sanity.
+I have been bottle-feeding my child to sleep (naps) for several months now and it's been working well. I haven't seen detrimental effects. 
+If there are any, I'll cross that bridge when I get there. At the moment, I'll optimize for his sleep and my sanity.
 
 # Burp your child
 
@@ -60,7 +64,7 @@ After the burp, he would either resume eating or settle down to sleep.
 
 # Don't try to wear your baby out
 
-While you can wear out kids and adults with strenuous activity, it does **NOT** apply to babies.
+While you can wear out older kids and adults with strenuous activity, it does **NOT** apply to babies.
 
 Newborns are too young and fragile. Their nervous systems don't resemble yours and mine. With newborns, sleep begets sleep.
 
