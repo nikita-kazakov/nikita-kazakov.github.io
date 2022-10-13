@@ -11,21 +11,22 @@ I've lived through my 20s. While I can't tell you the exact path that will lead 
 
 # Chronic paycheck to paycheck lifestyle
 
-Your twenties are the time to experiment to find your strengths and weaknesses.. Through trial and error, you'll narrow down what profession aligns with your strengths. It's a subtle emotion you'll feel in your gut --- *this is for me*.
+Your twenties are the time to experiment to find your strengths and weaknesses. Through trial and error, you'll narrow down what profession aligns with your strengths. It's a subtle emotion you'll feel in your gut --- *this is for me*.
 
 Most people don't get there.
 
-Money buys the freedom of time for you to try things and to feel safe knowing that even if something falls through, you won't be out on the street.
+Money buys the freedom of time to try new things and to feel safe knowing that even if something falls through, you won't be out on the street.
 
 Paycheck to paycheck lifestyle traps you in perpetual stress. It wears you down mentally and physically. You can't risk pursuing creative endeavors for the fear of losing your job --- which you can't afford to do.
 
-You work just to sustain your existence. A few decades from now, you reach a breaking point and ask --- what the hell am I doing with my life? It's the mid-life crisis.
+You work just to sustain your existence. A few decades from now, you reach a breaking point and ask --- what the hell am I doing with my life? 
+This is the dreaded mid-life crisis.
 
-Too many people are slaves to consumption and in the long-term, it won't bring satisfaction.
+Too many people are slaves to consumption and in the long-term, it doesn't bring satisfaction.
 
 Start saving up an emergency fund and get to the point where you can survive without income for at least a half year.
 
-You'll have the freedom most people will not have. You'll have freedom to pursue creativity and to discover who you are.
+You'll have the freedom most people will not. You'll have freedom to pursue creativity lessen the chances of living a life of quiet desperation.
 
 #  Worthless School Loans
 
@@ -33,43 +34,46 @@ There are plenty college degrees not worth your money.
 
 There's human value and there's market value. While many degrees offer human value, not all offer market value.
 
-They won't tell you tell as school campuses are an echo chamber and they are a business.
+They won't tell you this as school campuses are an echo chamber and they are a business.
 
-If you're picking your college major through a coin-toss, you're going to be have a bad time.
+If you're picking your college major by a coin-toss, you're going to be have a bad time.
 
-At best, you might luck out with a prospective career that has enough demand and thus can bring in enough income.
+At best, you might luck out with a prospective career that has enough demand and can bring in enough income.
 
-At worst, you'll be stuck with student loans without the ability to bankrupt them and without a career that can bring enough income to buy you freedom. That means you'll have to defer family life, getting a house, and throwing away money towards a degree that was useless.
+At worst, you'll be stuck with student loans without the ability to bankrupt them and without a career that can bring enough income to buy you freedom. That means you'll have to defer family life, getting a house, and continue throwing money towards a school loan that provided nothing in return.
 
-Don't chance it. If you decide to go to college, make sure you [use some of these research techniques](choose-college-major/) to ensure your degree will be worth the money you'll be obligated to pay for it.
+Don't chance it. If you decide to go to college, make sure you [use some of these research techniques](choose-college-major) to ensure your degree will be worth the money you'll be obligated to pay for it.
 
 # Have kids out of wedlock
 
-I became a father in my mid-30s. Your life really does change and the priorities you thought you had before are quickly replaced by your new family life.
+I became a father in my mid-30s. Your life really does change and the priorities you thought you had before are quickly replaced by family-focused ones.
 
-People used to tell me --- Take advantage of your free time now because when you start a family, much of that free time goes away. You can't comprehend this until you actually start a family and look back on your life.
+People used to tell me --- Take advantage of your free time now because when you start a family, much of that free time goes away. 
+The truth is that you can't comprehend this until you actually start a family and look back on your life.
 
-Starting a family is starting another stage of life. Don't cheat yourself by accidentally starting a family before you've sorted out your own life journey.
+Starting a family is starting another stage in life. Don't cheat yourself by accidentally starting a family before you're comfortable in your own skin.
 
-Some say that you're never really ready to start a family. That's bullshit. I was 75% ready and the other 25% was anxiety towards starting a new stage in life.
+Some say that you're never really ready to start a family. I don't think that's true. I was 75% ready and the other 25% was anxiety towards starting a new stage in life.
 
-Even though I think it's premature, you might find it right to start your family early in your 20s. Your circumstances are unique.
+Even though I think it's premature, you might find it right to start your family early in your 20s. Your circumstances different than mine.
 
-Don't be reckless and leave starting a family to an *accident* or an *oops*. You'll feel cheated for not having an opportunity to develop your life because you'll now have to simultaneously work on developing and sustaining a family.
+Don't be reckless and leave starting a family to an *accident* or an *oops*. 
+You'll feel cheated for skipping the life stage where you can solely focus on your self-development so that you're ready to take care of your family when the time is right.
 
 # Dependency on Hard Drugs
 
 Drugs are a complicated topic. There's too much black and white [without nuanced grays](https://www.amazon.com/Drugs-without-hot-air-illegal/dp/0857844989/). The keyword here is *dependency*.
 
-Hard drugs spike dopamine receptors, responsible for motivation and reward seeking, much higher in a shorter period of time than what is naturally possible.
+Dopamine receptors are responsible for motivation and reward seeking behavior.
+Hard drugs spike dopamine receptors much higher in a shorter period of time than what is naturally possible.
 
 So what?
 
-The things that used to feel good naturally don't feel like anything anymore when compared to a heightened dopamine spike from from a substance, especially if it's habitual.
+The things that used to feel good naturally won't feel like much when compared to a heightened dopamine spike from from a substance, especially if it's habitual.
 
 While you're not guaranteed to get hooked, there's a chance of falling down a slippery slope into habitual usage.
 
-Is the risk of dependency worth the thrill from a hard drug? For me, no.
+With regards to hard drugs, the juice is not worth the squeeze.
 
 # Felonies
 
