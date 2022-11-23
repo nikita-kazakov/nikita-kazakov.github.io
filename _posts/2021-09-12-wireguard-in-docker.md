@@ -119,7 +119,7 @@ DNS = 94.140.14.14
 [Peer]
 PublicKey = DHadrtHzVoC4dYhQk512ZIIdnqAG9JPsLREiRDG3ZRs=
 PresharedKey = 4aUH7x92fBb5Oo30ADbOVAcS8G1WBHleHAYEFiQ9Aoc=
-Endpoint = 149.28.105.141:51820
+Endpoint = 149.27.103.100:51820
 AllowedIPs = 0.0.0.0/0, ::/0
 PersistentKeepalive = 20
 ```
